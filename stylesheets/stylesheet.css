@@ -397,6 +397,13 @@ Small Device Styles
 
 th {
     text-align: center;
+    background: none;
+    border: none;
+    width: 20%;
+}
+
+td {
+    border: 1px solid #ccc;
 }
 
 .debian {
@@ -443,7 +450,6 @@ th {
 }
 
 .unknown {
-    background: #ccc;
 }
 
 .unsupported {
@@ -481,8 +487,3 @@ th {
     content: "link";
 }
 
-th {
-    background: none;
-    border: none;
-    width: 20%;
-}

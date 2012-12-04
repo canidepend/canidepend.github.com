@@ -1,5 +1,9 @@
 
+////// Programs & Versions
+
 var version_data = {
+
+  /*** Ruby ***/
   ruby: {
     short: "Ruby",
     description: "Interpreter for the Ruby language",
@@ -15,6 +19,10 @@ var version_data = {
             wheezy: {
               version: "1.8.7 p358"
             },
+          },
+          rhel: {
+            6: { version: "1.8.7" },
+            5: { version: "1.8.5" }
           }
         }
       },
@@ -23,18 +31,20 @@ var version_data = {
         versions: {
           debian: {
             squeeze: {
-              version: "1.9.3",
+              version: "1.9.2 p0",
             },
             wheezy: {
-              version: "1.9.3"
+              version: "1.9.3 p194"
             }
-          }
+          },
+          rhel: { 6: {} }
         }
       }
     }
   },
 
 
+  /*** Python ***/
   python: {
     short: "Python",
     description: "Interpreter for the Python language",
@@ -42,22 +52,80 @@ var version_data = {
       python2: {
         description: "Python 2.x",
         versions: {
+
           debian: {
-            squeeze: { version: "2.5.5/2.6.6" },
-          }
+            squeeze: { version: "2.5.5, 2.6.6" },
+            wheezy: { version: "2.7.3, 2.6.8" },
+          },
+
+          ubuntu: {
+            lucid: { version: "2.5.5, 2.6.6" },
+            precise: { version: "2.5.5, 2.6.6" },
+            quantal: { version: "2.7.3" },
+          },
+
+          rhel: {
+            6: { version: "2.6.6" },
+            5: { version: "2.4.3" },
+          },
+
+        }
+      },
+      python3: {
+        description: "Python 3.x",
+        versions: {
+
+          debian: {
+            squeeze: { version: "3.1.3" },
+            wheezy: { version: "3.2.3" },
+          },
+
+          ubuntu: {
+            lucid: { version: "3.1.2" },
+            precise: { version: "3.2.3" },
+            quantal: { version: "3.2.3" },
+          },
+
         }
       }
     }
-  }
+  },
+
+
+  /*** Boost ***/
+  boost: {
+    short: "Boost",
+    description: "Boost set of C++ libraries",
+    programs: {
+      boost: {
+        versions: {
+
+          debian: {
+            squeeze: { version: "1.42" },
+            wheezy: { version: "1.49, 1.50" },
+          },
+
+        }
+      }
+    }
+  },
+
+
 };
 
+
+////// Distributions
+
 var distros = {
+
+  /// Debian
   debian: {
     description: "Debian",
     beta: "wheezy",
     current: "squeeze",
     prev0: "lenny",
     versions: {
+
       lenny: {
         short: "5.0",
       },
@@ -69,11 +137,15 @@ var distros = {
         short: "7.0",
         description: "wheezy"
       },
+
     },
     quirks: {
       nonfree: "In non-free"
     }
   },
+
+
+  /// Ubuntu
   ubuntu: {
     description: "Ubuntu",
     current: "quantal",
@@ -97,6 +169,9 @@ var distros = {
       universe: "In universe"
     }
   },
+
+
+  /// RedHat Enterprise Linux (and/or CentOS)
   rhel: {
     styleClass: "redhat",
     description: "RHEL",
@@ -104,17 +179,22 @@ var distros = {
     prev0: "5",
     prev1: "4",
     versions: {
+
       6: {
         description: "6"
       },
-      squeeze: {
-        description: "6.0 (squeeze)"
+      5: {
+        description: "5"
       },
+
     },
     quirks: {
       epel: "In EPEL"
     }
   },
+
+
+  /// SuSE Enterprise Linux Server
   sles: {
     styleClass: "suse",
     description: "SLES",
@@ -122,6 +202,7 @@ var distros = {
     prev0: "10",
     prev1: "9",
     versions: {
+
       9: {
         description: "9"
       },
@@ -131,6 +212,9 @@ var distros = {
       11: {
         description: "11"
       },
+
     }
-  }
+  },
+
+
 };

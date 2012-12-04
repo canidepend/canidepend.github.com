@@ -79,7 +79,7 @@ h1 {
 }
 
 h2 {
-  padding-bottom: 10px;
+/*  padding-bottom: 10px;*/
   font-size: 32px;
   background: url('../images/bg_hr.png') repeat-x bottom;
 }
@@ -248,7 +248,7 @@ th {
  }
 
 td {
-  padding: 10px;
+
   border: 1px solid #373737;
  }
 
@@ -272,7 +272,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 970px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -302,7 +302,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 30px 10px 10px 10px;
 }
 
 #project_title {
@@ -315,49 +315,12 @@ Full-Width Styles
 
 #project_tagline {
   color: #fff;
-  font-size: 24px;
-  font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
 }
 
-#downloads {
-  position: absolute;
-  width: 210px;
-  z-index: 10;
-  bottom: -40px;
-  right: 0;
-  height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
-}
-
-.zip_download_link {
-  display: block;
+#suggestions {
   float: right;
-  width: 90px;
-  height:70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom left;
-}
-
-.tar_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height:70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom right;
-  margin-left: 10px;
-}
-
-.zip_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top left;
-}
-
-.tar_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top right;
 }
 
 #main_content_wrap {
@@ -367,7 +330,7 @@ Full-Width Styles
 }
 
 #main_content {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 #footer_wrap {
@@ -428,4 +391,98 @@ Small Device Styles
     font-size: 11px;
   }
 
+}
+
+/* custom */
+
+th {
+    text-align: center;
+}
+
+.debian {
+    background: #be0235;
+    color: black;
+}
+
+.ubuntu {
+    background: #dd4814;
+    color: black;
+}
+
+.suse {
+    background: #4B9037;
+    color: white;
+}
+
+.redhat {
+    background: #d80000;
+    color: black;
+}
+
+.group table {
+    width: 100%;
+}
+
+.dv {
+    float: left;
+}
+.dv:after {
+    content: ": ";
+}
+.pv {
+    float: right;
+}
+
+.quirk {
+    background: #fca800;
+    font-size: x-small;
+    margin-left: 2px;
+    border-radius: 4px;
+    padding: 1px;
+    float: right;
+}
+
+.unknown {
+    background: #ccc;
+}
+
+.unsupported {
+    background: #F99;
+}
+
+.supported {
+    background: #CF9;
+}
+
+.program {
+    margin: 0 1em 0 2em;
+}
+
+.program tr {
+    height: 2em;
+    vertical-align: middle;
+}
+
+.program td {
+    padding: 0 10px 0 10px;
+}
+
+.program table {
+    border-collapse: collapse;
+    border: 0;
+    margin-top: -38px;
+}
+
+.program h3 a {
+    margin-left: 1em;
+    font-size: 50%;
+}
+.program h3:hover a:after {
+    content: "link";
+}
+
+th {
+    background: none;
+    border: none;
+    width: 20%;
 }

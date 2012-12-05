@@ -110,6 +110,30 @@ var version_data = {
     }
   },
 
+  /*** CMAKE ***/
+  cmake: {
+    short: "CMake",
+    description: "Cross-platform, open-source build system.",
+    programs: {
+      boost: {
+        versions: {
+
+          debian: {
+            squeeze: { version: "2.8.2" },
+            wheezy: { version: "2.8.9" },
+          },
+
+          ubuntu: {
+            lucid: {version: "2.8.0"},
+            precise: {version: "2.8.7"},
+            quantal: {version: "2.8.9"},
+          },
+
+        }
+      }
+    }
+  },
+
 
 };
 

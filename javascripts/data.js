@@ -46,7 +46,7 @@ var version_data = {
           sles: {
             9: { version: "1.8.1" },
             10: { version: "1.8.6 p369" },
-            11: { version: "1.8.7 p352" },
+            11: { version: "1.8.7 p357" },
           },
 
         }
@@ -80,6 +80,8 @@ var version_data = {
           },
 
           rhel: { 4: {}, 5: {}, 6: {} },
+
+          sles: { 9: {}, 10: {}, 11: {} },
 
         }
       }
@@ -143,6 +145,8 @@ var version_data = {
           },
 
           rhel: { 4: {}, 5: {}, 6: {} },
+
+          sles: { 9: {}, 10: {}, 11: {} },
 
         }
       }
@@ -215,6 +219,10 @@ var version_data = {
             6: { version: "1.41" },
           },
 
+          sles: {
+            11: { version: "1.36" },
+          },
+
         }
       }
     }
@@ -244,6 +252,10 @@ var version_data = {
             4: { },
             5: { version: "2.6.4" },
             6: { version: "2.6.4" },
+          },
+
+          sles: {
+            11: { version: "2.6.2" },
           },
 
         }

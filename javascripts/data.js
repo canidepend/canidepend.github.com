@@ -38,9 +38,16 @@ var version_data = {
           },
 
           rhel: {
+            4: { version: "1.8.1" },
             5: { version: "1.8.5" },
-            6: { version: "1.8.7" },
-          }
+            6: { version: "1.8.7 p352" },
+          },
+
+          sles: {
+            9: { version: "1.8.1" },
+            10: { version: "1.8.6 p369" },
+            11: { version: "1.8.7 p352" },
+          },
 
         }
       },
@@ -202,10 +209,17 @@ var version_data = {
             raring: {version: "1.49, 1.50"},
           },
 
+          rhel: {
+            4: { version: "1.32" },
+            5: { version: "1.33" },
+            6: { version: "1.41" },
+          },
+
         }
       }
     }
   },
+
 
   /*** CMake ***/
   cmake: {
@@ -226,10 +240,17 @@ var version_data = {
             quantal: {version: "2.8.9"},
           },
 
+          rhel: {
+            4: { },
+            5: { version: "2.6.4" },
+            6: { version: "2.6.4" },
+          },
+
         }
       }
     }
   },
+
 
   /*** Qt ***/
   qt: {
@@ -250,10 +271,23 @@ var version_data = {
             quantal: { version: "4.8.3" },
           },
 
+          rhel: {
+            4: { version: "3.3.3" },
+            5: { version: "3.3.6" },
+            6: { version: "4.6.2" },
+          },
+
+          sles: {
+            9: { version: "3.3.1" },
+            10: { version: "3.3.5" },
+            11: { version: "4.6.3" },
+          },
+
         }
       }
     }
   },
+
 
 };
 

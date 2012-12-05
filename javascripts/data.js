@@ -20,20 +20,20 @@ var version_data = {
               version: "1.8.7 p358"
             },
           },
-					ubuntu: {
+          ubuntu: {
             lucid: { 
-							version: "1.8.7 p249" 
-						},
+              version: "1.8.7 p249"
+            },
             precise: { 
-							version: "1.8.7 p352" 
-						},
+              version: "1.8.7 p352"
+            },
             quantal: { 
-							version: "1.8.7 p358" 
-						},
+              version: "1.8.7 p358"
+            },
             raring: { 
-							version: "1.8.7 p358" 
-						},
-					},
+              version: "1.8.7 p358"
+            },
+          },
           rhel: {
             6: { version: "1.8.7" },
             5: { version: "1.8.5" }
@@ -51,20 +51,20 @@ var version_data = {
               version: "1.9.3 p194"
             }
           },
-					ubuntu: {
+          ubuntu: {
             lucid: { 
-							version: "1.9.1 p378" 
-						},
+              version: "1.9.1 p378"
+            },
             precise: { 
-							version: "1.9.3 p0" 
-						},
+              version: "1.9.3 p0"
+            },
             quantal: { 
-							version: "1.9.3 p194" 
-						},
+              version: "1.9.3 p194"
+            },
             raring: { 
-							version: "1.9.3 p194" 
-						},
-					},
+              version: "1.9.3 p194"
+            },
+          },
           rhel: { 6: {} }
         }
       }
@@ -135,12 +135,12 @@ var version_data = {
             wheezy: { version: "1.49, 1.50" },
           },
 
-					ubuntu: {
-						lucid: {version: "1.40"},
-						precise: {version: "1.46, 1.48"},
-						quantal: {version: "1.49, 1.50"},
-						raring: {version: "1.49, 1.50"},
-					},
+          ubuntu: {
+            lucid: {version: "1.40"},
+            precise: {version: "1.46, 1.48"},
+            quantal: {version: "1.49, 1.50"},
+            raring: {version: "1.49, 1.50"},
+          },
 
         }
       }

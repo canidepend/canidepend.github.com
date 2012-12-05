@@ -12,6 +12,7 @@ var version_data = {
         description: "Ruby 1.8",
         package: "ruby1.8-full",
         versions: {
+
           debian: {
             squeeze: {
               version: "1.8.7 p302"
@@ -20,6 +21,7 @@ var version_data = {
               version: "1.8.7 p358"
             },
           },
+
           ubuntu: {
             lucid: { 
               version: "1.8.7 p249"
@@ -34,23 +36,27 @@ var version_data = {
               version: "1.8.7 p358"
             },
           },
+
           rhel: {
+            5: { version: "1.8.5" },
             6: { version: "1.8.7" },
-            5: { version: "1.8.5" }
           }
+
         }
       },
       ruby19: {
         description: "Ruby 1.9",
         versions: {
+
           debian: {
             squeeze: {
               version: "1.9.2 p0",
             },
             wheezy: {
               version: "1.9.3 p194"
-            }
+            },
           },
+
           ubuntu: {
             lucid: { 
               version: "1.9.1 p378"
@@ -149,7 +155,7 @@ var version_data = {
     }
   },
 
-  /*** CMAKE ***/
+  /*** CMake ***/
   cmake: {
     short: "CMake",
     description: "Cross-platform, open-source build system.",
@@ -239,6 +245,7 @@ var distros = {
     prev1: "lucid",
     beta: "raring",
     versions: {
+
       lucid: {
         short: "10.04LTS",
         description: "10.04 LTS Lucid Lynx"
@@ -272,11 +279,14 @@ var distros = {
     prev1: "4",
     versions: {
 
-      6: {
-        description: "6"
+      4: {
+        description: "4"
       },
       5: {
         description: "5"
+      },
+      6: {
+        description: "6"
       },
 
     },

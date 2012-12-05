@@ -143,6 +143,45 @@ var version_data = {
   },
 
 
+  /*** PHP ***/
+  php: {
+    short: "PHP",
+    description: "Interpreter for the PHP language",
+    programs: {
+      php5: {
+        description: "PHP 5",
+        versions: {
+
+          debian: {
+            squeeze: { version: "5.3.3" },
+            wheezy: { version: "5.4.4" },
+          },
+
+          ubuntu: {
+            lucid: { version: "5.3.2" },
+            precise: { version: "5.3.10" },
+            quantal: { version: "5.4.6" },
+            raring: { version: "5.4.6" },
+          },
+
+          rhel: {
+            4: { },
+            5: { version: "5.1.6" },
+            6: { version: "5.3.3" },
+          },
+
+          sles: {
+            9: { },
+            10: { version: "5.2.5" },
+            11: { version: "5.2.14" },
+          },
+
+        }
+      }
+    }
+  },
+
+
   /*** Boost ***/
   boost: {
     short: "Boost",

@@ -121,6 +121,8 @@ var version_data = {
         description: "Python 3.x",
         versions: {
 
+          /* First version should be the default version. */
+
           debian: {
             squeeze: { version: "3.1.3" },
             wheezy: { version: "3.2.3" },
@@ -132,6 +134,8 @@ var version_data = {
             quantal: { version: "3.2.3" },
             raring: { version: "3.3.0" },
           },
+
+          rhel: { 4: {}, 5: {}, 6: {} },
 
         }
       }

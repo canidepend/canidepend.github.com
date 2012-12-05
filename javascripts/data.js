@@ -105,6 +105,13 @@ var version_data = {
             wheezy: { version: "1.49, 1.50" },
           },
 
+					ubuntu: {
+						lucid: {version: "1.40"},
+						precise: {version: "1.46, 1.48"},
+						quantal: {version: "1.49, 1.50"},
+						raring: {version: "1.49, 1.50"},
+					},
+
         }
       }
     }

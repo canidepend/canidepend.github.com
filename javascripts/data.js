@@ -171,6 +171,29 @@ var version_data = {
     }
   },
 
+  /*** Qt ***/
+  qt: {
+    short: "Qt",
+    description: "Qt framework",
+    programs: {
+      qt: {
+        versions: {
+
+          debian: {
+            squeeze: { version: "4.6.3" },
+            wheezy: { version: "4.8.2" },
+          },
+
+          ubuntu: {
+            lucid: { version: "4.6.2" },
+            precise: { version: "4.8.1" },
+            quantal: { version: "4.8.3" },
+          },
+
+        }
+      }
+    }
+  },
 
 };
 

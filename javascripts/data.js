@@ -90,6 +90,7 @@ var version_data = {
             lucid: { version: "2.5.5, 2.6.6" },
             precise: { version: "2.5.5, 2.6.6" },
             quantal: { version: "2.7.3" },
+            raring: { version: "2.7.3" },
           },
 
           rhel: {
@@ -112,6 +113,7 @@ var version_data = {
             lucid: { version: "3.1.2" },
             precise: { version: "3.2.3" },
             quantal: { version: "3.2.3" },
+            raring: { version: "3.3.0" },
           },
 
         }

@@ -125,7 +125,7 @@ a {
   -ms-transition: text-shadow 0.5s ease;
 }
 
-#main_content a:hover {
+.content a:hover {
   color: #0069ba;
   text-shadow: #0090ff 0px 0px 2px;
 }
@@ -323,10 +323,12 @@ Full-Width Styles
   float: right;
 }
 
-#main_content_wrap {
+.content {
   background: #f2f2f2;
+}
+
+#main_content_wrap {
   border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
 }
 
 #main_content {
@@ -334,6 +336,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
+  border-top: 1px solid #111;
   background: #212121;
 }
 

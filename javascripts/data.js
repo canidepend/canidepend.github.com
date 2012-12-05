@@ -20,6 +20,20 @@ var version_data = {
               version: "1.8.7 p358"
             },
           },
+          ubuntu: {
+            lucid: { 
+              version: "1.8.7 p249"
+            },
+            precise: { 
+              version: "1.8.7 p352"
+            },
+            quantal: { 
+              version: "1.8.7 p358"
+            },
+            raring: { 
+              version: "1.8.7 p358"
+            },
+          },
           rhel: {
             6: { version: "1.8.7" },
             5: { version: "1.8.5" }
@@ -36,6 +50,20 @@ var version_data = {
             wheezy: {
               version: "1.9.3 p194"
             }
+          },
+          ubuntu: {
+            lucid: { 
+              version: "1.9.1 p378"
+            },
+            precise: { 
+              version: "1.9.3 p0"
+            },
+            quantal: { 
+              version: "1.9.3 p194"
+            },
+            raring: { 
+              version: "1.9.3 p194"
+            },
           },
           rhel: { 6: {} }
         }
@@ -62,6 +90,7 @@ var version_data = {
             lucid: { version: "2.5.5, 2.6.6" },
             precise: { version: "2.5.5, 2.6.6" },
             quantal: { version: "2.7.3" },
+            raring: { version: "2.7.3" },
           },
 
           rhel: {
@@ -84,6 +113,7 @@ var version_data = {
             lucid: { version: "3.1.2" },
             precise: { version: "3.2.3" },
             quantal: { version: "3.2.3" },
+            raring: { version: "3.3.0" },
           },
 
         }
@@ -103,6 +133,13 @@ var version_data = {
           debian: {
             squeeze: { version: "1.42" },
             wheezy: { version: "1.49, 1.50" },
+          },
+
+          ubuntu: {
+            lucid: {version: "1.40"},
+            precise: {version: "1.46, 1.48"},
+            quantal: {version: "1.49, 1.50"},
+            raring: {version: "1.49, 1.50"},
           },
 
         }
@@ -175,6 +212,7 @@ var distros = {
     current: "quantal",
     prev0: "precise",
     prev1: "lucid",
+    beta: "raring",
     versions: {
       lucid: {
         short: "10.04LTS",
@@ -187,7 +225,12 @@ var distros = {
       quantal: {
         short: "12.10",
         description: "12.10 Quantal Quetzal"
-      }
+      },
+      raring: {
+        short: "13.04",
+        description: "13.04 Raring Ringtail"
+      },
+
     },
     quirks: {
       universe: "In universe"

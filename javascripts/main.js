@@ -63,7 +63,7 @@ function build_site() {
                 $('<div class=pv></div>').text(program_distro_version.version).append(quirks)
               );
             } else {
-              td.addClass('unsupported').attr('title','unsupported');
+              td.addClass('unsupported').attr('title',(distro_version.short || distro_version.description) + ': unsupported');
             }
           } else {
             td.addClass('unknown');

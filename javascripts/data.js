@@ -65,7 +65,9 @@ var version_data = {
               version: "1.9.3 p194"
             },
           },
-          rhel: { 6: {} }
+
+          rhel: { 4: {}, 5: {}, 6: {} },
+
         }
       }
     }

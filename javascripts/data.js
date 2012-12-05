@@ -151,6 +151,7 @@ var distros = {
     current: "quantal",
     prev0: "precise",
     prev1: "lucid",
+    beta: "raring",
     versions: {
       lucid: {
         short: "10.04LTS",
@@ -163,7 +164,12 @@ var distros = {
       quantal: {
         short: "12.10",
         description: "12.10 Quantal Quetzal"
-      }
+      },
+      raring: {
+        short: "13.04",
+        description: "13.04 Raring Ringtail"
+      },
+
     },
     quirks: {
       universe: "In universe"

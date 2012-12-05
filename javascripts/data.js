@@ -89,6 +89,8 @@ var version_data = {
         description: "Python 2.x",
         versions: {
 
+          /* First version should be the default version. */
+
           debian: {
             squeeze: { version: "2.5.5, 2.6.6" },
             wheezy: { version: "2.7.3, 2.6.8" },
@@ -102,8 +104,15 @@ var version_data = {
           },
 
           rhel: {
-            6: { version: "2.6.6" },
+            4: { version: "2.3.4" },
             5: { version: "2.4.3" },
+            6: { version: "2.6.6" },
+          },
+
+          sles: {
+            9: { version: "2.3.3" },
+            10: { version: "2.4.2" },
+            11: { version: "2.6.0" },
           },
 
         }

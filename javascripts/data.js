@@ -1,4 +1,3 @@
-
 ////// Programs & Versions
 
 var version_data = {
@@ -302,6 +301,30 @@ var version_data = {
     }
   },
 
+  /*** Perl ***/
+  perl: {
+    short: "Perl",
+    description: "Interpreter for the Perl language",
+    programs: {
+      perl: {
+        description: "Perl 5",
+        versions: {
+
+          debian: {
+            squeeze: { version: "5.10.1" },
+            wheezy: { version: "5.14.2" },
+          },  
+
+          ubuntu: {
+            lucid: { version: "5.10.1" },
+            precise: { version: "5.14.2" },
+            quantal: { version: "5.14.2" },
+            raring: { version: "5.14.2" },
+          },  
+        }   
+      }   
+    }   
+  },
 
 };
 

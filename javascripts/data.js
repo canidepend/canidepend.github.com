@@ -233,7 +233,7 @@ var version_data = {
     short: "CMake",
     description: "Cross-platform, open-source build system.",
     programs: {
-      boost: {
+      cmake: {
         versions: {
 
           debian: {

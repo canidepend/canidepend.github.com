@@ -1,0 +1,32 @@
+#!/usr/bin/python3
+from __future__ import print_function
+
+import requests
+import sys
+
+import jsdata
+
+data = None
+with open('../javascripts/data.js', 'r') as f:
+    data = jsdata.loads(f.read())
+
+def check_ubuntu(package, current_data):
+    print("checking ubuntu", package, current_data)
+    lpurl_tpl = 'https://api.launchpad.net/1.0/ubuntu/+archive/{package}/+sourcepub'
+    for suite, details in current_data.items():
+        url = lpurl_tpl.format(suite=suite, package=package)
+        print(url)
+        reply = requests.get(url).json()
+        del reply['bug_reported_acknowledgement']
+        del reply['bug_reporting_guidelines']
+        print(reply)
+        sys.exit(1)
+
+
+for group,group_details in data['version_data'].items():
+    for program,program_details in group_details['programs'].items():
+        if 'ubuntu' in program_details['versions']:
+
+            distro = program_details['versions']['ubuntu']
+            package = distro.get('package', program_details.get('package', program))
+            check_ubuntu(package, distro)

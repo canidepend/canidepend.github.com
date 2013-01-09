@@ -139,6 +139,7 @@ var version_data = {
           /* First version should be the default version. */
 
           debian: {
+            lenny: {},
             squeeze: { version: "3.1.3" },
             wheezy: { version: "3.2.3" },
           },

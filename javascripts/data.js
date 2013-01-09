@@ -13,6 +13,9 @@ var version_data = {
         versions: {
 
           debian: {
+            lenny: {
+              version: "1.8.7 p72"
+            },
             squeeze: {
               version: "1.8.7 p302"
             },
@@ -55,6 +58,9 @@ var version_data = {
         versions: {
 
           debian: {
+            lenny: {
+              version: "1.9.0 p0",
+            },
             squeeze: {
               version: "1.9.2 p0",
             },
@@ -100,6 +106,7 @@ var version_data = {
           /* First version should be the default version. */
 
           debian: {
+            lenny: { version: "2.4.6, 2.5.2" },
             squeeze: { version: "2.5.5, 2.6.6" },
             wheezy: { version: "2.7.3, 2.6.8" },
           },
@@ -132,6 +139,7 @@ var version_data = {
           /* First version should be the default version. */
 
           debian: {
+            lenny: {},
             squeeze: { version: "3.1.3" },
             wheezy: { version: "3.2.3" },
           },
@@ -163,6 +171,7 @@ var version_data = {
         versions: {
 
           debian: {
+            lenny: { version: "5.2.6" },
             squeeze: { version: "5.3.3" },
             wheezy: { version: "5.4.4" },
           },
@@ -201,6 +210,7 @@ var version_data = {
         versions: {
 
           debian: {
+	    lenny: { version: "1.34.1" },
             squeeze: { version: "1.42" },
             wheezy: { version: "1.49, 1.50" },
           },
@@ -237,6 +247,7 @@ var version_data = {
         versions: {
 
           debian: {
+	    lenny: { version: "2.6.0" },
             squeeze: { version: "2.8.2" },
             wheezy: { version: "2.8.9" },
           },
@@ -273,6 +284,7 @@ var version_data = {
         versions: {
 
           debian: {
+	    lenny: { version: "4.4.3" },
             squeeze: { version: "4.6.3" },
             wheezy: { version: "4.8.2" },
           },
@@ -311,6 +323,7 @@ var version_data = {
         versions: {
 
           debian: {
+            lenny: { version: "5.10.0" },
             squeeze: { version: "5.10.1" },
             wheezy: { version: "5.14.2" },
           },
@@ -346,6 +359,7 @@ var version_data = {
         versions: {
 
           debian: {
+            lenny: { version: "2.7" },
             squeeze: { version: "2.11.3" },
             wheezy: { version: "2.13" },
           },
@@ -389,6 +403,7 @@ var distros = {
 
       lenny: {
         short: "5.0",
+        description: "lenny"
       },
       squeeze: {
         short: "6.0",

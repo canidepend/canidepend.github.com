@@ -326,6 +326,41 @@ var version_data = {
     }   
   },
 
+  /*** glibc ***/
+  glibc: {
+    short: "glibc",
+    description: "GNU C Library",
+    programs: {
+      glibc: {
+        versions: {
+
+          debian: {
+            squeeze: { version: "2.11.3" },
+            wheezy: { version: "2.13" },
+          },
+
+          ubuntu: {
+            lucid: { version: "2.11.1" },
+            precise: { version: "2.15" },
+            quantal: { version: "2.15" },
+            raring: { version: "2.16" },
+          },
+
+          rhel: {
+            4: { version: "2.3.4" },
+            5: { version: "2.5" },
+            6: { version: "2.12" },
+          },
+
+          sles: {
+            11: { version: "2.11.3" },
+          },
+
+        }
+      }
+    }
+  },
+
 };
 
 

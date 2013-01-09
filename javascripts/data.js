@@ -313,17 +313,28 @@ var version_data = {
           debian: {
             squeeze: { version: "5.10.1" },
             wheezy: { version: "5.14.2" },
-          },  
+          },
 
           ubuntu: {
             lucid: { version: "5.10.1" },
             precise: { version: "5.14.2" },
             quantal: { version: "5.14.2" },
             raring: { version: "5.14.2" },
-          },  
-        }   
-      }   
-    }   
+          },
+
+          rhel: {
+            4: { version: "5.8.5" },
+            5: { version: "5.8.8" },
+            6: { version: "5.10.1" },
+          },
+
+          sles: {
+            11: { version: "5.10.0" },
+          },
+
+        }
+      }
+    }
   },
 
   /*** glibc ***/

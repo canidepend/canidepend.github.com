@@ -113,7 +113,7 @@ var version_data = {
 
           ubuntu: {
             lucid: { version: "2.5.5, 2.6.6" },
-            precise: { version: "2.5.5, 2.6.6" },
+            precise: { version: "2.7.3" },
             quantal: { version: "2.7.3" },
             raring: { version: "2.7.3" },
           },

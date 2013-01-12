@@ -13,6 +13,9 @@ var version_data = {
         versions: {
 
           debian: {
+            etch: {
+              version: "1.8.5"
+            },
             lenny: {
               version: "1.8.7 p72"
             },
@@ -58,6 +61,9 @@ var version_data = {
         versions: {
 
           debian: {
+            etch: {
+              version: "1.9.0 p0"
+            },
             lenny: {
               version: "1.9.0 p0",
             },
@@ -106,6 +112,7 @@ var version_data = {
           /* First version should be the default version. */
 
           debian: {
+            etch: { version: "2.4.4, 2.5.0" },
             lenny: { version: "2.4.6, 2.5.2" },
             squeeze: { version: "2.5.5, 2.6.6" },
             wheezy: { version: "2.7.3, 2.6.8" },
@@ -139,6 +146,7 @@ var version_data = {
           /* First version should be the default version. */
 
           debian: {
+            etch: {},
             lenny: {},
             squeeze: { version: "3.1.3" },
             wheezy: { version: "3.2.3" },
@@ -171,6 +179,7 @@ var version_data = {
         versions: {
 
           debian: {
+            etch: { version: "5.2.0" },
             lenny: { version: "5.2.6" },
             squeeze: { version: "5.3.3" },
             wheezy: { version: "5.4.4" },
@@ -210,6 +219,7 @@ var version_data = {
         versions: {
 
           debian: {
+            etch: { version: "1.33.1" },
 	    lenny: { version: "1.34.1" },
             squeeze: { version: "1.42" },
             wheezy: { version: "1.49, 1.50" },
@@ -247,6 +257,7 @@ var version_data = {
         versions: {
 
           debian: {
+            etch: { version: "2.4.5" },
 	    lenny: { version: "2.6.0" },
             squeeze: { version: "2.8.2" },
             wheezy: { version: "2.8.9" },
@@ -284,6 +295,7 @@ var version_data = {
         versions: {
 
           debian: {
+            etch: { version: "4.2.1" },
 	    lenny: { version: "4.4.3" },
             squeeze: { version: "4.6.3" },
             wheezy: { version: "4.8.2" },
@@ -323,6 +335,7 @@ var version_data = {
         versions: {
 
           debian: {
+            etch: { version: "5.8.8" },
             lenny: { version: "5.10.0" },
             squeeze: { version: "5.10.1" },
             wheezy: { version: "5.14.2" },
@@ -359,6 +372,7 @@ var version_data = {
         versions: {
 
           debian: {
+            etch: { version: "2.3.6" },
             lenny: { version: "2.7" },
             squeeze: { version: "2.11.3" },
             wheezy: { version: "2.13" },
@@ -399,8 +413,13 @@ var distros = {
     beta: "wheezy",
     current: "squeeze",
     prev0: "lenny",
+    prev1: "etch",
     versions: {
 
+      etch: {
+        short: "4.0",
+        description: "etch"
+      },
       lenny: {
         short: "5.0",
         description: "lenny"

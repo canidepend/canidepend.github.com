@@ -65,7 +65,7 @@ var version_data = {
               version: "1.9.0 p0"
             },
             lenny: {
-              version: "1.9.0 p0",
+              version: "1.9.0 p2",
             },
             squeeze: {
               version: "1.9.2 p0",

@@ -157,7 +157,7 @@ var version_data = {
             lenny: {},
             squeeze: { version: "3.1.3" },
             wheezy: { version: "3.2.3" },
-            jessie: { version: "3.2.3, 3.3.1" },
+            jessie: { version: "3.3.1, 3.2.3" },
           },
 
           ubuntu: {

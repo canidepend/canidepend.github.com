@@ -25,6 +25,9 @@ var version_data = {
             wheezy: {
               version: "1.8.7 p358"
             },
+            jessie: {
+              version: "1.8.7 p358"
+            },
           },
 
           ubuntu: {
@@ -73,6 +76,9 @@ var version_data = {
             wheezy: {
               version: "1.9.3 p194"
             },
+            jessie : {
+              version: "1.9.3 p194"
+            },
           },
 
           ubuntu: {
@@ -116,6 +122,7 @@ var version_data = {
             lenny: { version: "2.4.6, 2.5.2" },
             squeeze: { version: "2.5.5, 2.6.6" },
             wheezy: { version: "2.7.3, 2.6.8" },
+            jessie: { version: "2.7.3, 2.6.8" },
           },
 
           ubuntu: {
@@ -150,6 +157,7 @@ var version_data = {
             lenny: {},
             squeeze: { version: "3.1.3" },
             wheezy: { version: "3.2.3" },
+            jessie: { version: "3.2.3" },
           },
 
           ubuntu: {
@@ -183,6 +191,7 @@ var version_data = {
             lenny: { version: "5.2.6" },
             squeeze: { version: "5.3.3" },
             wheezy: { version: "5.4.4" },
+            jessie: { version: "5.4.4" },
           },
 
           ubuntu: {
@@ -223,6 +232,7 @@ var version_data = {
             lenny: { version: "1.34.1" },
             squeeze: { version: "1.42" },
             wheezy: { version: "1.49, 1.50" },
+            jessie: { version: "1.49, 1.53" },
           },
 
           ubuntu: {
@@ -261,6 +271,7 @@ var version_data = {
             lenny: { version: "2.6.0" },
             squeeze: { version: "2.8.2" },
             wheezy: { version: "2.8.9" },
+            jessie: { version: "2.8.9" },
           },
 
           ubuntu: {
@@ -299,6 +310,7 @@ var version_data = {
             lenny: { version: "4.4.3" },
             squeeze: { version: "4.6.3" },
             wheezy: { version: "4.8.2" },
+            jessie: { version: "4.8.4" },
           },
 
           ubuntu: {
@@ -339,6 +351,7 @@ var version_data = {
             lenny: { version: "5.10.0" },
             squeeze: { version: "5.10.1" },
             wheezy: { version: "5.14.2" },
+            jessie: { version: "5.14.2" },
           },
 
           ubuntu: {
@@ -376,6 +389,7 @@ var version_data = {
             lenny: { version: "2.7" },
             squeeze: { version: "2.11.3" },
             wheezy: { version: "2.13" },
+            jessie: { version: "2.13" },
           },
 
           ubuntu: {
@@ -410,10 +424,10 @@ var distros = {
   /// Debian
   debian: {
     description: "Debian",
-    beta: "wheezy",
-    current: "squeeze",
-    prev0: "lenny",
-    prev1: "etch",
+    beta: "jessie",
+    current: "wheezy",
+    prev0: "squeeze",
+    prev1: "lenny",
     versions: {
 
       etch: {
@@ -432,6 +446,10 @@ var distros = {
         short: "7.0",
         description: "wheezy"
       },
+      jessie: {
+        short: "8.0",
+        description: "jessie"
+      },
 
     },
     quirks: {
@@ -443,13 +461,13 @@ var distros = {
   /// Ubuntu
   ubuntu: {
     description: "Ubuntu",
-    current: "quantal",
-    prev0: "precise",
-    prev1: "lucid",
-    beta: "raring",
+    current: "raring",
+    prev0: "quantal",
+    prev1: "precise",
+    beta: "saucy",
     versions: {
 
-      lucid: {
+     lucid: {
         short: "10.04LTS",
         description: "10.04 LTS Lucid Lynx"
       },
@@ -464,6 +482,10 @@ var distros = {
       raring: {
         short: "13.04",
         description: "13.04 Raring Ringtail"
+      },
+      saucy: {
+        short: "13.10",
+        description: "13.10 Saucy Salamander"
       },
 
     },

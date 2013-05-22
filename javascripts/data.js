@@ -122,7 +122,7 @@ var version_data = {
             lenny: { version: "2.4.6, 2.5.2" },
             squeeze: { version: "2.5.5, 2.6.6" },
             wheezy: { version: "2.7.3, 2.6.8" },
-            jessie: { version: "2.7.3, 2.6.8" },
+            jessie: { version: "2.7.5, 2.6.8" },
           },
 
           ubuntu: {
@@ -157,7 +157,7 @@ var version_data = {
             lenny: {},
             squeeze: { version: "3.1.3" },
             wheezy: { version: "3.2.3" },
-            jessie: { version: "3.2.3" },
+            jessie: { version: "3.2.3, 3.3.1" },
           },
 
           ubuntu: {

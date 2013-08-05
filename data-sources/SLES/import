@@ -1,0 +1,20 @@
+#!/bin/bash
+if [ "$1" == "" ]; then
+  echo "Usage: sudo ./import /path/to/SLES.iso"
+  exit 1
+fi
+if [ $(id -u) != "0" ]; then
+  echo "Sorry, this must run as root."
+  exit 1
+fi
+
+ISO="$1"
+TXT=$(basename "$ISO" .iso).txt
+TMPDIR=$(mktemp -d)
+modprobe -q loop
+mount -o loop,ro "$ISO" "$TMPDIR"
+(cd "$TMPDIR"  && find . -type f -printf "%P\n" | sort) > "$TXT"
+umount "$TMPDIR"
+rmdir "$TMPDIR"
+echo "$TXT"
+

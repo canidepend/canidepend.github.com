@@ -25,24 +25,23 @@ var version_data = {
             wheezy: {
               version: "1.8.7 p358"
             },
-            jessie: {
-              version: "1.8.7 p358"
-            },
+            jessie: { },
           },
 
           ubuntu: {
-            lucid: { 
+            lucid: {
               version: "1.8.7 p249"
             },
-            precise: { 
+            precise: {
               version: "1.8.7 p352"
             },
-            quantal: { 
+            quantal: {
               version: "1.8.7 p358"
             },
-            raring: { 
+            raring: {
               version: "1.8.7 p358"
             },
+            saucy: { }
           },
 
           rhel: {
@@ -82,16 +81,19 @@ var version_data = {
           },
 
           ubuntu: {
-            lucid: { 
+            lucid: {
               version: "1.9.1 p378"
             },
-            precise: { 
+            precise: {
               version: "1.9.3 p0"
             },
-            quantal: { 
+            quantal: {
               version: "1.9.3 p194"
             },
-            raring: { 
+            raring: {
+              version: "1.9.3 p194"
+            },
+            saucy: {
               version: "1.9.3 p194"
             },
           },
@@ -101,7 +103,46 @@ var version_data = {
           sles: { 9: {}, 10: {}, 11: {} },
 
         }
+      },
+      ruby20: {
+        description: "Ruby 2.0",
+        versions: {
+
+          debian: {
+            etch: {
+            },
+            lenny: {
+            },
+            squeeze: {
+            },
+            wheezy: {
+            },
+            jessie : {
+              version: "2.0.0 p299"
+            },
+          },
+
+          ubuntu: {
+            lucid: {
+            },
+            precise: {
+            },
+            quantal: {
+            },
+            raring: {
+            },
+            saucy: {
+              version: "2.0.0 p299"
+            },
+          },
+
+          rhel: { 4: {}, 5: {}, 6: {} },
+
+          sles: { 9: {}, 10: {}, 11: {} },
+
+        }
       }
+
     }
   },
 
@@ -122,14 +163,15 @@ var version_data = {
             lenny: { version: "2.4.6, 2.5.2" },
             squeeze: { version: "2.5.5, 2.6.6" },
             wheezy: { version: "2.7.3, 2.6.8" },
-            jessie: { version: "2.7.5, 2.6.8" },
+            jessie: { version: "2.7.5" },
           },
 
           ubuntu: {
             lucid: { version: "2.5.5, 2.6.6" },
             precise: { version: "2.7.3" },
             quantal: { version: "2.7.3" },
-            raring: { version: "2.7.3" },
+            raring: { version: "2.7.4" },
+            saucy: { version: "2.7.5" },
           },
 
           rhel: {
@@ -157,14 +199,15 @@ var version_data = {
             lenny: {},
             squeeze: { version: "3.1.3" },
             wheezy: { version: "3.2.3" },
-            jessie: { version: "3.3.1, 3.2.3" },
+            jessie: { version: "3.3.2" },
           },
 
           ubuntu: {
             lucid: { version: "3.1.2" },
             precise: { version: "3.2.3" },
-            quantal: { version: "3.2.3" },
-            raring: { version: "3.3.0" },
+            quantal: { version: "3.3.0, 3.2.3" },
+            raring: { version: "3.3.1" },
+            saucy: { version: "3.3.2" },
           },
 
           rhel: { 4: {}, 5: {}, 6: {} },
@@ -191,7 +234,7 @@ var version_data = {
             lenny: { version: "5.2.6" },
             squeeze: { version: "5.3.3" },
             wheezy: { version: "5.4.4" },
-            jessie: { version: "5.4.4" },
+            jessie: { version: "5.5.4" },
           },
 
           ubuntu: {
@@ -199,6 +242,7 @@ var version_data = {
             precise: { version: "5.3.10" },
             quantal: { version: "5.4.6" },
             raring: { version: "5.4.6" },
+            saucy: { version: "5.5.3" },
           },
 
           rhel: {
@@ -232,14 +276,15 @@ var version_data = {
             lenny: { version: "1.34.1" },
             squeeze: { version: "1.42" },
             wheezy: { version: "1.49, 1.50" },
-            jessie: { version: "1.49, 1.53" },
+            jessie: { version: "1.54, 1.53" },
           },
 
           ubuntu: {
             lucid: {version: "1.40"},
             precise: {version: "1.46, 1.48"},
             quantal: {version: "1.49, 1.50"},
-            raring: {version: "1.49, 1.50"},
+            raring: {version: "1.49, 1.53"},
+            saucy: {version: "1.54, 1.53,"},
           },
 
           rhel: {
@@ -271,7 +316,7 @@ var version_data = {
             lenny: { version: "2.6.0" },
             squeeze: { version: "2.8.2" },
             wheezy: { version: "2.8.9" },
-            jessie: { version: "2.8.9" },
+            jessie: { version: "2.8.11" },
           },
 
           ubuntu: {
@@ -279,6 +324,7 @@ var version_data = {
             precise: {version: "2.8.7"},
             quantal: {version: "2.8.9"},
             raring: { version: "2.8.10" },
+            saucy: { version: "2.8.11" },
           },
 
           rhel: {
@@ -310,14 +356,15 @@ var version_data = {
             lenny: { version: "4.4.3" },
             squeeze: { version: "4.6.3" },
             wheezy: { version: "4.8.2" },
-            jessie: { version: "4.8.4" },
+            jessie: { version: "5.1.1, 4.8.5" },
           },
 
           ubuntu: {
             lucid: { version: "4.6.2" },
             precise: { version: "4.8.1" },
             quantal: { version: "4.8.3" },
-            raring: { version: "4.8.3" },
+            raring: { version: "5.0.1, 4.8.3" },
+            saucy: { version: "5.0.2, 4.8.4" },
           },
 
           rhel: {
@@ -351,7 +398,7 @@ var version_data = {
             lenny: { version: "5.10.0" },
             squeeze: { version: "5.10.1" },
             wheezy: { version: "5.14.2" },
-            jessie: { version: "5.14.2" },
+            jessie: { version: "5.18.1" },
           },
 
           ubuntu: {
@@ -359,6 +406,7 @@ var version_data = {
             precise: { version: "5.14.2" },
             quantal: { version: "5.14.2" },
             raring: { version: "5.14.2" },
+            saucy: { version: "5.14.2" },
           },
 
           rhel: {
@@ -389,14 +437,15 @@ var version_data = {
             lenny: { version: "2.7" },
             squeeze: { version: "2.11.3" },
             wheezy: { version: "2.13" },
-            jessie: { version: "2.13" },
+            jessie: { version: "2.17" },
           },
 
           ubuntu: {
             lucid: { version: "2.11.1" },
             precise: { version: "2.15" },
             quantal: { version: "2.15" },
-            raring: { version: "2.16" },
+            raring: { version: "2.17" },
+            saucy: { version: "2.17" },
           },
 
           rhel: {

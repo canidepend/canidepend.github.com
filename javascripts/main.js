@@ -72,7 +72,11 @@ function build_site() {
         });
       });
 
-      var programContainer = $('<div class="program"></div>').attr('id', program_key);
+      var wantAnchor = (program_key != group_key);
+      var programContainer = $('<div class="program"></div>');
+      if(wantAnchor)
+        programContainer = programContainer.attr('id', program_key);
+
       programContainer.append(
         $('<h3></h3>').text(program.description).append(
           $('<a>#</a>').attr('href', '#'+program_key)

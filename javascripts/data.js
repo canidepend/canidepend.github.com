@@ -334,6 +334,8 @@ var version_data = {
           },
 
           sles: {
+            9: { },
+            10: { },
             11: { version: "2.6.2" },
           },
 

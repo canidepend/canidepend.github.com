@@ -284,7 +284,7 @@ var version_data = {
             precise: {version: "1.46, 1.48"},
             quantal: {version: "1.49, 1.50"},
             raring: {version: "1.49, 1.53"},
-            saucy: {version: "1.54, 1.53,"},
+            saucy: {version: "1.54, 1.53"},
           },
 
           rhel: {

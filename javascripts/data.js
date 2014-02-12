@@ -41,7 +41,12 @@ var version_data = {
             raring: {
               version: "1.8.7 p358"
             },
-            saucy: { }
+            saucy: {
+              version: "1.8.7 p358"
+            },
+            trusty: {
+              version: "1.8.7 p358"
+            }
           },
 
           rhel: {
@@ -75,9 +80,7 @@ var version_data = {
             wheezy: {
               version: "1.9.3 p194"
             },
-            jessie : {
-              version: "1.9.3 p194"
-            },
+            jessie : { }
           },
 
           ubuntu: {
@@ -96,6 +99,9 @@ var version_data = {
             saucy: {
               version: "1.9.3 p194"
             },
+            trusty: {
+              version: "1.9.3 p484"
+            },
           },
 
           rhel: { 4: {}, 5: {}, 6: {} },
@@ -105,7 +111,7 @@ var version_data = {
         }
       },
       ruby20: {
-        description: "Ruby 2.0",
+        description: "Ruby 2.x",
         versions: {
 
           debian: {
@@ -118,7 +124,7 @@ var version_data = {
             wheezy: {
             },
             jessie : {
-              version: "2.0.0 p299"
+              version: "2.1.0"
             },
           },
 
@@ -133,6 +139,9 @@ var version_data = {
             },
             saucy: {
               version: "2.0.0 p299"
+            },
+            trusty: {
+              version: "2.0.0 p353"
             },
           },
 
@@ -163,7 +172,7 @@ var version_data = {
             lenny: { version: "2.4.6, 2.5.2" },
             squeeze: { version: "2.5.5, 2.6.6" },
             wheezy: { version: "2.7.3, 2.6.8" },
-            jessie: { version: "2.7.5" },
+            jessie: { version: "2.7.6" },
           },
 
           ubuntu: {
@@ -172,6 +181,7 @@ var version_data = {
             quantal: { version: "2.7.3" },
             raring: { version: "2.7.4" },
             saucy: { version: "2.7.5" },
+            trusty: { version: "2.7.6" },
           },
 
           rhel: {
@@ -199,7 +209,7 @@ var version_data = {
             lenny: {},
             squeeze: { version: "3.1.3" },
             wheezy: { version: "3.2.3" },
-            jessie: { version: "3.3.2" },
+            jessie: { version: "3.3.4 3.4~b1" },
           },
 
           ubuntu: {
@@ -208,6 +218,7 @@ var version_data = {
             quantal: { version: "3.3.0, 3.2.3" },
             raring: { version: "3.3.1" },
             saucy: { version: "3.3.2" },
+            trusty: { version: "3.3.4 3.4~rc1" },
           },
 
           rhel: { 4: {}, 5: {}, 6: {} },
@@ -234,7 +245,7 @@ var version_data = {
             lenny: { version: "5.2.6" },
             squeeze: { version: "5.3.3" },
             wheezy: { version: "5.4.4" },
-            jessie: { version: "5.5.4" },
+            jessie: { version: "5.5.8" },
           },
 
           ubuntu: {
@@ -243,6 +254,7 @@ var version_data = {
             quantal: { version: "5.4.6" },
             raring: { version: "5.4.6" },
             saucy: { version: "5.5.3" },
+            trusty: { version: "5.5.8" },
           },
 
           rhel: {
@@ -285,6 +297,7 @@ var version_data = {
             quantal: {version: "1.49, 1.50"},
             raring: {version: "1.49, 1.53"},
             saucy: {version: "1.54, 1.53"},
+            trusty: {version: "1.54"},
           },
 
           rhel: {
@@ -316,7 +329,7 @@ var version_data = {
             lenny: { version: "2.6.0" },
             squeeze: { version: "2.8.2" },
             wheezy: { version: "2.8.9" },
-            jessie: { version: "2.8.11" },
+            jessie: { version: "2.8.12" },
           },
 
           ubuntu: {
@@ -325,6 +338,7 @@ var version_data = {
             quantal: {version: "2.8.9"},
             raring: { version: "2.8.10" },
             saucy: { version: "2.8.11" },
+            trusty: { version: "2.8.12" },
           },
 
           rhel: {
@@ -367,6 +381,7 @@ var version_data = {
             quantal: { version: "4.8.3" },
             raring: { version: "5.0.1, 4.8.3" },
             saucy: { version: "5.0.2, 4.8.4" },
+            trusty: { version: "5.0.2, 4.8.5" },
           },
 
           rhel: {
@@ -400,7 +415,7 @@ var version_data = {
             lenny: { version: "5.10.0" },
             squeeze: { version: "5.10.1" },
             wheezy: { version: "5.14.2" },
-            jessie: { version: "5.18.1" },
+            jessie: { version: "5.18.2" },
           },
 
           ubuntu: {
@@ -409,6 +424,7 @@ var version_data = {
             quantal: { version: "5.14.2" },
             raring: { version: "5.14.2" },
             saucy: { version: "5.14.2" },
+            trusty: { version: "5.18.2" },
           },
 
           rhel: {
@@ -448,6 +464,7 @@ var version_data = {
             quantal: { version: "2.15" },
             raring: { version: "2.17" },
             saucy: { version: "2.17" },
+            trusty: { version: "2.18" },
           },
 
           rhel: {
@@ -512,10 +529,10 @@ var distros = {
   /// Ubuntu
   ubuntu: {
     description: "Ubuntu",
-    current: "raring",
-    prev0: "quantal",
+    current: "saucy",
+    prev0: "lucid",
     prev1: "precise",
-    beta: "saucy",
+    beta: "trusty",
     versions: {
 
      lucid: {
@@ -537,6 +554,10 @@ var distros = {
       saucy: {
         short: "13.10",
         description: "13.10 Saucy Salamander"
+      },
+      trusty: {
+        short: "14.04LTS",
+        description: "14.04 LTS Trusty Tahr"
       },
 
     },

@@ -482,6 +482,83 @@ var version_data = {
     }
   },
 
+  /*** Lua ***/
+  lua: {
+    short: "Lua",
+    description: "The Lua Programming Language",
+    programs: {
+      lua51: {
+        description: "Lua 5.1",
+        versions: {
+
+          debian: {
+            etch: { version: "5.1.1" },
+            lenny: { version: "5.1.3" },
+            squeeze: { version: "5.1.4" },
+            wheezy: { version: "5.1.5" },
+            jessie: { version: "5.1.5" },
+          },
+
+          ubuntu: {
+            lucid: { version: "5.1.4" },
+            precise: { version: "5.1.4" },
+            quantal: { },
+            raring: { version: "5.1.5" },
+            saucy: { version: "5.1.5" },
+            trusty: { version: "5.1.5" },
+            utopic: { version: "5.1.5" },
+          },
+
+          rhel: {
+            4: { }, 5: { }, 
+            6: { version: "5.1.4" },
+          },
+
+          sles: {
+            11: { version: "5.1.4" },
+          },
+
+        }
+      },
+
+      lua52: {
+        description: "Lua 5.2",
+        versions: {
+
+          debian: {
+            etch: { },
+            lenny: { },
+            squeeze: { },
+            wheezy: { version: "5.2.3" },
+            jessie: { version: "5.2.3" },
+          },
+
+          ubuntu: {
+            lucid: { },
+            precise: { version: "5.2.0" },
+            quantal: { },
+            raring: { version: "5.2.1" },
+            saucy: { version: "5.2.2" },
+            trusty: { version: "5.2.3" },
+            utopic: { version: "5.2.3" },
+          },
+
+          rhel: {
+            4: { }, 5: { },
+            6: { },
+          },
+
+          sles: {
+            11: { },
+          },
+
+        }
+      }
+    }
+
+  },
+
+
 };
 
 
@@ -529,10 +606,10 @@ var distros = {
   /// Ubuntu
   ubuntu: {
     description: "Ubuntu",
-    current: "saucy",
-    prev0: "lucid",
-    prev1: "precise",
-    beta: "trusty",
+    current: "trusty",
+    prev0: "precise",
+    prev1: "lucid",
+    beta: "utopic",
     versions: {
 
      lucid: {
@@ -558,6 +635,10 @@ var distros = {
       trusty: {
         short: "14.04LTS",
         description: "14.04 LTS Trusty Tahr"
+      },
+      utopic: {
+        short: "14.10",
+        description: "14.10 Utopic Unicorn"
       },
 
     },

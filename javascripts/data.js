@@ -46,7 +46,8 @@ var version_data = {
             },
             trusty: {
               version: "1.8.7 p358"
-            }
+            },
+            utopic: { }
           },
 
           rhel: {
@@ -103,6 +104,7 @@ var version_data = {
             trusty: {
               version: "1.9.3 p484"
             },
+            utopic: { }
           },
 
           rhel: { 4: {}, 5: {}, 6: {}, 7: {} },
@@ -125,7 +127,7 @@ var version_data = {
             wheezy: {
             },
             jessie : {
-              version: "2.1.0"
+              version: "2.1.1"
             },
           },
 
@@ -144,6 +146,9 @@ var version_data = {
             trusty: {
               version: "2.0.0 p353"
             },
+            utopic: {
+              version: "2.1.1"
+            }
           },
 
           rhel: {

@@ -582,7 +582,7 @@ var version_data = {
         versions: {
 
           debian: {
-			lenny: { version: "8.1" },
+            lenny: { version: "8.1" },
             squeeze: { version: "10.1" },
             wheezy: { version: "12.0" },
             jessie: { version: "13.2" },
@@ -598,8 +598,8 @@ var version_data = {
           },
 
           rhel: {
-			4: { },
-			5: { },
+            4: { },
+            5: { },
             6: { version: "8.2" },
             7: { version: "12.2" },
           },

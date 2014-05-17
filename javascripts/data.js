@@ -558,6 +558,45 @@ var version_data = {
 
   },
 
+  /*** Twisted ***/
+  twisted: {
+    short: "Twisted",
+    description: "Twisted is an event-driven networking engine written in Python",
+    programs: {
+      twisted: {
+        versions: {
+
+          debian: {
+			lenny: { version: "8.1" },
+            squeeze: { version: "10.1" },
+            wheezy: { version: "12.0" },
+            jessie: { version: "13.2" },
+          },
+
+          ubuntu: {
+            lucid: {version: "10.0"},
+            precise: {version: "11.0"},
+            quantal: {version: "12.2"},
+            saucy: {version: "13.0"},
+            trusty: {version: "13.2"},
+            utopic: {version: "13.2"},
+          },
+
+          rhel: {
+			4: { },
+			5: { },
+            6: { version: "8.2" },
+            7: { version: "12.2" },
+          },
+
+          sles: {
+            11: { version: "8.0" },
+          },
+
+        }
+      }
+    }
+  },
 
 };
 

@@ -655,6 +655,7 @@ var distros = {
     current: "6",
     prev0: "5",
     prev1: "4",
+    beta: "7",
     versions: {
 
       4: {
@@ -666,6 +667,10 @@ var distros = {
       6: {
         description: "6"
       },
+      7: {
+        description: "7"
+      },
+
 
     },
     quirks: {

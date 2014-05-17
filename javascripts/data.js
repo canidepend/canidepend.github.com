@@ -53,6 +53,7 @@ var version_data = {
             4: { version: "1.8.1" },
             5: { version: "1.8.5" },
             6: { version: "1.8.7 p352" },
+            7: { },
           },
 
           sles: {
@@ -104,7 +105,7 @@ var version_data = {
             },
           },
 
-          rhel: { 4: {}, 5: {}, 6: {} },
+          rhel: { 4: {}, 5: {}, 6: {}, 7: {} },
 
           sles: { 9: {}, 10: {}, 11: {} },
 
@@ -145,7 +146,12 @@ var version_data = {
             },
           },
 
-          rhel: { 4: {}, 5: {}, 6: {} },
+          rhel: {
+            4: {}, 5: {}, 6: {},
+            7: {
+              version: "2.0.0 p247"
+            },
+	  },
 
           sles: { 9: {}, 10: {}, 11: {} },
 
@@ -188,6 +194,7 @@ var version_data = {
             4: { version: "2.3.4" },
             5: { version: "2.4.3" },
             6: { version: "2.6.6" },
+            7: { version: "2.7.5" },
           },
 
           sles: {
@@ -221,7 +228,7 @@ var version_data = {
             trusty: { version: "3.3.4 3.4~rc1" },
           },
 
-          rhel: { 4: {}, 5: {}, 6: {} },
+          rhel: { 4: {}, 5: {}, 6: {}, 7: {} },
 
           sles: { 9: {}, 10: {}, 11: {} },
 
@@ -261,6 +268,7 @@ var version_data = {
             4: { },
             5: { version: "5.1.6" },
             6: { version: "5.3.3" },
+            7: { version: "5.4.16" },
           },
 
           sles: {
@@ -304,6 +312,7 @@ var version_data = {
             4: { version: "1.32" },
             5: { version: "1.33" },
             6: { version: "1.41" },
+            7: { version: "1.53" },
           },
 
           sles: {
@@ -345,6 +354,7 @@ var version_data = {
             4: { },
             5: { version: "2.6.4" },
             6: { version: "2.6.4" },
+            7: { version: "2.8.11" },
           },
 
           sles: {
@@ -388,6 +398,7 @@ var version_data = {
             4: { version: "3.3.3" },
             5: { version: "3.3.6" },
             6: { version: "4.6.2" },
+            7: { version: "4.8.3" },
           },
 
           sles: {
@@ -431,6 +442,7 @@ var version_data = {
             4: { version: "5.8.5" },
             5: { version: "5.8.8" },
             6: { version: "5.10.1" },
+            7: { version: "5.16.3" },
           },
 
           sles: {
@@ -471,6 +483,7 @@ var version_data = {
             4: { version: "2.3.4" },
             5: { version: "2.5" },
             6: { version: "2.12" },
+            7: { version: "2.17" },
           },
 
           sles: {
@@ -512,6 +525,7 @@ var version_data = {
           rhel: {
             4: { }, 5: { }, 
             6: { version: "5.1.4" },
+            7: { version: "5.1.4" },
           },
 
           sles: {
@@ -546,6 +560,7 @@ var version_data = {
           rhel: {
             4: { }, 5: { },
             6: { },
+            7: { },
           },
 
           sles: {
@@ -655,6 +670,7 @@ var distros = {
     current: "6",
     prev0: "5",
     prev1: "4",
+    beta: "7",
     versions: {
 
       4: {
@@ -666,6 +682,10 @@ var distros = {
       6: {
         description: "6"
       },
+      7: {
+        description: "7"
+      },
+
 
     },
     quirks: {

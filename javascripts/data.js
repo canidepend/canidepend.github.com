@@ -193,6 +193,7 @@ var version_data = {
             raring: { version: "2.7.4" },
             saucy: { version: "2.7.5" },
             trusty: { version: "2.7.6" },
+            utopic: { version: "2.7.6" },
           },
 
           rhel: {
@@ -221,7 +222,7 @@ var version_data = {
             lenny: {},
             squeeze: { version: "3.1.3" },
             wheezy: { version: "3.2.3" },
-            jessie: { version: "3.3.4 3.4~b1" },
+            jessie: { version: "3.4.0" },
           },
 
           ubuntu: {
@@ -231,6 +232,7 @@ var version_data = {
             raring: { version: "3.3.1" },
             saucy: { version: "3.3.2" },
             trusty: { version: "3.3.4 3.4~rc1" },
+            utopic: { version: "3.4.0" },
           },
 
           rhel: { 4: {}, 5: {}, 6: {}, 7: {} },
@@ -257,7 +259,7 @@ var version_data = {
             lenny: { version: "5.2.6" },
             squeeze: { version: "5.3.3" },
             wheezy: { version: "5.4.4" },
-            jessie: { version: "5.5.8" },
+            jessie: { version: "5.5.12" },
           },
 
           ubuntu: {
@@ -266,7 +268,7 @@ var version_data = {
             quantal: { version: "5.4.6" },
             raring: { version: "5.4.6" },
             saucy: { version: "5.5.3" },
-            trusty: { version: "5.5.8" },
+            trusty: { version: "5.5.9" },
           },
 
           rhel: {
@@ -301,7 +303,7 @@ var version_data = {
             lenny: { version: "1.34.1" },
             squeeze: { version: "1.42" },
             wheezy: { version: "1.49, 1.50" },
-            jessie: { version: "1.54, 1.53" },
+            jessie: { version: "1.55" },
           },
 
           ubuntu: {
@@ -311,6 +313,7 @@ var version_data = {
             raring: {version: "1.49, 1.53"},
             saucy: {version: "1.54, 1.53"},
             trusty: {version: "1.54"},
+            utopic: {version: "1.55"},
           },
 
           rhel: {
@@ -353,6 +356,7 @@ var version_data = {
             raring: { version: "2.8.10" },
             saucy: { version: "2.8.11" },
             trusty: { version: "2.8.12" },
+            utopic: { version: "2.8.12" },
           },
 
           rhel: {
@@ -387,7 +391,7 @@ var version_data = {
             lenny: { version: "4.4.3" },
             squeeze: { version: "4.6.3" },
             wheezy: { version: "4.8.2" },
-            jessie: { version: "5.1.1, 4.8.5" },
+            jessie: { version: "5.2.1, 4.8.6" },
           },
 
           ubuntu: {
@@ -396,7 +400,8 @@ var version_data = {
             quantal: { version: "4.8.3" },
             raring: { version: "5.0.1, 4.8.3" },
             saucy: { version: "5.0.2, 4.8.4" },
-            trusty: { version: "5.0.2, 4.8.5" },
+            trusty: { version: "5.2.1, 4.8.5" },
+            utopic: { version: "5.2.1, 4.8.6" },
           },
 
           rhel: {
@@ -441,6 +446,7 @@ var version_data = {
             raring: { version: "5.14.2" },
             saucy: { version: "5.14.2" },
             trusty: { version: "5.18.2" },
+            utopic: { version: "5.18.2" },
           },
 
           rhel: {
@@ -472,7 +478,7 @@ var version_data = {
             lenny: { version: "2.7" },
             squeeze: { version: "2.11.3" },
             wheezy: { version: "2.13" },
-            jessie: { version: "2.17" },
+            jessie: { version: "2.18" },
           },
 
           ubuntu: {
@@ -482,6 +488,7 @@ var version_data = {
             raring: { version: "2.17" },
             saucy: { version: "2.17" },
             trusty: { version: "2.18" },
+            utopic: { version: "2.19" },
           },
 
           rhel: {

@@ -718,15 +718,11 @@ var distros = {
   rhel: {
     styleClass: "redhat",
     description: "RHEL",
-    current: "6",
-    prev0: "5",
-    prev1: "4",
-    beta: "7",
+    current: "7",
+    prev0: "6",
+    prev1: "5",
     versions: {
 
-      4: {
-        description: "4"
-      },
       5: {
         description: "5"
       },

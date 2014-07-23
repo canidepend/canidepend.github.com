@@ -495,3 +495,8 @@ td {
     content: "link";
 }
 
+a.menu {
+    padding: 5px;
+    letter-spacing: 0.08em;
+}
+

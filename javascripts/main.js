@@ -8,7 +8,8 @@ function build_site() {
     content.append(
       $('<a></a>')
         .text(group.short || group.description)
-        .attr('href', '#'+program_key),
+        .attr('href', '#'+program_key)
+	.attr('class', 'menu'),
       ' '
     );
   });

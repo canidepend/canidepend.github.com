@@ -625,6 +625,46 @@ var version_data = {
     }
   },
 
+  /*** Go ***/
+  golang: {
+    short: "Go",
+    description: "The Go programming language",
+    programs: {
+      golang: {
+        versions: {
+
+          debian: {
+            lenny: { },
+            squeeze: { },
+            wheezy: { version: "1.0.2" },
+            jessie: { version: "1.3" },
+          },
+
+          ubuntu: {
+            lucid: { },
+            precise: { version: "1" },
+            quantal: { },
+            saucy: { version: "1.1.2" },
+            trusty: { version: "1.2.1" },
+            utopic: { version: "1.2.1" },
+          },
+
+          rhel: {
+            4: { },
+            5: { },
+            6: { },
+            7: { },
+          },
+
+          sles: {
+            11: { },
+          },
+
+        }
+      }
+    }
+  },
+
 };
 
 

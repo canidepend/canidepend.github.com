@@ -665,6 +665,46 @@ var version_data = {
     }
   },
 
+  /*** Automake ***/
+  automake: {
+    short: "automake",
+    description: "GNU Automake",
+    programs: {
+      automake: {
+        versions: {
+
+          debian: {
+            lenny: { },
+            squeeze: { },
+            wheezy: { version: "1.11" },
+            jessie: { version: "1.14.1" },
+          },
+
+          ubuntu: {
+            lucid: { },
+            precise: { },
+            quantal: { },
+            saucy: { },
+            trusty: { },
+            utopic: { },
+          },
+
+          rhel: {
+            4: { },
+            5: { },
+            6: { version: "1.11.1" },
+            7: { version: "1.13.4" },
+          },
+
+          sles: {
+            11: { },
+          },
+
+        }
+      }
+    }
+  },
+
 };
 
 

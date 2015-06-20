@@ -715,10 +715,10 @@ var distros = {
   /// Debian
   debian: {
     description: "Debian",
-    beta: "jessie",
-    current: "wheezy",
-    prev0: "squeeze",
-    prev1: "lenny",
+    beta: "stretch",
+    current: "jessie",
+    prev0: "wheezy",
+    prev1: "squeeze",
     versions: {
 
       etch: {
@@ -740,6 +740,10 @@ var distros = {
       jessie: {
         short: "8.0",
         description: "jessie"
+      },
+      stretch: {
+        short: "9.0",
+        description: "stretch"
       },
 
     },

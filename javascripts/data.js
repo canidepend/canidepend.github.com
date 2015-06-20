@@ -26,6 +26,7 @@ var version_data = {
               version: "1.8.7 p358"
             },
             jessie: { },
+            stretch: { },
           },
 
           ubuntu: {
@@ -82,7 +83,8 @@ var version_data = {
             wheezy: {
               version: "1.9.3 p194"
             },
-            jessie : { }
+            jessie: { },
+            stretch: { },
           },
 
           ubuntu: {
@@ -127,7 +129,10 @@ var version_data = {
             wheezy: {
             },
             jessie : {
-              version: "2.1.1"
+              version: "2.1.5"
+            },
+            jessie : {
+              version: "2.1.5"
             },
           },
 
@@ -183,7 +188,8 @@ var version_data = {
             lenny: { version: "2.4.6, 2.5.2" },
             squeeze: { version: "2.5.5, 2.6.6" },
             wheezy: { version: "2.7.3, 2.6.8" },
-            jessie: { version: "2.7.6" },
+            jessie: { version: "2.7.9" },
+            stretch: { version: "2.7.9" },
           },
 
           ubuntu: {
@@ -222,7 +228,8 @@ var version_data = {
             lenny: {},
             squeeze: { version: "3.1.3" },
             wheezy: { version: "3.2.3" },
-            jessie: { version: "3.4.0" },
+            jessie: { version: "3.4.2" },
+            stretch: { version: "3.4.2" },
           },
 
           ubuntu: {
@@ -259,7 +266,8 @@ var version_data = {
             lenny: { version: "5.2.6" },
             squeeze: { version: "5.3.3" },
             wheezy: { version: "5.4.4" },
-            jessie: { version: "5.5.12" },
+            jessie: { version: "5.6.9" },
+            stretch: { version: "5.6.9" },
           },
 
           ubuntu: {
@@ -304,6 +312,7 @@ var version_data = {
             squeeze: { version: "1.42" },
             wheezy: { version: "1.49, 1.50" },
             jessie: { version: "1.55" },
+            stretch: { version: "1.55" },
           },
 
           ubuntu: {
@@ -346,7 +355,8 @@ var version_data = {
             lenny: { version: "2.6.0" },
             squeeze: { version: "2.8.2" },
             wheezy: { version: "2.8.9" },
-            jessie: { version: "2.8.12" },
+            jessie: { version: "3.0.2" },
+            stretch: { version: "3.2.2" },
           },
 
           ubuntu: {
@@ -391,7 +401,8 @@ var version_data = {
             lenny: { version: "4.4.3" },
             squeeze: { version: "4.6.3" },
             wheezy: { version: "4.8.2" },
-            jessie: { version: "5.2.1, 4.8.6" },
+            jessie: { version: "5.3.2, 4.8.6" },
+            stretch: { version: "5.3.2, 4.8.6" },
           },
 
           ubuntu: {
@@ -436,7 +447,8 @@ var version_data = {
             lenny: { version: "5.10.0" },
             squeeze: { version: "5.10.1" },
             wheezy: { version: "5.14.2" },
-            jessie: { version: "5.18.2" },
+            jessie: { version: "5.20.2" },
+            stretch: { version: "5.20.2" },
           },
 
           ubuntu: {
@@ -478,7 +490,8 @@ var version_data = {
             lenny: { version: "2.7" },
             squeeze: { version: "2.11.3" },
             wheezy: { version: "2.13" },
-            jessie: { version: "2.18" },
+            jessie: { version: "2.19" },
+            stretch: { version: "2.19" },
           },
 
           ubuntu: {
@@ -522,6 +535,7 @@ var version_data = {
             squeeze: { version: "5.1.4" },
             wheezy: { version: "5.1.5" },
             jessie: { version: "5.1.5" },
+            stretch: { version: "5.1.5" },
           },
 
           ubuntu: {
@@ -557,6 +571,7 @@ var version_data = {
             squeeze: { },
             wheezy: { version: "5.2.3" },
             jessie: { version: "5.2.3" },
+            stretch: { version: "5.2.3" },
           },
 
           ubuntu: {
@@ -597,7 +612,8 @@ var version_data = {
             lenny: { version: "8.1" },
             squeeze: { version: "10.1" },
             wheezy: { version: "12.0" },
-            jessie: { version: "13.2" },
+            jessie: { version: "14.0" },
+            stretch: { version: "14.0" },
           },
 
           ubuntu: {
@@ -637,7 +653,8 @@ var version_data = {
             lenny: { },
             squeeze: { },
             wheezy: { version: "1.0.2" },
-            jessie: { version: "1.3" },
+            jessie: { version: "1.3.3" },
+            stretch: { version: "1.4.2" },
           },
 
           ubuntu: {
@@ -678,6 +695,7 @@ var version_data = {
             squeeze: { },
             wheezy: { version: "1.11" },
             jessie: { version: "1.14.1" },
+            stretch: { version: "1.14.1" },
           },
 
           ubuntu: {

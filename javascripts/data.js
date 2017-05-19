@@ -7,6 +7,117 @@ var version_data = {
     short: "Ruby",
     description: "Interpreter for the Ruby language",
     programs: {
+      ruby2x: {
+        description: "Ruby 2.x",
+        versions: {
+
+          debian: {
+            etch: {
+            },
+            lenny: {
+            },
+            squeeze: {
+            },
+            wheezy: {
+            },
+            jessie : {
+              version: "2.1.5"
+            },
+            stretch : {
+              version: "2.3.3"
+            },
+          },
+
+          ubuntu: {
+            lucid: {
+            },
+            precise: {
+            },
+            quantal: {
+            },
+            raring: {
+            },
+            saucy: {
+              version: "2.0.0 p299"
+            },
+            trusty: {
+              version: "2.0.0 p353"
+            },
+            utopic: {
+              version: "2.1.1"
+            },
+            xenial: { version: "2.3.0" },
+            yakkety: { version: "2.3.1" },
+            zesty: { version: "2.3.3" },
+            artful: { version: "2.3.3" }
+          },
+
+          rhel: {
+            4: {}, 5: {}, 6: {},
+            7: {
+              version: "2.0.0 p247"
+            },
+          },
+
+          sles: { 9: {}, 10: {}, 11: {} },
+
+        }
+      },
+
+      ruby19: {
+        description: "Ruby 1.9",
+        versions: {
+
+          debian: {
+            etch: {
+              version: "1.9.0 p0"
+            },
+            lenny: {
+              version: "1.9.0 p2",
+            },
+            squeeze: {
+              version: "1.9.2 p0",
+            },
+            wheezy: {
+              version: "1.9.3 p194"
+            },
+            jessie: { },
+            stretch: { },
+          },
+
+          ubuntu: {
+            lucid: {
+              version: "1.9.1 p378"
+            },
+            precise: {
+              version: "1.9.3 p0"
+            },
+            quantal: {
+              version: "1.9.3 p194"
+            },
+            raring: {
+              version: "1.9.3 p194"
+            },
+            saucy: {
+              version: "1.9.3 p194"
+            },
+            trusty: {
+              version: "1.9.3 p484"
+            },
+            utopic: { },
+            xenial: { },
+            yakkety: { },
+            zesty: { },
+            artful: { }
+          },
+
+          rhel: { 4: {}, 5: {}, 6: {}, 7: {} },
+
+          sles: { 9: {}, 10: {}, 11: {} },
+
+        }
+      },
+
       ruby18: {
         description: "Ruby 1.8",
         package: "ruby1.8-full",
@@ -48,7 +159,11 @@ var version_data = {
             trusty: {
               version: "1.8.7 p358"
             },
-            utopic: { }
+            utopic: { },
+            xenial: { },
+            yakkety: { },
+            zesty: { },
+            artful: { }
           },
 
           rhel: {
@@ -65,109 +180,7 @@ var version_data = {
           },
 
         }
-      },
-      ruby19: {
-        description: "Ruby 1.9",
-        versions: {
-
-          debian: {
-            etch: {
-              version: "1.9.0 p0"
-            },
-            lenny: {
-              version: "1.9.0 p2",
-            },
-            squeeze: {
-              version: "1.9.2 p0",
-            },
-            wheezy: {
-              version: "1.9.3 p194"
-            },
-            jessie: { },
-            stretch: { },
-          },
-
-          ubuntu: {
-            lucid: {
-              version: "1.9.1 p378"
-            },
-            precise: {
-              version: "1.9.3 p0"
-            },
-            quantal: {
-              version: "1.9.3 p194"
-            },
-            raring: {
-              version: "1.9.3 p194"
-            },
-            saucy: {
-              version: "1.9.3 p194"
-            },
-            trusty: {
-              version: "1.9.3 p484"
-            },
-            utopic: { }
-          },
-
-          rhel: { 4: {}, 5: {}, 6: {}, 7: {} },
-
-          sles: { 9: {}, 10: {}, 11: {} },
-
-        }
-      },
-      ruby20: {
-        description: "Ruby 2.x",
-        versions: {
-
-          debian: {
-            etch: {
-            },
-            lenny: {
-            },
-            squeeze: {
-            },
-            wheezy: {
-            },
-            jessie : {
-              version: "2.1.5"
-            },
-            jessie : {
-              version: "2.1.5"
-            },
-          },
-
-          ubuntu: {
-            lucid: {
-            },
-            precise: {
-            },
-            quantal: {
-            },
-            raring: {
-            },
-            saucy: {
-              version: "2.0.0 p299"
-            },
-            trusty: {
-              version: "2.0.0 p353"
-            },
-            utopic: {
-              version: "2.1.1"
-            }
-          },
-
-          rhel: {
-            4: {}, 5: {}, 6: {},
-            7: {
-              version: "2.0.0 p247"
-            },
-	  },
-
-          sles: { 9: {}, 10: {}, 11: {} },
-
-        }
       }
-
     }
   },
 
@@ -189,7 +202,7 @@ var version_data = {
             squeeze: { version: "2.5.5, 2.6.6" },
             wheezy: { version: "2.7.3, 2.6.8" },
             jessie: { version: "2.7.9" },
-            stretch: { version: "2.7.9" },
+            stretch: { version: "2.7.13" },
           },
 
           ubuntu: {
@@ -200,6 +213,10 @@ var version_data = {
             saucy: { version: "2.7.5" },
             trusty: { version: "2.7.6" },
             utopic: { version: "2.7.6" },
+            xenial: { version: "2.7.12" },
+            yakkety: { version: "2.7.13" },
+            zesty: { version: "2.7.13" },
+            artful: { version: "2.7.13" }
           },
 
           rhel: {
@@ -229,7 +246,7 @@ var version_data = {
             squeeze: { version: "3.1.3" },
             wheezy: { version: "3.2.3" },
             jessie: { version: "3.4.2" },
-            stretch: { version: "3.4.2" },
+            stretch: { version: "3.5.3" },
           },
 
           ubuntu: {
@@ -240,6 +257,10 @@ var version_data = {
             saucy: { version: "3.3.2" },
             trusty: { version: "3.3.4 3.4~rc1" },
             utopic: { version: "3.4.0" },
+            xenial: { version: "3.5.2" },
+            yakkety: { version: "3.5.2, 3.6.0~b2" },
+            zesty: { version: "3.5.3, 3.6.1" },
+            artful: { version: "3.6.1" }
           },
 
           rhel: { 4: {}, 5: {}, 6: {}, 7: {} },
@@ -258,7 +279,7 @@ var version_data = {
     description: "Interpreter for the PHP language",
     programs: {
       php5: {
-        description: "PHP 5",
+        description: "PHP",
         versions: {
 
           debian: {
@@ -267,7 +288,7 @@ var version_data = {
             squeeze: { version: "5.3.3" },
             wheezy: { version: "5.4.4" },
             jessie: { version: "5.6.9" },
-            stretch: { version: "5.6.9" },
+            stretch: { version: "7.0" },
           },
 
           ubuntu: {
@@ -277,6 +298,10 @@ var version_data = {
             raring: { version: "5.4.6" },
             saucy: { version: "5.5.3" },
             trusty: { version: "5.5.9" },
+            xenial: { version: "7.0" },
+            yakkety: { version: "7.0" },
+            zesty: { version: "7.0" },
+            artful: { version: "7.1" },
           },
 
           rhel: {
@@ -312,7 +337,7 @@ var version_data = {
             squeeze: { version: "1.42" },
             wheezy: { version: "1.49, 1.50" },
             jessie: { version: "1.55" },
-            stretch: { version: "1.55" },
+            stretch: { version: "1.62" },
           },
 
           ubuntu: {
@@ -323,6 +348,10 @@ var version_data = {
             saucy: {version: "1.54, 1.53"},
             trusty: {version: "1.54"},
             utopic: {version: "1.55"},
+            xenial: { version: "1.58" },
+            yakkety: { version: "1.61" },
+            zesty: { version: "1.63" },
+            artful: { version: "1.63" }
           },
 
           rhel: {
@@ -356,7 +385,7 @@ var version_data = {
             squeeze: { version: "2.8.2" },
             wheezy: { version: "2.8.9" },
             jessie: { version: "3.0.2" },
-            stretch: { version: "3.2.2" },
+            stretch: { version: "3.7.2" },
           },
 
           ubuntu: {
@@ -367,6 +396,10 @@ var version_data = {
             saucy: { version: "2.8.11" },
             trusty: { version: "2.8.12" },
             utopic: { version: "2.8.12" },
+            xenial: { version: "3.5.1" },
+            yakkety: { version: "3.5.2" },
+            zesty: { version: "3.7.2" },
+            artful: { version: "3.7.2" }
           },
 
           rhel: {
@@ -396,13 +429,14 @@ var version_data = {
       qt: {
         versions: {
 
+          /* qt4-default qt5-default */
           debian: {
             etch: { version: "4.2.1" },
             lenny: { version: "4.4.3" },
             squeeze: { version: "4.6.3" },
             wheezy: { version: "4.8.2" },
             jessie: { version: "5.3.2, 4.8.6" },
-            stretch: { version: "5.3.2, 4.8.6" },
+            stretch: { version: "5.7.1, 4.8.7" },
           },
 
           ubuntu: {
@@ -413,6 +447,10 @@ var version_data = {
             saucy: { version: "5.0.2, 4.8.4" },
             trusty: { version: "5.2.1, 4.8.5" },
             utopic: { version: "5.2.1, 4.8.6" },
+            xenial: { version: "5.5.1, 4.8.7" },
+            yakkety: { version: "5.6.1, 4.8.7" },
+            zesty: { version: "5.7.1, 4.8.7" },
+            artful: { version: "5.7.1, 4.8.7" }
           },
 
           rhel: {
@@ -448,7 +486,7 @@ var version_data = {
             squeeze: { version: "5.10.1" },
             wheezy: { version: "5.14.2" },
             jessie: { version: "5.20.2" },
-            stretch: { version: "5.20.2" },
+            stretch: { version: "5.24.1" },
           },
 
           ubuntu: {
@@ -459,6 +497,10 @@ var version_data = {
             saucy: { version: "5.14.2" },
             trusty: { version: "5.18.2" },
             utopic: { version: "5.18.2" },
+            xenial: { version: "5.22.1" },
+            yakkety: { version: "5.22.2" },
+            zesty: { version: "5.24.1" },
+            artful: { version: "5.24.1" }
           },
 
           rhel: {
@@ -485,13 +527,14 @@ var version_data = {
       glibc: {
         versions: {
 
+          /* libc6 */
           debian: {
             etch: { version: "2.3.6" },
             lenny: { version: "2.7" },
             squeeze: { version: "2.11.3" },
             wheezy: { version: "2.13" },
             jessie: { version: "2.19" },
-            stretch: { version: "2.19" },
+            stretch: { version: "2.24" },
           },
 
           ubuntu: {
@@ -502,6 +545,10 @@ var version_data = {
             saucy: { version: "2.17" },
             trusty: { version: "2.18" },
             utopic: { version: "2.19" },
+            xenial: { version: "2.23" },
+            yakkety: { version: "2.24" },
+            zesty: { version: "2.24" },
+            artful: { version: "2.24" }
           },
 
           rhel: {
@@ -529,6 +576,7 @@ var version_data = {
         description: "Lua 5.1",
         versions: {
 
+          /* lua5.1 */
           debian: {
             etch: { version: "5.1.1" },
             lenny: { version: "5.1.3" },
@@ -546,6 +594,9 @@ var version_data = {
             saucy: { version: "5.1.5" },
             trusty: { version: "5.1.5" },
             utopic: { version: "5.1.5" },
+            xenial: { version: "5.1.5" },
+            yakkety: { version: "5.1.5" },
+            zesty: { version: "5.1.5" }
           },
 
           rhel: {
@@ -565,13 +616,14 @@ var version_data = {
         description: "Lua 5.2",
         versions: {
 
+          /* lua5.2 */
           debian: {
             etch: { },
             lenny: { },
             squeeze: { },
             wheezy: { version: "5.2.3" },
             jessie: { version: "5.2.3" },
-            stretch: { version: "5.2.3" },
+            stretch: { version: "5.2.4" },
           },
 
           ubuntu: {
@@ -582,6 +634,44 @@ var version_data = {
             saucy: { version: "5.2.2" },
             trusty: { version: "5.2.3" },
             utopic: { version: "5.2.3" },
+            xenial: { version: "5.2.4" },
+            yakkety: { version: "5.2.4" },
+            zesty: { version: "5.2.4" },
+            artful: { version: "5.2.4" }
+          },
+
+          rhel: {
+            4: { }, 5: { },
+            6: { },
+            7: { },
+          },
+
+          sles: {
+            11: { },
+          },
+
+        }
+      },
+
+      lua53: {
+        description: "Lua 5.3",
+        versions: {
+
+          /* lua5.3 */
+          debian: {
+            etch: { },
+            lenny: { },
+            squeeze: { },
+            wheezy: { },
+            jessie: { version: "5.3.1" },
+            stretch: { version: "5.3.3" },
+          },
+
+          ubuntu: {
+            xenial: { version: "5.3.1" },
+            yakkety: { version: "5.3.1" },
+            zesty: { version: "5.3.3" },
+            artful: { version: "5.3.3" }
           },
 
           rhel: {
@@ -608,12 +698,13 @@ var version_data = {
       twisted: {
         versions: {
 
+          /* python-twisted */
           debian: {
             lenny: { version: "8.1" },
             squeeze: { version: "10.1" },
             wheezy: { version: "12.0" },
             jessie: { version: "14.0" },
-            stretch: { version: "14.0" },
+            stretch: { version: "16.6" },
           },
 
           ubuntu: {
@@ -623,6 +714,10 @@ var version_data = {
             saucy: {version: "13.0"},
             trusty: {version: "13.2"},
             utopic: {version: "13.2"},
+            xenial: { version: "16.0" },
+            yakkety: { version: "16.4" },
+            zesty: { version: "16.6" },
+            artful: { version: "16.6" },
           },
 
           rhel: {
@@ -649,12 +744,13 @@ var version_data = {
       golang: {
         versions: {
 
+          /* golang */
           debian: {
             lenny: { },
             squeeze: { },
             wheezy: { version: "1.0.2" },
             jessie: { version: "1.3.3" },
-            stretch: { version: "1.4.2" },
+            stretch: { version: "1.7" },
           },
 
           ubuntu: {
@@ -664,6 +760,10 @@ var version_data = {
             saucy: { version: "1.1.2" },
             trusty: { version: "1.2.1" },
             utopic: { version: "1.2.1" },
+            xenial: { version: "1.6" },
+            yakkety: { version: "1.6.1" },
+            zesty: { version: "1.7" },
+            artful: { version: "1.8" }
           },
 
           rhel: {
@@ -695,7 +795,7 @@ var version_data = {
             squeeze: { },
             wheezy: { version: "1.11" },
             jessie: { version: "1.14.1" },
-            stretch: { version: "1.14.1" },
+            stretch: { version: "1.15" },
           },
 
           ubuntu: {
@@ -703,8 +803,12 @@ var version_data = {
             precise: { },
             quantal: { },
             saucy: { },
-            trusty: { },
+            trusty: { version: "1.14.1" },
             utopic: { },
+            xenial: { version: "1.15" },
+            yakkety: { version: "1.15" },
+            zesty: { version: "1.15" },
+            artful: { version: "1.15" }
           },
 
           rhel: {
@@ -762,7 +866,7 @@ var distros = {
       stretch: {
         short: "9.0",
         description: "stretch"
-      },
+      }
 
     },
     quirks: {
@@ -774,13 +878,13 @@ var distros = {
   /// Ubuntu
   ubuntu: {
     description: "Ubuntu",
-    current: "trusty",
-    prev0: "precise",
-    prev1: "lucid",
-    beta: "utopic",
+    current: "zesty",
+    prev0: "xenial",
+    prev1: "trusty",
+    beta: "artful",
     versions: {
 
-     lucid: {
+      lucid: {
         short: "10.04LTS",
         description: "10.04 LTS Lucid Lynx"
       },
@@ -808,7 +912,22 @@ var distros = {
         short: "14.10",
         description: "14.10 Utopic Unicorn"
       },
-
+      xenial: {
+        short: "16.04LTS",
+        description: "16.04 LTS xenial"
+      },
+      yakkety: {
+        short: "16.10",
+        description: "16.10 yakkety"
+      },
+      zesty: {
+        short: "17.04",
+        description: "17.04 zesty"
+      },
+      artful: {
+        short: "17.10",
+        description: "artful"
+      }
     },
     quirks: {
       universe: "In universe"

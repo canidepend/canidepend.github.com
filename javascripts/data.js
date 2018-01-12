@@ -600,7 +600,7 @@ var version_data = {
           },
 
           rhel: {
-            4: { }, 5: { }, 
+            4: { }, 5: { },
             6: { version: "5.1.4" },
             7: { version: "5.1.4" },
           },
@@ -837,10 +837,10 @@ var distros = {
   /// Debian
   debian: {
     description: "Debian",
-    beta: "stretch",
-    current: "jessie",
-    prev0: "wheezy",
-    prev1: "squeeze",
+    beta: "buster",
+    current: "stretch",
+    prev0: "jessie",
+    prev1: "wheezy",
     versions: {
 
       etch: {
@@ -866,6 +866,10 @@ var distros = {
       stretch: {
         short: "9.0",
         description: "stretch"
+      },
+      buster: {
+        short: "10.0",
+        description: "buster"
       }
 
     },

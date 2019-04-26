@@ -827,6 +827,38 @@ var version_data = {
     }
   },
 
+  java: {
+    short: "Java",
+    description: "Java runtime environment",
+    programs: {
+      openjdk: {
+        description: "OpenJDK",
+        versions: {
+          debian: {
+            jessie: { version: "7" },
+            stretch: { version: "8" },
+            buster: { version: "11" },
+            sid: { version: "11" }
+          },
+
+          ubuntu: {
+            xenial: { version: "8" },
+            bionic: { version: "11" },
+            cosmic: { version: "11" },
+            disco: { version: "11" },
+            eoan: { version: "11" },
+          },
+
+          rhel: {
+            5: { version: "7" },
+            6: { version: "8" },
+            7: { version: "11" },
+          }
+        }
+      }
+    }
+  }
+
 };
 
 

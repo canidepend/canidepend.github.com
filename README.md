@@ -18,7 +18,7 @@ The main responsibilities are:
 Hosting is provided by GitHub Pages, which the domain name points to.
 
 If you are interested in taking over maintenance of the project, please
-contact @pwaring via email.
+contact @pwaring via email: paul@xk7.net
 
 
 Enterprise Linux data

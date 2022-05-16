@@ -12,20 +12,18 @@ var version_data = {
         versions: {
 
           debian: {
-            etch: {
-            },
-            lenny: {
-            },
-            squeeze: {
-            },
-            wheezy: {
-            },
-            jessie : {
-              version: "2.1.5"
-            },
             stretch : {
               version: "2.3.3"
             },
+            buster : {
+              version: "2.5.1"
+            },
+            bullseye : {
+              version: "2.7"
+            },
+            bookworm : {
+              version: "3.0"
+            }
           },
 
           ubuntu: {
@@ -80,12 +78,10 @@ var version_data = {
           /* First version should be the default version. */
 
           debian: {
-            etch: { version: "2.4.4, 2.5.0" },
-            lenny: { version: "2.4.6, 2.5.2" },
-            squeeze: { version: "2.5.5, 2.6.6" },
-            wheezy: { version: "2.7.3, 2.6.8" },
-            jessie: { version: "2.7.9" },
             stretch: { version: "2.7.13" },
+            buster: { version: "2.7.16" },
+            bullseye: { version: "2.7.18" },
+            bookworm: { version: "2.7.18" }
           },
 
           ubuntu: {
@@ -124,12 +120,10 @@ var version_data = {
           /* First version should be the default version. */
 
           debian: {
-            etch: {},
-            lenny: {},
-            squeeze: { version: "3.1.3" },
-            wheezy: { version: "3.2.3" },
-            jessie: { version: "3.4.2" },
             stretch: { version: "3.5.3" },
+            buster: { version: "3.7.3" },
+            bullseye: { version: "3.9.2" },
+            bookworm: { version: "3.10.4" }
           },
 
           ubuntu: {
@@ -166,12 +160,10 @@ var version_data = {
         versions: {
 
           debian: {
-            etch: { version: "5.2.0" },
-            lenny: { version: "5.2.6" },
-            squeeze: { version: "5.3.3" },
-            wheezy: { version: "5.4.4" },
-            jessie: { version: "5.6.9" },
             stretch: { version: "7.0" },
+            buster: { version: "7.3" },
+            bullseye: { version: "7.4" },
+            bookworm: { version: "8.1" }
           },
 
           ubuntu: {
@@ -752,32 +744,12 @@ var distros = {
   /// Debian
   debian: {
     description: "Debian",
-    beta: "buster",
-    current: "stretch",
-    prev0: "jessie",
-    prev1: "wheezy",
+    beta: "bookworm",
+    current: "bullseye",
+    prev0: "buster",
+    prev1: "stretch",
     versions: {
 
-      etch: {
-        short: "4.0",
-        description: "etch"
-      },
-      lenny: {
-        short: "5.0",
-        description: "lenny"
-      },
-      squeeze: {
-        short: "6.0",
-        description: "squeeze"
-      },
-      wheezy: {
-        short: "7.0",
-        description: "wheezy"
-      },
-      jessie: {
-        short: "8.0",
-        description: "jessie"
-      },
       stretch: {
         short: "9.0",
         description: "stretch"
@@ -785,6 +757,14 @@ var distros = {
       buster: {
         short: "10.0",
         description: "buster"
+      },
+      bullseye: {
+        short: "11.0",
+        description: "bullseye"
+      },
+      bookworm: {
+        short: "12.0",
+        description: "bookworm"
       }
 
     },

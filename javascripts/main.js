@@ -4,6 +4,9 @@ function build_site() {
   content.empty();
   content.append('Index: ');
 
+  $.getJSON( "data/data.json", function( data ) {
+  version_data = data.version_data;
+  distros = data.distros;
   $.each(version_data, function(program_key, group) {
     content.append(
       $('<a></a>')
@@ -47,7 +50,7 @@ function build_site() {
               program.versions[distro_key][distro_version_key] !== undefined) {
             var program_distro_version = program.versions[distro_key][distro_version_key];
             var distro_version = distro.versions[distro_version_key];
-            if (program_distro_version.version) {
+            if (program_distro_version.version && program_distro_version.version.length !== 0) {
               td.addClass('supported');
               var quirks = [];
               if (program_distro_version.quirks) {
@@ -61,7 +64,7 @@ function build_site() {
               }
               td.append(
                 $('<div class=dv></div>').text(distro_version.short || distro_version.description).attr('title', distro_version.description),
-                $('<div class=pv></div>').text(program_distro_version.version).append(quirks)
+                $('<div class=pv></div>').text(program_distro_version.version.join(', ')).append(quirks)
               );
             } else {
               td.addClass('unsupported').attr('title',(distro_version.short || distro_version.description) + ': unsupported');
@@ -91,5 +94,6 @@ function build_site() {
       groupContainer.append(programContainer);
     });
     content.append(groupContainer);
+  });
   });
 }

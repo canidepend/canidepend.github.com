@@ -1,0 +1,300 @@
+---
+groups:
+  ruby:
+    short: Ruby
+    description: Interpreter for the Ruby language
+    programs:
+      ruby: {}
+  python:
+    short: Python
+    description: Interpreter for the Python language
+    programs:
+      python2:
+        description: Python 2.x
+      python3:
+        description: Python 3.x
+  php:
+    short: PHP
+    description: Interpreter for the PHP language
+    programs:
+      php:
+        description: PHP
+  boost:
+    short: Boost
+    description: Boost set of C++ libraries
+    programs:
+      boost: {}
+  cmake:
+    short: CMake
+    description: Cross-platform, open-source build system
+    programs:
+      cmake: {}
+  qt:
+    short: Qt
+    description: Qt framework
+    programs:
+      qt: {}
+  perl:
+    short: Perl
+    description: Interpreter for the Perl language
+    programs:
+      perl:
+        description: Perl 5
+  glibc:
+    short: glibc
+    description: GNU C Library
+    programs:
+      glibc: {}
+  lua:
+    short: Lua
+    description: The Lua Programming Language
+    programs:
+      lua51:
+        description: Lua 5.1
+      lua52:
+        description: Lua 5.2
+      lua53:
+        description: Lua 5.3
+  twisted:
+    short: Twisted
+    description: Twisted is an event-driven networking engine written in Python
+    programs:
+      twisted: {}
+  golang:
+    short: Go
+    description: The Go programming language
+    programs:
+      golang: {}
+  automake:
+    short: automake
+    description: GNU Automake
+    programs:
+      automake: {}
+  java:
+    short: Java
+    description: Java runtime environment
+    programs:
+      openjdk:
+        description: OpenJDK
+
+distros:
+  debian:
+    description: Debian
+    current: bullseye
+    beta: bookworm
+    prev0: buster
+    prev1: stretch
+    versions:
+      stretch:
+        short: '9'
+        description: stetch
+      buster:
+        short: '10'
+        description: buster
+      bullseye:
+        short: '11'
+        description: bullseye
+      bookworm:
+        short: '12'
+        description: bookworm
+    packages: &debian_packages
+      ruby:
+        ruby: ruby
+      python:
+        python2:
+          - python2
+          - python
+        python3:
+          - python3
+          - python3.6
+          - python3.7
+          - python3.8
+          - python3.9
+          - python3.10
+      php:
+        php: php
+      boost:
+        boost: libboost-all-dev
+      cmake:
+        cmake: cmake
+      qt:
+        qt:
+          - libqt4-dev
+          - qtbase5-dev
+          - qt6-base-dev
+      perl:
+        perl: perl
+      glibc:
+        glibc: libc6
+      lua:
+        lua51: liblua5.1-0
+        lua52: liblua5.2-0
+        lua53: liblua5.3-0
+      twisted:
+        twisted: python3-twisted
+      golang:
+        golang: golang
+      automake:
+        automake: automake
+      java:
+        openjdk:
+          - openjdk-8-jdk
+          - openjdk-11-jdk
+          - openjdk-12-jdk
+          - openjdk-13-jdk
+          - openjdk-14-jdk
+          - openjdk-15-jdk
+          - openjdk-16-jdk
+          - openjdk-17-jdk
+          - openjdk-18-jdk
+          - openjdk-19-jdk
+
+  ubuntu:
+    description: Ubuntu
+    current: jammy
+    beta: kinetic
+    prev0: focal
+    prev1: bionic
+    versions:
+      jammy:
+        short: '22.04LTS'
+        description: '22.04 LTS'
+      focal:
+        short: '20.04LTS'
+        description: '20.04 LTS'
+      bionic:
+        short: '18.04LTS'
+        description: '18.04 LTS'
+      kinetic:
+        short: '22.10'
+        description: '22.10'
+    packages: *debian_packages
+
+  rhel:
+    styleClass: redhat
+    description: RHEL
+    current: "9"
+    prev0: "8"
+    prev1: "7"
+    versions:
+      "7":
+        short: "7"
+        description: "EL 7"
+      "8":
+        short: "8"
+        description: "EL 8"
+      "9":
+        short: "9"
+        description: "EL 9"
+    packages:
+      ruby:
+        ruby: ruby
+      python:
+        python2:
+          - python2
+          - python
+        python3:
+          - python3
+          - python36
+          - python37
+          - python38
+          - python39
+          - python310
+      php:
+        php: php
+      boost:
+        boost: boost-devel
+      cmake:
+        cmake: cmake
+      qt:
+        qt:
+          - qt-devel
+          - qt5-qtbase
+      perl:
+        perl: perl
+      glibc:
+        glibc: glibc
+      lua:
+        lua51: lua
+        lua52: lua
+        lua53: lua
+      twisted:
+        twisted:
+          - python-twisted-core
+      golang:
+        golang: golang
+      automake:
+        automake: automake
+      java:
+        openjdk:
+          - java-1.6.0-openjdk
+          - java-1.7.0-openjdk
+          - java-1.8.0-openjdk
+          - java-11-openjdk
+          - java-17-openjdk
+
+  sles:
+    styleClass: "suse"
+    description: "SLES"
+    current: "15"
+    prev0: "12"
+    prev1: "11"
+    versions:
+      "11":
+        short: "11SP4"
+        description: "SLES 11 SP4"
+      "12":
+        short: "12SP5"
+        description: "SLES 12 SP5"
+      "15":
+        short: "15SP4"
+        description: "SLES 15 SP4"
+    packages:
+      ruby:
+        ruby: ruby
+      python:
+        python2:
+          - python2
+          - python
+        python3:
+          - python3
+          - python36
+          - python37
+          - python38
+          - python39
+          - python310
+      php:
+        php:
+          - php
+          - php5
+          - php7
+      boost:
+        boost: boost-devel
+      cmake:
+        cmake: cmake
+      qt:
+        qt:
+          - libqt4
+          - libqt5-qtbase-devel
+          - qt6-base-devel
+      perl:
+        perl: perl
+      glibc:
+        glibc: glibc
+      lua:
+        lua51: lua
+        lua52: lua
+        lua53: lua
+      twisted:
+        twisted: python3-twisted
+      golang:
+        golang: golang
+      automake:
+        automake: automake
+      java:
+        openjdk:
+          - java-1.6.0-openjdk
+          - java-1.7.0-openjdk
+          - java-1.8.0-openjdk
+          - java-11-openjdk
+          - java-17-openjdk

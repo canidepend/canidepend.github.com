@@ -1,0 +1,1635 @@
+{
+  "version_data": {
+    "ruby": {
+      "short": "Ruby",
+      "description": "Interpreter for the Ruby language",
+      "programs": {
+        "ruby": {
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "2.3.3"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "2.5.1"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "2.7"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "3.0"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "3.0"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "2.7"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "2.5.1"
+                ]
+              },
+              "kinetic": {
+                "version": [
+                  "3.0"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "2.0.0.648"
+                ]
+              },
+              "8": {
+                "version": [
+                  "2.5.9",
+                  "2.6.10",
+                  "2.7.3",
+                  "3.0.2"
+                ]
+              },
+              "9": {
+                "version": [
+                  "3.0.3",
+                  "3.1.2"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": [
+                  "2.5"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "python": {
+      "short": "Python",
+      "description": "Interpreter for the Python language",
+      "programs": {
+        "python2": {
+          "description": "Python 2.x",
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "2.7.13"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "2.7.16"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "2.7.18"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "2.7.18"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "2.7.18"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "2.7.17"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "2.7.15"
+                ]
+              },
+              "kinetic": {
+                "version": [
+                  "2.7.18"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "2.7.5"
+                ]
+              },
+              "8": {
+                "version": [
+                  "2.7.18"
+                ]
+              },
+              "9": {
+                "version": []
+              }
+            },
+            "sles": {
+              "15": {
+                "version": [
+                  "2.7.18"
+                ]
+              }
+            }
+          }
+        },
+        "python3": {
+          "description": "Python 3.x",
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "3.5.3"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "3.7.3"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "3.9.2"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "3.10.5",
+                  "3.9.13"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "3.10.4"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "3.8.2"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "3.6.5",
+                  "3.7.0"
+                ]
+              },
+              "kinetic": {
+                "version": [
+                  "3.10.5"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "3.6.8"
+                ]
+              },
+              "8": {
+                "version": [
+                  "3.6.8",
+                  "3.8.13",
+                  "3.9.7"
+                ]
+              },
+              "9": {
+                "version": [
+                  "3.9.13"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": [
+                  "3.6.15",
+                  "3.9.10",
+                  "3.10.2"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "php": {
+      "short": "PHP",
+      "description": "Interpreter for the PHP language",
+      "programs": {
+        "php": {
+          "description": "PHP",
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "7.0"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "7.3"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "7.4"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "8.1"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "8.1"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "7.4"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "7.2"
+                ]
+              },
+              "kinetic": {
+                "version": [
+                  "8.1"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "5.4.16"
+                ]
+              },
+              "8": {
+                "version": [
+                  "7.2.24",
+                  "7.3.20",
+                  "7.4.19",
+                  "8.0.13"
+                ]
+              },
+              "9": {
+                "version": [
+                  "8.0.13"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": [
+                  "7.4.25"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "boost": {
+      "short": "Boost",
+      "description": "Boost set of C++ libraries",
+      "programs": {
+        "boost": {
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "1.62.0.1"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "1.67.0.1"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "1.74.0.3"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "1.74.0.3"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "1.74.0.3ubuntu7"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "1.71.0.0ubuntu2"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "1.65.1.0ubuntu1"
+                ]
+              },
+              "kinetic": {
+                "version": [
+                  "1.74.0.3ubuntu7"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "1.53.0"
+                ]
+              },
+              "8": {
+                "version": [
+                  "1.66.0"
+                ]
+              },
+              "9": {
+                "version": [
+                  "1.75.0"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": []
+              }
+            }
+          }
+        }
+      }
+    },
+    "cmake": {
+      "short": "CMake",
+      "description": "Cross-platform, open-source build system",
+      "programs": {
+        "cmake": {
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "3.7.2"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "3.13.4"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "3.18.4"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "3.23.2"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "3.22.1"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "3.16.3"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "3.10.2"
+                ]
+              },
+              "kinetic": {
+                "version": [
+                  "3.23.2"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "2.8.12.2"
+                ]
+              },
+              "8": {
+                "version": [
+                  "3.18.2",
+                  "3.20.2"
+                ]
+              },
+              "9": {
+                "version": [
+                  "3.20.2"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": [
+                  "3.20.4"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "qt": {
+      "short": "Qt",
+      "description": "Qt framework",
+      "programs": {
+        "qt": {
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "4.8.7",
+                  "5.7.1"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "4.8.7",
+                  "5.11.3"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "5.15.2"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "5.15.4",
+                  "6.2.4"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "5.15.3",
+                  "6.2.4"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "5.12.8"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "4.8.7",
+                  "5.9.5"
+                ]
+              },
+              "kinetic": {
+                "version": [
+                  "5.15.4",
+                  "6.2.4"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "4.8.7",
+                  "5.9.7"
+                ]
+              },
+              "8": {
+                "version": [
+                  "5.12.5",
+                  "5.15.3"
+                ]
+              },
+              "9": {
+                "version": [
+                  "5.15.3"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": [
+                  "5.15.2",
+                  "6.2.2"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "perl": {
+      "short": "Perl",
+      "description": "Interpreter for the Perl language",
+      "programs": {
+        "perl": {
+          "description": "Perl 5",
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "5.24.1"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "5.28.1"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "5.32.1"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "5.34.0"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "5.34.0"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "5.30.0"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "5.26.1"
+                ]
+              },
+              "kinetic": {
+                "version": [
+                  "5.34.0"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "5.16.3"
+                ]
+              },
+              "8": {
+                "version": [
+                  "5.24.4",
+                  "5.26.3",
+                  "5.30.1",
+                  "5.32.1"
+                ]
+              },
+              "9": {
+                "version": [
+                  "5.32.1"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": [
+                  "5.26.1"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "glibc": {
+      "short": "glibc",
+      "description": "GNU C Library",
+      "programs": {
+        "glibc": {
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "2.24"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "2.28"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "2.31"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "2.33"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "2.35"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "2.31"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "2.27"
+                ]
+              },
+              "kinetic": {
+                "version": [
+                  "2.35"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "2.17"
+                ]
+              },
+              "8": {
+                "version": [
+                  "2.28"
+                ]
+              },
+              "9": {
+                "version": [
+                  "2.34"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": [
+                  "2.31"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "lua": {
+      "short": "Lua",
+      "description": "The Lua Programming Language",
+      "programs": {
+        "lua51": {
+          "description": "Lua 5.1",
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "5.1.5"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "5.1.5"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "5.1.5"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "5.1.5"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "5.1.5"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "5.1.5"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "5.1.5"
+                ]
+              },
+              "kinetic": {
+                "version": [
+                  "5.1.5"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "5.1.4"
+                ]
+              },
+              "8": {
+                "version": [
+                  "5.3.4"
+                ]
+              },
+              "9": {
+                "version": [
+                  "5.4.2"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": []
+              }
+            }
+          }
+        },
+        "lua52": {
+          "description": "Lua 5.2",
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "5.2.4"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "5.2.4"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "5.2.4"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "5.2.4"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "5.2.4"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "5.2.4"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "5.2.4"
+                ]
+              },
+              "kinetic": {
+                "version": [
+                  "5.2.4"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "5.1.4"
+                ]
+              },
+              "8": {
+                "version": [
+                  "5.3.4"
+                ]
+              },
+              "9": {
+                "version": [
+                  "5.4.2"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": []
+              }
+            }
+          }
+        },
+        "lua53": {
+          "description": "Lua 5.3",
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "5.3.3"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "5.3.3"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "5.3.3"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "5.3.6"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "5.3.6"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "5.3.3"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "5.3.3"
+                ]
+              },
+              "kinetic": {
+                "version": [
+                  "5.3.6"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "5.1.4"
+                ]
+              },
+              "8": {
+                "version": [
+                  "5.3.4"
+                ]
+              },
+              "9": {
+                "version": [
+                  "5.4.2"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": []
+              }
+            }
+          }
+        }
+      }
+    },
+    "twisted": {
+      "short": "Twisted",
+      "description": "Twisted is an event-driven networking engine written in Python",
+      "programs": {
+        "twisted": {
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "16.6.0"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "18.9.0"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "20.3.0"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "22.4.0"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "22.1.0"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "18.9.0"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "17.9.0"
+                ]
+              },
+              "kinetic": {
+                "version": [
+                  "22.4.0"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "12.2.0"
+                ]
+              },
+              "8": {
+                "version": []
+              },
+              "9": {
+                "version": []
+              }
+            },
+            "sles": {
+              "15": {
+                "version": []
+              }
+            }
+          }
+        }
+      }
+    },
+    "golang": {
+      "short": "Go",
+      "description": "The Go programming language",
+      "programs": {
+        "golang": {
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "1.7"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "1.11"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "1.15"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "1.18"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "1.18"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "1.13"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "1.10"
+                ]
+              },
+              "kinetic": {
+                "version": [
+                  "1.18"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": []
+              },
+              "8": {
+                "version": [
+                  "1.16.7",
+                  "1.17.7",
+                  "1.18.2"
+                ]
+              },
+              "9": {
+                "version": [
+                  "1.16.6",
+                  "1.17.5",
+                  "1.18.2"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": []
+              }
+            }
+          }
+        }
+      }
+    },
+    "automake": {
+      "short": "automake",
+      "description": "GNU Automake",
+      "programs": {
+        "automake": {
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "1.15"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "1.16.1"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "1.16.3"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "1.16.5"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "1.16.5"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "1.16.1"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "1.15.1"
+                ]
+              },
+              "kinetic": {
+                "version": [
+                  "1.16.5"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "1.13.4"
+                ]
+              },
+              "8": {
+                "version": [
+                  "1.16.1"
+                ]
+              },
+              "9": {
+                "version": [
+                  "1.16.2"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": [
+                  "1.15.1"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "java": {
+      "short": "Java",
+      "description": "Java runtime environment",
+      "programs": {
+        "openjdk": {
+          "description": "OpenJDK",
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "8u252-b09"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "11.0.14"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "11.0.14",
+                  "17.0.2"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "11.0.15",
+                  "17.0.3"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "8u312-b07",
+                  "11.0.14.1",
+                  "17.0.2",
+                  "18"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "8u252-b09",
+                  "11.0.7"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "8u162-b12",
+                  "10.0.1"
+                ]
+              },
+              "kinetic": {
+                "version": [
+                  "8u312-b07",
+                  "11.0.15",
+                  "17.0.3",
+                  "18.0.1"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "1.6.0.41",
+                  "1.7.0.261",
+                  "1.8.0.262.b10",
+                  "11.0.8.10"
+                ]
+              },
+              "8": {
+                "version": [
+                  "1.8.0.322.b06",
+                  "11.0.15.0.10",
+                  "17.0.3.0.7"
+                ]
+              },
+              "9": {
+                "version": [
+                  "1.8.0.332.b09",
+                  "11.0.15.0.10",
+                  "17.0.3.0.7"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": [
+                  "11.0.15.0",
+                  "17.0.3.0"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "distros": {
+    "debian": {
+      "description": "Debian",
+      "current": "bullseye",
+      "beta": "bookworm",
+      "prev0": "buster",
+      "prev1": "stretch",
+      "versions": {
+        "stretch": {
+          "short": "9",
+          "description": "stetch"
+        },
+        "buster": {
+          "short": "10",
+          "description": "buster"
+        },
+        "bullseye": {
+          "short": "11",
+          "description": "bullseye"
+        },
+        "bookworm": {
+          "short": "12",
+          "description": "bookworm"
+        }
+      },
+      "packages": {
+        "ruby": {
+          "ruby": "ruby"
+        },
+        "python": {
+          "python2": [
+            "python2",
+            "python"
+          ],
+          "python3": [
+            "python3",
+            "python3.6",
+            "python3.7",
+            "python3.8",
+            "python3.9",
+            "python3.10"
+          ]
+        },
+        "php": {
+          "php": "php"
+        },
+        "boost": {
+          "boost": "libboost-all-dev"
+        },
+        "cmake": {
+          "cmake": "cmake"
+        },
+        "qt": {
+          "qt": [
+            "libqt4-dev",
+            "qtbase5-dev",
+            "qt6-base-dev"
+          ]
+        },
+        "perl": {
+          "perl": "perl"
+        },
+        "glibc": {
+          "glibc": "libc6"
+        },
+        "lua": {
+          "lua51": "liblua5.1-0",
+          "lua52": "liblua5.2-0",
+          "lua53": "liblua5.3-0"
+        },
+        "twisted": {
+          "twisted": "python3-twisted"
+        },
+        "golang": {
+          "golang": "golang"
+        },
+        "automake": {
+          "automake": "automake"
+        },
+        "java": {
+          "openjdk": [
+            "openjdk-8-jdk",
+            "openjdk-11-jdk",
+            "openjdk-12-jdk",
+            "openjdk-13-jdk",
+            "openjdk-14-jdk",
+            "openjdk-15-jdk",
+            "openjdk-16-jdk",
+            "openjdk-17-jdk",
+            "openjdk-18-jdk",
+            "openjdk-19-jdk"
+          ]
+        }
+      }
+    },
+    "ubuntu": {
+      "description": "Ubuntu",
+      "current": "jammy",
+      "beta": "kinetic",
+      "prev0": "focal",
+      "prev1": "bionic",
+      "versions": {
+        "jammy": {
+          "short": "22.04LTS",
+          "description": "22.04 LTS"
+        },
+        "focal": {
+          "short": "20.04LTS",
+          "description": "20.04 LTS"
+        },
+        "bionic": {
+          "short": "18.04LTS",
+          "description": "18.04 LTS"
+        },
+        "kinetic": {
+          "short": "22.10",
+          "description": "22.10"
+        }
+      },
+      "packages": {
+        "ruby": {
+          "ruby": "ruby"
+        },
+        "python": {
+          "python2": [
+            "python2",
+            "python"
+          ],
+          "python3": [
+            "python3",
+            "python3.6",
+            "python3.7",
+            "python3.8",
+            "python3.9",
+            "python3.10"
+          ]
+        },
+        "php": {
+          "php": "php"
+        },
+        "boost": {
+          "boost": "libboost-all-dev"
+        },
+        "cmake": {
+          "cmake": "cmake"
+        },
+        "qt": {
+          "qt": [
+            "libqt4-dev",
+            "qtbase5-dev",
+            "qt6-base-dev"
+          ]
+        },
+        "perl": {
+          "perl": "perl"
+        },
+        "glibc": {
+          "glibc": "libc6"
+        },
+        "lua": {
+          "lua51": "liblua5.1-0",
+          "lua52": "liblua5.2-0",
+          "lua53": "liblua5.3-0"
+        },
+        "twisted": {
+          "twisted": "python3-twisted"
+        },
+        "golang": {
+          "golang": "golang"
+        },
+        "automake": {
+          "automake": "automake"
+        },
+        "java": {
+          "openjdk": [
+            "openjdk-8-jdk",
+            "openjdk-11-jdk",
+            "openjdk-12-jdk",
+            "openjdk-13-jdk",
+            "openjdk-14-jdk",
+            "openjdk-15-jdk",
+            "openjdk-16-jdk",
+            "openjdk-17-jdk",
+            "openjdk-18-jdk",
+            "openjdk-19-jdk"
+          ]
+        }
+      }
+    },
+    "rhel": {
+      "styleClass": "redhat",
+      "description": "RHEL",
+      "current": "9",
+      "prev0": "8",
+      "prev1": "7",
+      "versions": {
+        "7": {
+          "short": "7",
+          "description": "EL 7"
+        },
+        "8": {
+          "short": "8",
+          "description": "EL 8"
+        },
+        "9": {
+          "short": "9",
+          "description": "EL 9"
+        }
+      },
+      "packages": {
+        "ruby": {
+          "ruby": "ruby"
+        },
+        "python": {
+          "python2": [
+            "python2",
+            "python"
+          ],
+          "python3": [
+            "python3",
+            "python36",
+            "python37",
+            "python38",
+            "python39",
+            "python310"
+          ]
+        },
+        "php": {
+          "php": "php"
+        },
+        "boost": {
+          "boost": "boost-devel"
+        },
+        "cmake": {
+          "cmake": "cmake"
+        },
+        "qt": {
+          "qt": [
+            "qt-devel",
+            "qt5-qtbase"
+          ]
+        },
+        "perl": {
+          "perl": "perl"
+        },
+        "glibc": {
+          "glibc": "glibc"
+        },
+        "lua": {
+          "lua51": "lua",
+          "lua52": "lua",
+          "lua53": "lua"
+        },
+        "twisted": {
+          "twisted": [
+            "python-twisted-core"
+          ]
+        },
+        "golang": {
+          "golang": "golang"
+        },
+        "automake": {
+          "automake": "automake"
+        },
+        "java": {
+          "openjdk": [
+            "java-1.6.0-openjdk",
+            "java-1.7.0-openjdk",
+            "java-1.8.0-openjdk",
+            "java-11-openjdk",
+            "java-17-openjdk"
+          ]
+        }
+      }
+    },
+    "sles": {
+      "styleClass": "suse",
+      "description": "SLES",
+      "current": "15",
+      "prev0": "12",
+      "prev1": "11",
+      "versions": {
+        "11": {
+          "short": "11SP4",
+          "description": "SLES 11 SP4"
+        },
+        "12": {
+          "short": "12SP5",
+          "description": "SLES 12 SP5"
+        },
+        "15": {
+          "short": "15SP4",
+          "description": "SLES 15 SP4"
+        }
+      },
+      "packages": {
+        "ruby": {
+          "ruby": "ruby"
+        },
+        "python": {
+          "python2": [
+            "python2",
+            "python"
+          ],
+          "python3": [
+            "python3",
+            "python36",
+            "python37",
+            "python38",
+            "python39",
+            "python310"
+          ]
+        },
+        "php": {
+          "php": [
+            "php",
+            "php5",
+            "php7"
+          ]
+        },
+        "boost": {
+          "boost": "boost-devel"
+        },
+        "cmake": {
+          "cmake": "cmake"
+        },
+        "qt": {
+          "qt": [
+            "libqt4",
+            "libqt5-qtbase-devel",
+            "qt6-base-devel"
+          ]
+        },
+        "perl": {
+          "perl": "perl"
+        },
+        "glibc": {
+          "glibc": "glibc"
+        },
+        "lua": {
+          "lua51": "lua",
+          "lua52": "lua",
+          "lua53": "lua"
+        },
+        "twisted": {
+          "twisted": "python3-twisted"
+        },
+        "golang": {
+          "golang": "golang"
+        },
+        "automake": {
+          "automake": "automake"
+        },
+        "java": {
+          "openjdk": [
+            "java-1.6.0-openjdk",
+            "java-1.7.0-openjdk",
+            "java-1.8.0-openjdk",
+            "java-11-openjdk",
+            "java-17-openjdk"
+          ]
+        }
+      }
+    }
+  }
+}

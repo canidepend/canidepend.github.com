@@ -269,7 +269,10 @@ distros:
           - php5
           - php7
       boost:
-        boost: boost-devel
+        boost:
+          - boost-devel
+          - libboost_system1_66_0
+          - libboost_system1_75_0
       cmake:
         cmake: cmake
       qt:
@@ -282,13 +285,26 @@ distros:
       glibc:
         glibc: glibc
       lua:
-        lua51: lua
-        lua52: lua
-        lua53: lua
+        lua51: liblua5_1-5
+        lua52: liblua5_2-5
+        lua53: liblua5_3-5
       twisted:
-        twisted: python3-twisted
+        twisted: python3-Twisted
       golang:
-        golang: golang
+        golang:
+          - go1.4
+          - go1.7
+          - go1.8
+          - go1.9
+          - go1.10
+          - go1.11
+          - go1.12
+          - go1.13
+          - go1.14
+          - go1.15
+          - go1.16
+          - go1.17
+          - go1.18
       automake:
         automake: automake
       java:

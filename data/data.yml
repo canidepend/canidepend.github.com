@@ -152,7 +152,7 @@ distros:
   ubuntu:
     description: Ubuntu
     current: jammy
-    beta: kinetic
+    beta: lunar
     prev0: focal
     prev1: bionic
     versions:
@@ -165,9 +165,9 @@ distros:
       bionic:
         short: '18.04LTS'
         description: '18.04 LTS'
-      kinetic:
-        short: '22.10'
-        description: '22.10'
+      lunar:
+        short: '23.04'
+        description: '23.10'
     packages: *debian_packages
 
   rhel:

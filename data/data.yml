@@ -200,6 +200,7 @@ distros:
           - python38
           - python39
           - python310
+          - python3.11
       php:
         php: php
       boost:

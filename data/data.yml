@@ -76,6 +76,11 @@ groups:
     programs:
       openjdk:
         description: OpenJDK
+  systemd:
+    short: systemd
+    description: System and Service Manager
+    programs:
+      systemd: {}
 
 distros:
   debian:
@@ -148,6 +153,8 @@ distros:
           - openjdk-17-jdk
           - openjdk-18-jdk
           - openjdk-19-jdk
+      systemd:
+        systemd: systemd
 
   ubuntu:
     description: Ubuntu
@@ -233,6 +240,8 @@ distros:
           - java-1.8.0-openjdk
           - java-11-openjdk
           - java-17-openjdk
+      systemd:
+        systemd: systemd
 
   sles:
     styleClass: "suse"
@@ -316,3 +325,5 @@ distros:
           - java-1.8.0-openjdk
           - java-11-openjdk
           - java-17-openjdk
+      systemd:
+        systemd: systemd

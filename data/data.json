@@ -1286,6 +1286,84 @@
           }
         }
       }
+    },
+    "systemd": {
+      "short": "systemd",
+      "description": "System and Service Manager",
+      "programs": {
+        "systemd": {
+          "versions": {
+            "debian": {
+              "stretch": {
+                "version": [
+                  "232"
+                ]
+              },
+              "buster": {
+                "version": [
+                  "241"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "247.3"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "252.6"
+                ]
+              }
+            },
+            "ubuntu": {
+              "jammy": {
+                "version": [
+                  "249.11"
+                ]
+              },
+              "focal": {
+                "version": [
+                  "245.4"
+                ]
+              },
+              "bionic": {
+                "version": [
+                  "237"
+                ]
+              },
+              "lunar": {
+                "version": [
+                  "252.5"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "219"
+                ]
+              },
+              "8": {
+                "version": [
+                  "239"
+                ]
+              },
+              "9": {
+                "version": [
+                  "252"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": [
+                  "249.11"
+                ]
+              }
+            }
+          }
+        }
+      }
     }
   },
   "distros": {
@@ -1380,6 +1458,9 @@
             "openjdk-18-jdk",
             "openjdk-19-jdk"
           ]
+        },
+        "systemd": {
+          "systemd": "systemd"
         }
       }
     },
@@ -1474,6 +1555,9 @@
             "openjdk-18-jdk",
             "openjdk-19-jdk"
           ]
+        },
+        "systemd": {
+          "systemd": "systemd"
         }
       }
     },
@@ -1561,6 +1645,9 @@
             "java-11-openjdk",
             "java-17-openjdk"
           ]
+        },
+        "systemd": {
+          "systemd": "systemd"
         }
       }
     },
@@ -1669,6 +1756,9 @@
             "java-11-openjdk",
             "java-17-openjdk"
           ]
+        },
+        "systemd": {
+          "systemd": "systemd"
         }
       }
     }

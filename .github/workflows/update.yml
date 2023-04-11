@@ -1,0 +1,26 @@
+name: Update packages
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 4 * * 0'
+
+env:
+  GIT_AUTHOR_NAME: canidepend
+  GIT_AUTHOR_EMAIL: actions@github.com
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'canidepend'
+    steps:
+    - uses: actions/checkout@v4
+    - run: cd data && python3 data.py
+    - name: Open a PR
+      uses: peter-evans/create-pull-request@v5
+      with:
+        commit-message: "Update package data"
+        branch: "bump-data"
+        title: "Update package data"
+        body: ''
+        delete-branch: true

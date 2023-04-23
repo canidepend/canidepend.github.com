@@ -252,6 +252,7 @@ distros:
     current: "15"
     prev0: "12"
     prev1: "11"
+    next: "15-next"
     versions:
       "11":
         short: "11SP4"
@@ -262,6 +263,9 @@ distros:
       "15":
         short: "15SP4"
         description: "SLES 15 SP4"
+      "15-next":
+        short: "15SP5"
+        description: "SLES 15 SP5"
     packages:
       ruby:
         ruby: ruby
@@ -330,5 +334,6 @@ distros:
           - java-1.8.0-openjdk
           - java-11-openjdk
           - java-17-openjdk
+          - java-18-openjdk
       systemd:
         systemd: systemd

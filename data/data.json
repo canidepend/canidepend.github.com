@@ -1775,7 +1775,7 @@
       "current": "15",
       "prev0": "12",
       "prev1": "11",
-      "next": "15-next",
+      "beta": "15-next",
       "versions": {
         "11": {
           "short": "11SP4",

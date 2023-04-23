@@ -179,8 +179,9 @@ for release in data['distros']['debian']['versions'].keys():
     add_debian_data(release, debian_packages)
 
 for release in data['distros']['ubuntu']['versions'].keys():
-    debian_packages = fetch_ubuntu_packages(release)
-    add_ubuntu_data(release, debian_packages)
+    for suffix in ['', '-security', '-updates']:
+        debian_packages = fetch_ubuntu_packages(f"{release}{suffix}")
+        add_ubuntu_data(release, debian_packages)
 
 add_centos_data('7', fetch_centos_packages('7', ['os'], subdir=''))
 add_centos_data('8', fetch_centos_packages('8-stream'))

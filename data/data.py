@@ -30,10 +30,17 @@ def fetch_debian_packages(release: str, suites: list | None = None, mirror: str 
     if suites is None:
         suites = ['main']
     for suite in suites:
-        repo_url = f'{mirror}/dists/{release}/{suite}/binary-amd64/Packages.gz'
-        remote_packages = requests.get(repo_url)
-        for pkg in Packages.iter_paragraphs(gzip.decompress(remote_packages.content), use_apt_pkg=False):
-            debian_packages[pkg['Package']].append(pkg['Version'])
+        for compression in ['xz', 'gz']:
+            if compression == 'xz':
+                decompress = lzma.decompress
+            elif compression == 'gz':
+                decompress = gzip.decompress
+            repo_url = f'{mirror}/dists/{release}/{suite}/binary-amd64/Packages.{compression}'
+            remote_packages = requests.get(repo_url)
+            if remote_packages.status_code == 200:
+                for pkg in Packages.iter_paragraphs(decompress(remote_packages.content), use_apt_pkg=False):
+                    debian_packages[pkg['Package']].append(pkg['Version'])
+                break
     return debian_packages
 
 
@@ -175,7 +182,14 @@ def add_suse_data(release: str, distro_packages: list):
 
 
 for release in data['distros']['debian']['versions'].keys():
-    debian_packages = fetch_debian_packages(release)
+    for suffix in ['', '-updates']:
+        debian_packages = fetch_debian_packages(f"{release}{suffix}")
+        add_debian_data(release, debian_packages)
+    if release in ['stretch', 'buster']:
+        security_release = f"{release}/updates"
+    else:
+        security_release = f"{release}-security"
+    debian_packages = fetch_debian_packages(security_release, mirror="https://deb.debian.org/debian-security")
     add_debian_data(release, debian_packages)
 
 for release in data['distros']['ubuntu']['versions'].keys():

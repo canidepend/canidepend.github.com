@@ -50,7 +50,9 @@ def fetch_ubuntu_packages(release: str, suites: list | None = None, mirror: str 
     return fetch_debian_packages(release=release, suites=suites, mirror=mirror)
 
 
-def fetch_centos_packages(release: str, repos: list | None = None, mirror: str = 'http://mirror.centos.org/centos/', arch: str = 'x86_64', subdir: str = 'os'):
+def fetch_centos_packages(release: str, repos: list | None = None, mirror: str = 'http://mirror.centos.org/centos', arch: str = 'x86_64', subdir: str = 'os'):
+    def ff(_pkg):
+        return True
     packages = defaultdict(list)
 
     if repos is None:
@@ -58,31 +60,7 @@ def fetch_centos_packages(release: str, repos: list | None = None, mirror: str =
 
     for repo in repos:
         repo_url = f'{mirror}/{release}/{repo}/{arch}/{subdir}'
-
-        r = requests.get(f'{repo_url}/repodata/repomd.xml')
-        repomd = ET.fromstring(r.content)
-
-        sqlite_location = repomd.find('.//*[@type="primary_db"]/{http://linux.duke.edu/metadata/repo}location').get('href')
-        sqlite_url = f'{repo_url}/{sqlite_location}'
-        if sqlite_url.endswith('.xz'):
-            decompress = lzma.decompress
-        elif sqlite_url.endswith('.bz2'):
-            decompress = bz2.decompress
-        else:
-            raise ValueError(sqlite_url)
-
-        s = requests.get(sqlite_url)
-
-        with tempfile.NamedTemporaryFile() as sqlitefile:
-            sqlitefile.write(decompress(s.content))
-            sqlitefile.flush()
-            primarydb = sqlite3.connect(sqlitefile.name)
-            primarydb.row_factory = sqlite3.Row
-            cur = primarydb.cursor()
-            cur.execute("select distinct name,version from packages;")
-            for row in cur:
-                packages[row['name']].append(row['version'])
-            primarydb.close()
+        packages |= fetch_yum_packages_from_repo(repo_url, ff)
 
     return packages
 

@@ -65,6 +65,16 @@ def fetch_centos_packages(release: str, repos: list | None = None, mirror: str =
     return packages
 
 
+def fetch_eln_packages(mirror: str = 'https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/compose', arch: str = 'x86_64'):
+    def ff(_pkg):
+        return True
+    packages = defaultdict(list)
+    repos = ['BaseOS', 'AppStream']
+    for repo in repos:
+        repo_url = f'{mirror}/{repo}/{arch}/os'
+        packages |= fetch_yum_packages_from_repo(repo_url, ff)
+    return packages
+
 # https://download.opensuse.org/distribution/leap/
 # https://download.opensuse.org/source/distribution/leap/
 def fetch_suse_packages(release: str, mirror: str = 'https://download.opensuse.org/distribution/leap', arch: str = 'x86_64'):
@@ -186,6 +196,7 @@ for release in data['distros']['ubuntu']['versions'].keys():
 add_centos_data('7', fetch_centos_packages('7', ['os'], subdir=''))
 add_centos_data('8', fetch_centos_packages('8-stream'))
 add_centos_data('9', fetch_centos_packages('9-stream', mirror='https://mirror.stream.centos.org/'))
+add_centos_data('ELN', fetch_eln_packages())
 
 add_suse_data('15', fetch_suse_packages('15.4'))
 add_suse_data('15-next', fetch_suse_packages('15.5'))

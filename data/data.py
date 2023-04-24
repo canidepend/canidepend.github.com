@@ -89,38 +89,46 @@ def fetch_centos_packages(release: str, repos: list | None = None, mirror: str =
 
 # https://download.opensuse.org/distribution/leap/
 # https://download.opensuse.org/source/distribution/leap/
-def fetch_suse_packages(release: str, mirror: str = 'https://download.opensuse.org/distribution/leap/', arch: str = 'x86_64'):
+def fetch_suse_packages(release: str, mirror: str = 'https://download.opensuse.org/distribution/leap', arch: str = 'x86_64'):
+    def ff(pkg):
+        return pkg.find('{http://linux.duke.edu/metadata/common}packager').text == 'https://www.suse.com/' and pkg.find('{http://linux.duke.edu/metadata/common}arch').text in ['noarch', arch]
     packages = defaultdict(list)
 
     repos = ['oss']
 
     for repo in repos:
         repo_url = f'{mirror}/{release}/repo/{repo}'
+        packages |= fetch_yum_packages_from_repo(repo_url, ff)
+    return packages
 
-        r = requests.get(f'{repo_url}/repodata/repomd.xml')
-        repomd = ET.fromstring(r.content)
 
-        primary_location = repomd.find('.//*[@type="primary"]/{http://linux.duke.edu/metadata/repo}location').get('href')
-        primary_url = f'{repo_url}/{primary_location}'
-        if primary_url.endswith('.xz'):
-            decompress = lzma.decompress
-        elif primary_url.endswith('.bz2'):
-            decompress = bz2.decompress
-        elif primary_url.endswith('.gz'):
-            decompress = gzip.decompress
-        else:
-            raise ValueError(primary_url)
+def fetch_yum_packages_from_repo(repo_url: str, filterfun):
+    packages = defaultdict(list)
 
-        s = requests.get(primary_url)
+    r = requests.get(f'{repo_url}/repodata/repomd.xml')
 
-        primary = ET.fromstring(decompress(s.content))
+    repomd = ET.fromstring(r.content)
 
-        for pkg in primary.iter('{http://linux.duke.edu/metadata/common}package'):
-            if pkg.find('{http://linux.duke.edu/metadata/common}packager').text != 'https://www.suse.com/': continue
-            if pkg.find('{http://linux.duke.edu/metadata/common}arch').text not in ['noarch', arch]: continue
-            name = pkg.find('{http://linux.duke.edu/metadata/common}name').text
-            version = pkg.find('{http://linux.duke.edu/metadata/common}version').get('ver')
-            packages[name].append(version)
+    primary_location = repomd.find('.//*[@type="primary"]/{http://linux.duke.edu/metadata/repo}location').get('href')
+    primary_url = f'{repo_url}/{primary_location}'
+    if primary_url.endswith('.xz'):
+        decompress = lzma.decompress
+    elif primary_url.endswith('.bz2'):
+        decompress = bz2.decompress
+    elif primary_url.endswith('.gz'):
+        decompress = gzip.decompress
+    else:
+        raise ValueError(primary_url)
+
+    s = requests.get(primary_url)
+
+    primary = ET.fromstring(decompress(s.content))
+
+    for pkg in primary.iter('{http://linux.duke.edu/metadata/common}package'):
+        if not filterfun(pkg): continue
+        name = pkg.find('{http://linux.duke.edu/metadata/common}name').text
+        version = pkg.find('{http://linux.duke.edu/metadata/common}version').get('ver')
+        packages[name].append(version)
 
     return packages
 

@@ -178,14 +178,24 @@ def add_suse_data(release: str, distro_packages: list):
 
 
 for release in data['distros']['debian']['versions'].keys():
-    for suffix in ['', '-updates']:
-        debian_packages = fetch_debian_packages(f"{release}{suffix}")
+    if release in ['stretch']:
+        suffixes = ['']
+        mirror = 'http://archive.debian.org/debian-archive/debian'
+        security_mirror = 'http://archive.debian.org/debian-archive/debian-security'
+    else:
+        suffixes = ['', '-updates']
+        mirror = 'https://deb.debian.org/debian'
+        security_mirror = 'https://deb.debian.org/debian-security'
+
+    for suffix in suffixes:
+        debian_packages = fetch_debian_packages(f"{release}{suffix}", mirror=mirror)
         add_debian_data(release, debian_packages)
+
     if release in ['stretch', 'buster']:
         security_release = f"{release}/updates"
     else:
         security_release = f"{release}-security"
-    debian_packages = fetch_debian_packages(security_release, mirror="https://deb.debian.org/debian-security")
+    debian_packages = fetch_debian_packages(security_release, mirror=security_mirror)
     add_debian_data(release, debian_packages)
 
 for release in data['distros']['ubuntu']['versions'].keys():

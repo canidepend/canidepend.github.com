@@ -174,8 +174,8 @@ distros:
       bionic:
         short: '18.04LTS'
         description: '18.04 LTS'
-      lunar:
-        short: '23.04'
+      mantic:
+        short: '23.10'
         description: '23.10'
     packages: *debian_packages
 

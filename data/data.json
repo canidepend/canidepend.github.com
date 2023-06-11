@@ -1662,7 +1662,7 @@
     "ubuntu": {
       "description": "Ubuntu",
       "current": "jammy",
-      "beta": "lunar",
+      "beta": "mantic",
       "prev0": "focal",
       "prev1": "bionic",
       "versions": {

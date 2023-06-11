@@ -85,14 +85,11 @@ groups:
 distros:
   debian:
     description: Debian
-    current: bullseye
-    beta: bookworm
-    prev0: buster
-    prev1: stretch
+    current: bookworm
+    beta: trixie
+    prev0: bullseye
+    prev1: buster
     versions:
-      stretch:
-        short: '9'
-        description: stetch
       buster:
         short: '10'
         description: buster
@@ -102,6 +99,9 @@ distros:
       bookworm:
         short: '12'
         description: bookworm
+      trixie:
+        short: '13'
+        description: trixie
     packages: &debian_packages
       ruby:
         ruby: ruby

@@ -7,11 +7,6 @@
         "ruby": {
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "2.3.3"
-                ]
-              },
               "buster": {
                 "version": [
                   "2.5.1"
@@ -23,6 +18,11 @@
                 ]
               },
               "bookworm": {
+                "version": [
+                  "3.1"
+                ]
+              },
+              "trixie": {
                 "version": [
                   "3.1"
                 ]
@@ -101,11 +101,6 @@
           "description": "Python 2.x",
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "2.7.13"
-                ]
-              },
               "buster": {
                 "version": [
                   "2.7.16"
@@ -117,6 +112,9 @@
                 ]
               },
               "bookworm": {
+                "version": []
+              },
+              "trixie": {
                 "version": []
               }
             },
@@ -174,11 +172,6 @@
           "description": "Python 3.x",
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "3.5.3"
-                ]
-              },
               "buster": {
                 "version": [
                   "3.7.3"
@@ -190,6 +183,11 @@
                 ]
               },
               "bookworm": {
+                "version": [
+                  "3.11.2"
+                ]
+              },
+              "trixie": {
                 "version": [
                   "3.11.2"
                 ]
@@ -275,11 +273,6 @@
           "description": "PHP",
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "7.0"
-                ]
-              },
               "buster": {
                 "version": [
                   "7.3"
@@ -291,6 +284,11 @@
                 ]
               },
               "bookworm": {
+                "version": [
+                  "8.2"
+                ]
+              },
+              "trixie": {
                 "version": [
                   "8.2"
                 ]
@@ -367,11 +365,6 @@
         "boost": {
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "1.62.0.1"
-                ]
-              },
               "buster": {
                 "version": [
                   "1.67.0.1"
@@ -383,6 +376,11 @@
                 ]
               },
               "bookworm": {
+                "version": [
+                  "1.74.0.3"
+                ]
+              },
+              "trixie": {
                 "version": [
                   "1.74.0.3"
                 ]
@@ -457,11 +455,6 @@
         "cmake": {
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "3.7.2"
-                ]
-              },
               "buster": {
                 "version": [
                   "3.13.4"
@@ -473,6 +466,11 @@
                 ]
               },
               "bookworm": {
+                "version": [
+                  "3.25.1"
+                ]
+              },
+              "trixie": {
                 "version": [
                   "3.25.1"
                 ]
@@ -546,12 +544,6 @@
         "qt": {
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "4.8.7",
-                  "5.7.1"
-                ]
-              },
               "buster": {
                 "version": [
                   "4.8.7",
@@ -564,6 +556,12 @@
                 ]
               },
               "bookworm": {
+                "version": [
+                  "5.15.8",
+                  "6.4.2"
+                ]
+              },
+              "trixie": {
                 "version": [
                   "5.15.8",
                   "6.4.2"
@@ -645,11 +643,6 @@
           "description": "Perl 5",
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "5.24.1"
-                ]
-              },
               "buster": {
                 "version": [
                   "5.28.1"
@@ -661,6 +654,11 @@
                 ]
               },
               "bookworm": {
+                "version": [
+                  "5.36.0"
+                ]
+              },
+              "trixie": {
                 "version": [
                   "5.36.0"
                 ]
@@ -736,11 +734,6 @@
         "glibc": {
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "2.24"
-                ]
-              },
               "buster": {
                 "version": [
                   "2.28"
@@ -752,6 +745,11 @@
                 ]
               },
               "bookworm": {
+                "version": [
+                  "2.36"
+                ]
+              },
+              "trixie": {
                 "version": [
                   "2.36"
                 ]
@@ -825,11 +823,6 @@
           "description": "Lua 5.1",
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "5.1.5"
-                ]
-              },
               "buster": {
                 "version": [
                   "5.1.5"
@@ -841,6 +834,11 @@
                 ]
               },
               "bookworm": {
+                "version": [
+                  "5.1.5"
+                ]
+              },
+              "trixie": {
                 "version": [
                   "5.1.5"
                 ]
@@ -908,11 +906,6 @@
           "description": "Lua 5.2",
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "5.2.4"
-                ]
-              },
               "buster": {
                 "version": [
                   "5.2.4"
@@ -924,6 +917,11 @@
                 ]
               },
               "bookworm": {
+                "version": [
+                  "5.2.4"
+                ]
+              },
+              "trixie": {
                 "version": [
                   "5.2.4"
                 ]
@@ -987,11 +985,6 @@
           "description": "Lua 5.3",
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "5.3.3"
-                ]
-              },
               "buster": {
                 "version": [
                   "5.3.3"
@@ -1003,6 +996,11 @@
                 ]
               },
               "bookworm": {
+                "version": [
+                  "5.3.6"
+                ]
+              },
+              "trixie": {
                 "version": [
                   "5.3.6"
                 ]
@@ -1075,11 +1073,6 @@
         "twisted": {
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "16.6.0"
-                ]
-              },
               "buster": {
                 "version": [
                   "18.9.0"
@@ -1091,6 +1084,11 @@
                 ]
               },
               "bookworm": {
+                "version": [
+                  "22.4.0"
+                ]
+              },
+              "trixie": {
                 "version": [
                   "22.4.0"
                 ]
@@ -1157,11 +1155,6 @@
         "golang": {
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "1.7"
-                ]
-              },
               "buster": {
                 "version": [
                   "1.11"
@@ -1173,6 +1166,11 @@
                 ]
               },
               "bookworm": {
+                "version": [
+                  "1.19"
+                ]
+              },
+              "trixie": {
                 "version": [
                   "1.19"
                 ]
@@ -1271,11 +1269,6 @@
         "automake": {
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "1.15"
-                ]
-              },
               "buster": {
                 "version": [
                   "1.16.1"
@@ -1287,6 +1280,11 @@
                 ]
               },
               "bookworm": {
+                "version": [
+                  "1.16.5"
+                ]
+              },
+              "trixie": {
                 "version": [
                   "1.16.5"
                 ]
@@ -1360,12 +1358,6 @@
           "description": "OpenJDK",
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "8u252-b09",
-                  "8u332-ga"
-                ]
-              },
               "buster": {
                 "version": [
                   "11.0.18"
@@ -1378,6 +1370,11 @@
                 ]
               },
               "bookworm": {
+                "version": [
+                  "17.0.6"
+                ]
+              },
+              "trixie": {
                 "version": [
                   "17.0.6"
                 ]
@@ -1480,11 +1477,6 @@
         "systemd": {
           "versions": {
             "debian": {
-              "stretch": {
-                "version": [
-                  "232"
-                ]
-              },
               "buster": {
                 "version": [
                   "241"
@@ -1496,6 +1488,11 @@
                 ]
               },
               "bookworm": {
+                "version": [
+                  "252.6"
+                ]
+              },
+              "trixie": {
                 "version": [
                   "252.6"
                 ]
@@ -1565,15 +1562,11 @@
   "distros": {
     "debian": {
       "description": "Debian",
-      "current": "bullseye",
-      "beta": "bookworm",
-      "prev0": "buster",
-      "prev1": "stretch",
+      "current": "bookworm",
+      "beta": "trixie",
+      "prev0": "bullseye",
+      "prev1": "buster",
       "versions": {
-        "stretch": {
-          "short": "9",
-          "description": "stetch"
-        },
         "buster": {
           "short": "10",
           "description": "buster"
@@ -1585,6 +1578,10 @@
         "bookworm": {
           "short": "12",
           "description": "bookworm"
+        },
+        "trixie": {
+          "short": "13",
+          "description": "trixie"
         }
       },
       "packages": {

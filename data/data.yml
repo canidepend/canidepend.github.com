@@ -225,6 +225,7 @@ distros:
         qt:
           - qt-devel
           - qt5-qtbase
+          - qt6-qtbase
       perl:
         perl: perl
       glibc:

@@ -81,6 +81,11 @@ groups:
     description: System and Service Manager
     programs:
       systemd: {}
+  ansible:
+    short: Ansible
+    description: Ansible
+    programs:
+      ansible: {}
 
 distros:
   debian:
@@ -157,6 +162,10 @@ distros:
           - openjdk-19-jdk
       systemd:
         systemd: systemd
+      ansible:
+        ansible:
+          - ansible
+          - ansible-core
 
   ubuntu:
     description: Ubuntu
@@ -250,6 +259,10 @@ distros:
           - java-17-openjdk
       systemd:
         systemd: systemd
+      ansible:
+        ansible:
+          - ansible
+          - ansible-core
 
   sles:
     styleClass: "suse"
@@ -342,3 +355,7 @@ distros:
           - java-18-openjdk
       systemd:
         systemd: systemd
+      ansible:
+        ansible:
+          - ansible
+          - ansible-core

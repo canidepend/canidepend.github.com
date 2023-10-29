@@ -44,7 +44,7 @@
                   "2.5.1"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "3.1"
                 ]
@@ -134,7 +134,7 @@
                   "2.7.15"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": []
               }
             },
@@ -214,7 +214,7 @@
                   "3.8.0"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "3.11.6",
                   "3.12.0"
@@ -311,7 +311,7 @@
                   "7.2"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "8.2"
                 ]
@@ -403,7 +403,7 @@
                   "1.65.1.0ubuntu1"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "1.74.0.3ubuntu7"
                 ]
@@ -493,7 +493,7 @@
                   "3.10.2"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "3.27.4"
                 ]
@@ -587,7 +587,7 @@
                   "5.9.5"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "5.15.10",
                   "6.4.2"
@@ -682,7 +682,7 @@
                   "5.26.1"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "5.36.0"
                 ]
@@ -773,7 +773,7 @@
                   "2.27"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "2.38"
                 ]
@@ -862,7 +862,7 @@
                   "5.1.5"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "5.1.5"
                 ]
@@ -945,7 +945,7 @@
                   "5.2.4"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "5.2.4"
                 ]
@@ -1024,7 +1024,7 @@
                   "5.3.3"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "5.3.6"
                 ]
@@ -1112,7 +1112,7 @@
                   "17.9.0"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "22.4.0"
                 ]
@@ -1194,7 +1194,7 @@
                   "1.10"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "1.21"
                 ]
@@ -1308,7 +1308,7 @@
                   "1.15.1"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "1.16.5"
                 ]
@@ -1413,7 +1413,7 @@
                   "17.0.7"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "8u382-ga",
                   "11.0.20",
@@ -1515,7 +1515,7 @@
                   "237"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "253.5"
                 ]
@@ -1606,10 +1606,10 @@
                   "2.5.1"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "7.7.0",
-                  "2.14.9"
+                  "2.14.11"
                 ]
               }
             },
@@ -1693,7 +1693,7 @@
                   "8.10.0"
                 ]
               },
-              "mantic": {
+              "noble": {
                 "version": [
                   "18.13.0"
                 ]
@@ -1867,7 +1867,7 @@
     "ubuntu": {
       "description": "Ubuntu",
       "current": "jammy",
-      "beta": "mantic",
+      "beta": "noble",
       "prev0": "focal",
       "prev1": "bionic",
       "versions": {
@@ -1883,9 +1883,9 @@
           "short": "18.04LTS",
           "description": "18.04 LTS"
         },
-        "mantic": {
-          "short": "23.10",
-          "description": "23.10"
+        "noble": {
+          "short": "24.04LTS",
+          "description": "24.04 LTS"
         }
       },
       "packages": {

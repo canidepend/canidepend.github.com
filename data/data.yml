@@ -165,6 +165,9 @@ distros:
           - openjdk-17-jdk
           - openjdk-18-jdk
           - openjdk-19-jdk
+          - openjdk-20-jdk
+          - openjdk-21-jdk
+          - openjdk-22-jdk
       systemd:
         systemd: systemd
       ansible:
@@ -264,6 +267,11 @@ distros:
           - java-1.8.0-openjdk
           - java-11-openjdk
           - java-17-openjdk
+          - java-18-openjdk
+          - java-19-openjdk
+          - java-20-openjdk
+          - java-21-openjdk
+          - java-22-openjdk
       systemd:
         systemd: systemd
       ansible:
@@ -362,6 +370,10 @@ distros:
           - java-11-openjdk
           - java-17-openjdk
           - java-18-openjdk
+          - java-19-openjdk
+          - java-20-openjdk
+          - java-21-openjdk
+          - java-22-openjdk
       systemd:
         systemd: systemd
       ansible:

@@ -86,6 +86,11 @@ groups:
     description: Ansible
     programs:
       ansible: {}
+  nodejs:
+    short: NodeJS
+    description: NodeJS
+    programs:
+      nodejs: {}
 
 distros:
   debian:
@@ -166,6 +171,8 @@ distros:
         ansible:
           - ansible
           - ansible-core
+      nodejs:
+        nodejs: nodejs
 
   ubuntu:
     description: Ubuntu
@@ -263,6 +270,8 @@ distros:
         ansible:
           - ansible
           - ansible-core
+      nodejs:
+        nodejs: nodejs
 
   sles:
     styleClass: "suse"
@@ -359,3 +368,5 @@ distros:
         ansible:
           - ansible
           - ansible-core
+      nodejs:
+        nodejs: nodejs

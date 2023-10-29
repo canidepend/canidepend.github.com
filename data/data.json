@@ -1378,7 +1378,9 @@
               },
               "trixie": {
                 "version": [
-                  "17.0.9"
+                  "17.0.9",
+                  "21",
+                  "22"
                 ]
               }
             },
@@ -1418,7 +1420,10 @@
                   "8u382-ga",
                   "11.0.20",
                   "17.0.9",
-                  "19.0.2"
+                  "19.0.2",
+                  "20.0.2",
+                  "21",
+                  "22"
                 ]
               }
             },
@@ -1847,7 +1852,10 @@
             "openjdk-16-jdk",
             "openjdk-17-jdk",
             "openjdk-18-jdk",
-            "openjdk-19-jdk"
+            "openjdk-19-jdk",
+            "openjdk-20-jdk",
+            "openjdk-21-jdk",
+            "openjdk-22-jdk"
           ]
         },
         "systemd": {
@@ -1955,7 +1963,10 @@
             "openjdk-16-jdk",
             "openjdk-17-jdk",
             "openjdk-18-jdk",
-            "openjdk-19-jdk"
+            "openjdk-19-jdk",
+            "openjdk-20-jdk",
+            "openjdk-21-jdk",
+            "openjdk-22-jdk"
           ]
         },
         "systemd": {
@@ -2061,7 +2072,12 @@
             "java-1.7.0-openjdk",
             "java-1.8.0-openjdk",
             "java-11-openjdk",
-            "java-17-openjdk"
+            "java-17-openjdk",
+            "java-18-openjdk",
+            "java-19-openjdk",
+            "java-20-openjdk",
+            "java-21-openjdk",
+            "java-22-openjdk"
           ]
         },
         "systemd": {
@@ -2189,7 +2205,11 @@
             "java-1.8.0-openjdk",
             "java-11-openjdk",
             "java-17-openjdk",
-            "java-18-openjdk"
+            "java-18-openjdk",
+            "java-19-openjdk",
+            "java-20-openjdk",
+            "java-21-openjdk",
+            "java-22-openjdk"
           ]
         },
         "systemd": {

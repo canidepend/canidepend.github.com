@@ -1759,10 +1759,15 @@
             },
             "sles": {
               "15": {
-                "version": []
+                "version": [
+                  "18.14.2"
+                ]
               },
               "15-next": {
-                "version": []
+                "version": [
+                  "18.18.2",
+                  "20.8.1"
+                ]
               }
             }
           }
@@ -2240,7 +2245,13 @@
           ]
         },
         "nodejs": {
-          "nodejs": "nodejs"
+          "nodejs": [
+            "nodejs",
+            "nodejs16",
+            "nodejs18",
+            "nodejs20",
+            "nodejs22"
+          ]
         }
       }
     }

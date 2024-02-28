@@ -391,5 +391,6 @@ distros:
         nodejs:
           - nodejs
           - nodejs16
+          - nodejs18
           - nodejs20
           - nodejs22

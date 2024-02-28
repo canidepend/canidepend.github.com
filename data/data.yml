@@ -388,4 +388,8 @@ distros:
           - ansible
           - ansible-core
       nodejs:
-        nodejs: nodejs
+        nodejs:
+          - nodejs
+          - nodejs16
+          - nodejs20
+          - nodejs22

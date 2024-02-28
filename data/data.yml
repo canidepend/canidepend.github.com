@@ -296,11 +296,11 @@ distros:
         short: "12SP5"
         description: "SLES 12 SP5"
       "15":
-        short: "15SP4"
-        description: "SLES 15 SP4"
-      "15-next":
         short: "15SP5"
         description: "SLES 15 SP5"
+      "15-next":
+        short: "15SP6"
+        description: "SLES 15 SP6"
     packages:
       ruby:
         ruby: ruby

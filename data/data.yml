@@ -168,6 +168,7 @@ distros:
           - openjdk-20-jdk
           - openjdk-21-jdk
           - openjdk-22-jdk
+          - openjdk-23-jdk
       systemd:
         systemd: systemd
       ansible:
@@ -272,6 +273,7 @@ distros:
           - java-20-openjdk
           - java-21-openjdk
           - java-22-openjdk
+          - java-23-openjdk
       systemd:
         systemd: systemd
       ansible:
@@ -360,6 +362,10 @@ distros:
           - go1.16
           - go1.17
           - go1.18
+          - go1.19
+          - go1.20
+          - go1.21
+          - go1.22
       automake:
         automake: automake
       java:
@@ -374,6 +380,7 @@ distros:
           - java-20-openjdk
           - java-21-openjdk
           - java-22-openjdk
+          - java-23-openjdk
       systemd:
         systemd: systemd
       ansible:

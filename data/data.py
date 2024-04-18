@@ -196,7 +196,7 @@ for release in data['distros']['ubuntu']['versions'].keys():
 add_centos_data('7', fetch_centos_packages('7', ['os'], subdir=''))
 add_centos_data('8', fetch_centos_packages('8-stream'))
 add_centos_data('9', fetch_centos_packages('9-stream', mirror='https://mirror.stream.centos.org/'))
-add_centos_data('ELN', fetch_centos_packages('compose', mirror='https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/'))
+add_centos_data('10', fetch_centos_packages('compose', mirror='https://composes.stream.centos.org/stream-10/production/latest-CentOS-Stream/'))
 
 add_suse_data('15', fetch_suse_packages('15.5'))
 add_suse_data('15-next', fetch_suse_packages('15.6'))

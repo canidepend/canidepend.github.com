@@ -205,7 +205,7 @@ distros:
     current: "9"
     prev0: "8"
     prev1: "7"
-    beta: "ELN"
+    beta: "10"
     versions:
       "7":
         short: "7"
@@ -216,9 +216,9 @@ distros:
       "9":
         short: "9"
         description: "EL 9"
-      "ELN":
-        short: "ELN"
-        description: "Enterprise Linux Next"
+      "10":
+        short: "10"
+        description: "EL 10"
     packages:
       ruby:
         ruby: ruby

@@ -180,20 +180,17 @@ distros:
 
   ubuntu:
     description: Ubuntu
-    current: jammy
+    current: noble
     beta: noble
-    prev0: focal
-    prev1: bionic
+    prev0: jammy
+    prev1: focal
     versions:
-      jammy:
-        short: '22.04LTS'
-        description: '22.04 LTS'
       focal:
         short: '20.04LTS'
         description: '20.04 LTS'
-      bionic:
-        short: '18.04LTS'
-        description: '18.04 LTS'
+      jammy:
+        short: '22.04LTS'
+        description: '22.04 LTS'
       noble:
         short: '24.04LTS'
         description: '24.04 LTS'

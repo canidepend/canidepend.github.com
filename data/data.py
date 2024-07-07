@@ -193,7 +193,7 @@ for release in data['distros']['ubuntu']['versions'].keys():
         debian_packages = fetch_ubuntu_packages(f"{release}{suffix}")
         add_ubuntu_data(release, debian_packages)
 
-add_centos_data('7', fetch_centos_packages('7', ['os'], subdir=''))
+add_centos_data('7', fetch_centos_packages('7', ['os'], subdir='', mirror='https://vault.centos.org/'))
 add_centos_data('8', fetch_centos_packages('8-stream', mirror='https://vault.centos.org/'))
 add_centos_data('9', fetch_centos_packages('9-stream', mirror='https://mirror.stream.centos.org/'))
 add_centos_data('10', fetch_centos_packages('compose', mirror='https://composes.stream.centos.org/stream-10/production/latest-CentOS-Stream/'))

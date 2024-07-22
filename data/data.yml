@@ -321,11 +321,13 @@ distros:
           - php
           - php5
           - php7
+          - php8
       boost:
         boost:
           - boost-devel
           - libboost_system1_66_0
           - libboost_system1_75_0
+          - libboost_system1_84_0
       cmake:
         cmake: cmake
       qt:

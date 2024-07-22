@@ -16,6 +16,7 @@ import debian.debian_support
 from debian.deb822 import Packages
 import requests
 import yaml
+import zstandard
 
 with open('data.yml') as ymlfile:
     data = yaml.safe_load(ymlfile)
@@ -95,12 +96,19 @@ def fetch_yum_packages_from_repo(repo_url: str, filterfun):
         decompress = bz2.decompress
     elif primary_url.endswith('.gz'):
         decompress = gzip.decompress
+    elif primary_url.endswith('.zst'):
+        dctx = zstandard.ZstdDecompressor()
+        decompress = dctx.stream_reader
     else:
         raise ValueError(primary_url)
 
     s = requests.get(primary_url)
 
-    primary = ET.fromstring(decompress(s.content))
+    primary = decompress(s.content)
+    if isinstance(primary, zstandard.ZstdDecompressionReader):
+        primary = primary.read().decode('utf-8')
+
+    primary = ET.fromstring(primary)
 
     for pkg in primary.iter('{http://linux.duke.edu/metadata/common}package'):
         if not filterfun(pkg): continue

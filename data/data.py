@@ -206,8 +206,8 @@ add_centos_data('8', fetch_centos_packages('8-stream', mirror='https://vault.cen
 add_centos_data('9', fetch_centos_packages('9-stream', mirror='https://mirror.stream.centos.org/'))
 add_centos_data('10', fetch_centos_packages('compose', mirror='https://composes.stream.centos.org/stream-10/production/latest-CentOS-Stream/'))
 
-add_suse_data('15', fetch_suse_packages('15.5'))
-add_suse_data('15-next', fetch_suse_packages('15.6'))
+add_suse_data('15', fetch_suse_packages('15.6'))
+add_suse_data('16', fetch_suse_packages('16.0'))
 
 with open('data.json', 'w') as jsonfile:
     json.dump({'version_data': version_data, 'distros': data['distros']}, jsonfile, indent=2)

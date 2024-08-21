@@ -278,7 +278,9 @@ distros:
           - ansible
           - ansible-core
       nodejs:
-        nodejs: nodejs
+        nodejs:
+          - nodejs
+          - nodejs22
 
   sles:
     styleClass: "suse"

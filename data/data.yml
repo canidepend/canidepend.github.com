@@ -85,7 +85,10 @@ groups:
     short: Ansible
     description: Ansible
     programs:
-      ansible: {}
+      ansible:
+        description: Ansible Community Distribution
+      ansible-core:
+        description: Ansible Core
   nodejs:
     short: NodeJS
     description: NodeJS
@@ -174,6 +177,7 @@ distros:
       ansible:
         ansible:
           - ansible
+        ansible-core:
           - ansible-core
       nodejs:
         nodejs: nodejs
@@ -279,6 +283,7 @@ distros:
       ansible:
         ansible:
           - ansible
+        ansible-core:
           - ansible-core
       nodejs:
         nodejs:
@@ -390,6 +395,7 @@ distros:
       ansible:
         ansible:
           - ansible
+        ansible-core:
           - ansible-core
       nodejs:
         nodejs:

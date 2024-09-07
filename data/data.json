@@ -43,6 +43,11 @@
                 "version": [
                   "3.2"
                 ]
+              },
+              "oracular": {
+                "version": [
+                  "3.2"
+                ]
               }
             },
             "rhel": {
@@ -128,6 +133,9 @@
               },
               "noble": {
                 "version": []
+              },
+              "oracular": {
+                "version": []
               }
             },
             "rhel": {
@@ -199,6 +207,11 @@
               "noble": {
                 "version": [
                   "3.12.3"
+                ]
+              },
+              "oracular": {
+                "version": [
+                  "3.12.5"
                 ]
               }
             },
@@ -292,6 +305,11 @@
                 "version": [
                   "8.3"
                 ]
+              },
+              "oracular": {
+                "version": [
+                  "8.3"
+                ]
               }
             },
             "rhel": {
@@ -382,6 +400,11 @@
                 "version": [
                   "1.83.0.1ubuntu2"
                 ]
+              },
+              "oracular": {
+                "version": [
+                  "1.83.0.2ubuntu1"
+                ]
               }
             },
             "rhel": {
@@ -447,7 +470,7 @@
               },
               "trixie": {
                 "version": [
-                  "3.30.2"
+                  "3.30.3"
                 ]
               }
             },
@@ -465,6 +488,11 @@
               "noble": {
                 "version": [
                   "3.28.3"
+                ]
+              },
+              "oracular": {
+                "version": [
+                  "3.30.3"
                 ]
               }
             },
@@ -499,7 +527,9 @@
                 ]
               },
               "16": {
-                "version": []
+                "version": [
+                  "3.28.1"
+                ]
               }
             }
           }
@@ -554,6 +584,12 @@
                   "5.15.13",
                   "6.4.2"
                 ]
+              },
+              "oracular": {
+                "version": [
+                  "5.15.13",
+                  "6.6.2"
+                ]
               }
             },
             "rhel": {
@@ -587,10 +623,7 @@
                 ]
               },
               "16": {
-                "version": [
-                  "5.15.12",
-                  "6.6.3"
-                ]
+                "version": []
               }
             }
           }
@@ -638,6 +671,11 @@
                 ]
               },
               "noble": {
+                "version": [
+                  "5.38.2"
+                ]
+              },
+              "oracular": {
                 "version": [
                   "5.38.2"
                 ]
@@ -727,6 +765,11 @@
                 "version": [
                   "2.39"
                 ]
+              },
+              "oracular": {
+                "version": [
+                  "2.40"
+                ]
               }
             },
             "rhel": {
@@ -811,6 +854,11 @@
                 "version": [
                   "5.1.5"
                 ]
+              },
+              "oracular": {
+                "version": [
+                  "5.1.5"
+                ]
               }
             },
             "rhel": {
@@ -889,6 +937,11 @@
                 "version": [
                   "5.2.4"
                 ]
+              },
+              "oracular": {
+                "version": [
+                  "5.2.4"
+                ]
               }
             },
             "rhel": {
@@ -960,6 +1013,11 @@
                 ]
               },
               "noble": {
+                "version": [
+                  "5.3.6"
+                ]
+              },
+              "oracular": {
                 "version": [
                   "5.3.6"
                 ]
@@ -1046,6 +1104,11 @@
                 "version": [
                   "24.3.0"
                 ]
+              },
+              "oracular": {
+                "version": [
+                  "24.7.0"
+                ]
               }
             },
             "rhel": {
@@ -1120,6 +1183,11 @@
               "noble": {
                 "version": [
                   "1.22"
+                ]
+              },
+              "oracular": {
+                "version": [
+                  "1.23"
                 ]
               }
             },
@@ -1229,6 +1297,11 @@
                 "version": [
                   "1.16.5"
                 ]
+              },
+              "oracular": {
+                "version": [
+                  "1.16.5"
+                ]
               }
             },
             "rhel": {
@@ -1332,6 +1405,16 @@
                   "21.0.4",
                   "8u422-b05"
                 ]
+              },
+              "oracular": {
+                "version": [
+                  "8u422-b05",
+                  "11.0.24",
+                  "17.0.12",
+                  "21.0.4",
+                  "22.0.2",
+                  "23"
+                ]
               }
             },
             "rhel": {
@@ -1431,6 +1514,11 @@
                 "version": [
                   "255.4"
                 ]
+              },
+              "oracular": {
+                "version": [
+                  "256.4"
+                ]
               }
             },
             "rhel": {
@@ -1518,6 +1606,12 @@
                   "9.2.0",
                   "2.16.3"
                 ]
+              },
+              "oracular": {
+                "version": [
+                  "9.2.0",
+                  "2.16.3"
+                ]
               }
             },
             "rhel": {
@@ -1597,6 +1691,11 @@
               "noble": {
                 "version": [
                   "18.19.1"
+                ]
+              },
+              "oracular": {
+                "version": [
+                  "20.16.0"
                 ]
               }
             },
@@ -1773,7 +1872,7 @@
     "ubuntu": {
       "description": "Ubuntu",
       "current": "noble",
-      "beta": "noble",
+      "beta": "oracular",
       "prev0": "jammy",
       "prev1": "focal",
       "versions": {
@@ -1788,6 +1887,10 @@
         "noble": {
           "short": "24.04LTS",
           "description": "24.04 LTS"
+        },
+        "oracular": {
+          "short": "24.10",
+          "description": "24.10"
         }
       },
       "packages": {

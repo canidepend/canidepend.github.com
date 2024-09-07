@@ -86,7 +86,7 @@ groups:
     description: Ansible
     programs:
       ansible:
-        description: Ansible Community Distribution
+        description: Ansible
       ansible-core:
         description: Ansible Core
   nodejs:

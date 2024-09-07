@@ -1564,6 +1564,7 @@
       "description": "Ansible",
       "programs": {
         "ansible": {
+          "description": "Ansible Community Distribution",
           "versions": {
             "debian": {
               "buster": {
@@ -1578,14 +1579,12 @@
               },
               "bookworm": {
                 "version": [
-                  "7.7.0",
-                  "2.14.16"
+                  "7.7.0"
                 ]
               },
               "trixie": {
                 "version": [
-                  "10.1.0",
-                  "2.17.1"
+                  "10.1.0"
                 ]
               }
             },
@@ -1597,19 +1596,81 @@
               },
               "jammy": {
                 "version": [
-                  "2.10.7",
+                  "2.10.7"
+                ]
+              },
+              "noble": {
+                "version": [
+                  "9.2.0"
+                ]
+              },
+              "oracular": {
+                "version": [
+                  "9.2.0"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": []
+              },
+              "8": {
+                "version": []
+              },
+              "9": {
+                "version": []
+              },
+              "10": {
+                "version": []
+              }
+            },
+            "sles": {
+              "15": {
+                "version": []
+              },
+              "16": {
+                "version": []
+              }
+            }
+          }
+        },
+        "ansible-core": {
+          "description": "Ansible Core",
+          "versions": {
+            "debian": {
+              "buster": {
+                "version": []
+              },
+              "bullseye": {
+                "version": []
+              },
+              "bookworm": {
+                "version": [
+                  "2.14.16"
+                ]
+              },
+              "trixie": {
+                "version": [
+                  "2.17.1"
+                ]
+              }
+            },
+            "ubuntu": {
+              "focal": {
+                "version": []
+              },
+              "jammy": {
+                "version": [
                   "2.12.0"
                 ]
               },
               "noble": {
                 "version": [
-                  "9.2.0",
                   "2.16.3"
                 ]
               },
               "oracular": {
                 "version": [
-                  "9.2.0",
                   "2.16.3"
                 ]
               }
@@ -1860,7 +1921,9 @@
         },
         "ansible": {
           "ansible": [
-            "ansible",
+            "ansible"
+          ],
+          "ansible-core": [
             "ansible-core"
           ]
         },
@@ -1972,7 +2035,9 @@
         },
         "ansible": {
           "ansible": [
-            "ansible",
+            "ansible"
+          ],
+          "ansible-core": [
             "ansible-core"
           ]
         },
@@ -2084,7 +2149,9 @@
         },
         "ansible": {
           "ansible": [
-            "ansible",
+            "ansible"
+          ],
+          "ansible-core": [
             "ansible-core"
           ]
         },
@@ -2226,7 +2293,9 @@
         },
         "ansible": {
           "ansible": [
-            "ansible",
+            "ansible"
+          ],
+          "ansible-core": [
             "ansible-core"
           ]
         },

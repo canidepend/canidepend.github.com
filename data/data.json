@@ -1564,7 +1564,7 @@
       "description": "Ansible",
       "programs": {
         "ansible": {
-          "description": "Ansible Community Distribution",
+          "description": "Ansible",
           "versions": {
             "debian": {
               "buster": {

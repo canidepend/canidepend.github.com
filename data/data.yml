@@ -185,7 +185,7 @@ distros:
   ubuntu:
     description: Ubuntu
     current: noble
-    beta: oracular
+    beta: plucky
     prev0: jammy
     prev1: focal
     versions:
@@ -198,9 +198,9 @@ distros:
       noble:
         short: '24.04LTS'
         description: '24.04 LTS'
-      oracular:
-        short: '24.10'
-        description: '24.10'
+      plucky:
+        short: '25.04'
+        description: '25.04'
     packages: *debian_packages
 
   rhel:

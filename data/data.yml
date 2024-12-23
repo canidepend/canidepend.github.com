@@ -94,6 +94,11 @@ groups:
     description: NodeJS
     programs:
       nodejs: {}
+  zsh:
+    short: Zsh
+    description: Zsh
+    programs:
+      zsh: {}
 
 distros:
   debian:
@@ -181,6 +186,8 @@ distros:
           - ansible-core
       nodejs:
         nodejs: nodejs
+      zsh:
+        zsh: zsh
 
   ubuntu:
     description: Ubuntu
@@ -289,6 +296,8 @@ distros:
         nodejs:
           - nodejs
           - nodejs22
+      zsh:
+        zsh: zsh
 
   sles:
     styleClass: "suse"
@@ -404,3 +413,5 @@ distros:
           - nodejs18
           - nodejs20
           - nodejs22
+      zsh:
+        zsh: zsh

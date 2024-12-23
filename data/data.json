@@ -1829,6 +1829,94 @@
           }
         }
       }
+    },
+    "zsh": {
+      "short": "Zsh",
+      "description": "Zsh",
+      "programs": {
+        "zsh": {
+          "versions": {
+            "debian": {
+              "buster": {
+                "version": [
+                  "5.7.1"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "5.8"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "5.9"
+                ]
+              },
+              "trixie": {
+                "version": [
+                  "5.9"
+                ]
+              }
+            },
+            "ubuntu": {
+              "focal": {
+                "version": [
+                  "5.8"
+                ]
+              },
+              "jammy": {
+                "version": [
+                  "5.8.1"
+                ]
+              },
+              "noble": {
+                "version": [
+                  "5.9"
+                ]
+              },
+              "plucky": {
+                "version": [
+                  "5.9"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "5.0.2"
+                ]
+              },
+              "8": {
+                "version": [
+                  "5.5.1"
+                ]
+              },
+              "9": {
+                "version": [
+                  "5.8"
+                ]
+              },
+              "10": {
+                "version": [
+                  "5.9"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": [
+                  "5.6"
+                ]
+              },
+              "16": {
+                "version": [
+                  "5.9"
+                ]
+              }
+            }
+          }
+        }
+      }
     }
   },
   "distros": {
@@ -1943,6 +2031,9 @@
         },
         "nodejs": {
           "nodejs": "nodejs"
+        },
+        "zsh": {
+          "zsh": "zsh"
         }
       }
     },
@@ -2057,6 +2148,9 @@
         },
         "nodejs": {
           "nodejs": "nodejs"
+        },
+        "zsh": {
+          "zsh": "zsh"
         }
       }
     },
@@ -2174,6 +2268,9 @@
             "nodejs",
             "nodejs22"
           ]
+        },
+        "zsh": {
+          "zsh": "zsh"
         }
       }
     },
@@ -2321,6 +2418,9 @@
             "nodejs20",
             "nodejs22"
           ]
+        },
+        "zsh": {
+          "zsh": "zsh"
         }
       }
     }

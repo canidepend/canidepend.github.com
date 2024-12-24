@@ -424,3 +424,5 @@ distros:
           - nodejs22
       zsh:
         zsh: zsh
+      rust:
+        rust: rust

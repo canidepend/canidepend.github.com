@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
 
+# /// script
+# requires-python = "<3.12" # distutils was removed in 3.12
+# dependencies = [
+#   "PyYAML",
+#   "python-debian",
+#   "requests",
+#   "zstandard",
+# ]
+# ///
+
 import bz2
 import gzip
 import json

@@ -99,6 +99,11 @@ groups:
     description: Zsh
     programs:
       zsh: {}
+  rust:
+    short: Rust
+    description: Rust
+    programs:
+      rust: {}
 
 distros:
   debian:
@@ -188,6 +193,8 @@ distros:
         nodejs: nodejs
       zsh:
         zsh: zsh
+      rust:
+        rust: rustc
 
   ubuntu:
     description: Ubuntu
@@ -298,6 +305,8 @@ distros:
           - nodejs22
       zsh:
         zsh: zsh
+      rust:
+        rust: rust
 
   sles:
     styleClass: "suse"

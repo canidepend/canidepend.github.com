@@ -29,6 +29,11 @@ groups:
     description: Cross-platform, open-source build system
     programs:
       cmake: {}
+  meson:
+    short: meson
+    description: Cross-platform, open-source modern build system
+    programs:
+      meson: {}
   qt:
     short: Qt
     description: Qt framework
@@ -147,6 +152,8 @@ distros:
         boost: libboost-all-dev
       cmake:
         cmake: cmake
+      meson:
+        meson: meson
       qt:
         qt:
           - libqt4-dev
@@ -259,6 +266,8 @@ distros:
         boost: boost-devel
       cmake:
         cmake: cmake
+      meson:
+        meson: meson
       qt:
         qt:
           - qt-devel
@@ -358,6 +367,8 @@ distros:
           - libboost_system1_84_0
       cmake:
         cmake: cmake
+      meson:
+        meson: meson
       qt:
         qt:
           - libqt4

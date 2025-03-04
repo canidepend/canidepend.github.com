@@ -540,6 +540,86 @@
         }
       }
     },
+    "meson": {
+      "short": "meson",
+      "description": "Cross-platform, open-source modern build system",
+      "programs": {
+        "meson": {
+          "versions": {
+            "debian": {
+              "buster": {
+                "version": [
+                  "0.49.2"
+                ]
+              },
+              "bullseye": {
+                "version": [
+                  "0.56.2"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "1.0.1"
+                ]
+              },
+              "trixie": {
+                "version": [
+                  "1.7.0"
+                ]
+              }
+            },
+            "ubuntu": {
+              "focal": {
+                "version": [
+                  "0.53.2"
+                ]
+              },
+              "jammy": {
+                "version": [
+                  "0.61.2"
+                ]
+              },
+              "noble": {
+                "version": [
+                  "1.3.2"
+                ]
+              },
+              "plucky": {
+                "version": [
+                  "1.7.0"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": []
+              },
+              "8": {
+                "version": []
+              },
+              "9": {
+                "version": []
+              },
+              "10": {
+                "version": []
+              }
+            },
+            "sles": {
+              "15": {
+                "version": [
+                  "1.3.1"
+                ]
+              },
+              "16": {
+                "version": [
+                  "1.6.0"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
     "qt": {
       "short": "Qt",
       "description": "Qt framework",
@@ -2085,6 +2165,9 @@
         "cmake": {
           "cmake": "cmake"
         },
+        "meson": {
+          "meson": "meson"
+        },
         "qt": {
           "qt": [
             "libqt4-dev",
@@ -2204,6 +2287,9 @@
         },
         "cmake": {
           "cmake": "cmake"
+        },
+        "meson": {
+          "meson": "meson"
         },
         "qt": {
           "qt": [
@@ -2325,6 +2411,9 @@
         },
         "cmake": {
           "cmake": "cmake"
+        },
+        "meson": {
+          "meson": "meson"
         },
         "qt": {
           "qt": [
@@ -2458,6 +2547,9 @@
         },
         "cmake": {
           "cmake": "cmake"
+        },
+        "meson": {
+          "meson": "meson"
         },
         "qt": {
           "qt": [

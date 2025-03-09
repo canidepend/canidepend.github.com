@@ -146,6 +146,7 @@ distros:
           - python3.10
           - python3.11
           - python3.12
+          - python3.13
       php:
         php: php
       boost:
@@ -260,6 +261,7 @@ distros:
           - python310
           - python3.11
           - python3.12
+          - python3.13
       php:
         php: php
       boost:

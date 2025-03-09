@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 # /// script
-# requires-python = "<3.12" # distutils was removed in 3.12
 # dependencies = [
+#   "packaging",
 #   "PyYAML",
 #   "python-debian",
 #   "requests",
@@ -20,7 +20,7 @@ import tempfile
 import xml.etree.ElementTree as ET
 
 from collections import defaultdict
-from distutils.version import LooseVersion
+from packaging.version import Version
 
 import debian.debian_support
 from debian.deb822 import Packages
@@ -163,7 +163,7 @@ def add_distro_data(release: str, distro_packages: list, distro: str = 'debian')
                         for index, existing_version in enumerate(version_data[grp]['programs'][name]['versions'][distro][release]['version']):
                             if existing_version.startswith(shortened_version):
                                 version_found = True
-                                if LooseVersion(existing_version) < LooseVersion(version):
+                                if Version(existing_version.replace('u', '.')) < Version(version.replace('u', '.')):
                                     version_data[grp]['programs'][name]['versions'][distro][release]['version'][index] = version
                         if not version_found:
                             version_data[grp]['programs'][name]['versions'][distro][release]['version'].append(version)

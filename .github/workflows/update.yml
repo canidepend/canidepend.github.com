@@ -15,7 +15,7 @@ jobs:
     if: github.repository_owner == 'canidepend'
     steps:
     - uses: actions/checkout@v4
-    - run: pip3 install zstandard
+    - run: pip3 install zstandard packaging
     - run: cd data && python3 data.py
     - name: Open a PR
       uses: peter-evans/create-pull-request@v7

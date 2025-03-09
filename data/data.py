@@ -87,6 +87,8 @@ def fetch_suse_packages(release: str, mirror: str = 'https://download.opensuse.o
 
     for repo in repos:
         repo_url = f'{mirror}/{release}/repo/{repo}'
+        if release in ['16.0']:
+            repo_url += f'/{arch}'
         packages |= fetch_yum_packages_from_repo(repo_url, ff)
     return packages
 

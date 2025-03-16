@@ -67,7 +67,7 @@ def fetch_centos_packages(release: str, repos: list | None = None, mirror: str =
     packages = defaultdict(list)
 
     if repos is None:
-        repos = ['BaseOS', 'AppStream']
+        repos = ['BaseOS', 'AppStream', 'CRB']
 
     for repo in repos:
         repo_url = f'{mirror}/{release}/{repo}/{arch}/{subdir}'
@@ -214,7 +214,7 @@ for release in data['distros']['ubuntu']['versions'].keys():
         add_ubuntu_data(release, debian_packages)
 
 add_centos_data('7', fetch_centos_packages('7', ['os'], subdir='', mirror='https://vault.centos.org/centos/'))
-add_centos_data('8', fetch_centos_packages('8-stream', mirror='https://vault.centos.org/'))
+add_centos_data('8', fetch_centos_packages('8-stream', ['BaseOS', 'AppStream'], mirror='https://vault.centos.org/'))
 add_centos_data('9', fetch_centos_packages('9-stream', mirror='https://mirror.stream.centos.org/'))
 add_centos_data('10', fetch_centos_packages('10-stream', mirror='https://mirror.stream.centos.org/'))
 

@@ -44,7 +44,7 @@
                   "3.2"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "3.3"
                 ]
@@ -134,7 +134,7 @@
               "noble": {
                 "version": []
               },
-              "plucky": {
+              "questing": {
                 "version": []
               }
             },
@@ -209,7 +209,7 @@
                   "3.12.3"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "3.13.3"
                 ]
@@ -306,7 +306,7 @@
                   "8.3"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "8.4"
                 ]
@@ -402,7 +402,7 @@
                   "1.83.0.1ubuntu2"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "1.83.0.2ubuntu1"
                 ]
@@ -491,7 +491,7 @@
                   "3.28.3"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "3.31.6"
                 ]
@@ -582,7 +582,7 @@
                   "1.3.2"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "1.7.0"
                 ]
@@ -673,7 +673,7 @@
                   "6.4.2"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "5.15.15",
                   "6.8.3"
@@ -767,7 +767,7 @@
                   "5.38.2"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "5.40.1"
                 ]
@@ -859,7 +859,7 @@
                   "2.39"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "2.41"
                 ]
@@ -948,7 +948,7 @@
                   "5.1.5"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "5.1.5"
                 ]
@@ -1031,7 +1031,7 @@
                   "5.2.4"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "5.2.4"
                 ]
@@ -1110,7 +1110,7 @@
                   "5.3.6"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "5.3.6"
                 ]
@@ -1198,7 +1198,7 @@
                   "24.3.0"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "24.11.0"
                 ]
@@ -1278,7 +1278,7 @@
                   "1.22"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "1.24"
                 ]
@@ -1394,7 +1394,7 @@
                   "1.16.5"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "1.17"
                 ]
@@ -1503,7 +1503,7 @@
                   "8u442-b06"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "8u442-ga",
                   "11.0.26",
@@ -1608,7 +1608,7 @@
                   "255.4"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "257.4"
                 ]
@@ -1697,9 +1697,9 @@
                   "9.2.0"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
-                  "11.2.0"
+                  "12.0.0"
                 ]
               }
             },
@@ -1764,7 +1764,7 @@
                   "2.16.3"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "2.18.1"
                 ]
@@ -1849,7 +1849,7 @@
                   "18.19.1"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "20.18.1"
                 ]
@@ -1960,7 +1960,7 @@
                   "5.9"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "5.9"
                 ]
@@ -2050,7 +2050,7 @@
                   "1.75.0"
                 ]
               },
-              "plucky": {
+              "questing": {
                 "version": [
                   "1.84.0ubuntu1"
                 ]
@@ -2241,7 +2241,7 @@
     "ubuntu": {
       "description": "Ubuntu",
       "current": "noble",
-      "beta": "plucky",
+      "beta": "questing",
       "prev0": "jammy",
       "prev1": "focal",
       "versions": {
@@ -2257,9 +2257,9 @@
           "short": "24.04LTS",
           "description": "24.04 LTS"
         },
-        "plucky": {
-          "short": "25.04",
-          "description": "25.04"
+        "questing": {
+          "short": "25.10",
+          "description": "25.10"
         }
       },
       "packages": {

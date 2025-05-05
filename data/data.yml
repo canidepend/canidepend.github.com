@@ -207,7 +207,7 @@ distros:
   ubuntu:
     description: Ubuntu
     current: noble
-    beta: plucky
+    beta: questing
     prev0: jammy
     prev1: focal
     versions:
@@ -220,9 +220,9 @@ distros:
       noble:
         short: '24.04LTS'
         description: '24.04 LTS'
-      plucky:
-        short: '25.04'
-        description: '25.04'
+      questing:
+        short: '25.10'
+        description: '25.10'
     packages: *debian_packages
 
   rhel:

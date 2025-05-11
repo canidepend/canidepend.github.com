@@ -1,7 +1,0 @@
-#!/bin/bash
-
-lftp -c "open ftp.redhat.com ; ls /redhat/linux/enterprise/4/en/os/x86_64/SRPMS" > 4-en-os-x86_64-SRPMS.txt
-lftp -c "open ftp.redhat.com ; ls /redhat/linux/enterprise/5Server/en/os/SRPMS" > 5Server-en-os-SRPMS.txt
-lftp -c "open ftp.redhat.com ; ls /redhat/linux/enterprise/6Server/en/os/SRPMS" > 6Server-en-os-SRPMS.txt
-lftp -c "open ftp.redhat.com ; ls /redhat/rhel/beta/7/source/SRPMS" > 7Beta-en-os-SRPMS.txt
-

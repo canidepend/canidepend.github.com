@@ -252,7 +252,9 @@
                 ]
               },
               "16": {
-                "version": []
+                "version": [
+                  "3.13.3"
+                ]
               }
             }
           }
@@ -2530,7 +2532,8 @@
             "python39",
             "python310",
             "python311",
-            "python312"
+            "python312",
+            "python313"
           ]
         },
         "php": {

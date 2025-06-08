@@ -355,6 +355,7 @@ distros:
           - python310
           - python311
           - python312
+          - python313
       php:
         php:
           - php

@@ -15,7 +15,7 @@ How to contribute
 -----------------
 
 * Fork this project
-* Edit javascripts/data.yml
+* Edit `data/data.yml`
 * Run `data/data.py`, for example `cd data && uv run ./data.py`
 * Open index.html in your browser, check if everything's fine
 * Submit a pull request

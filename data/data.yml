@@ -228,10 +228,10 @@ distros:
   rhel:
     styleClass: redhat
     description: RHEL
-    current: "9"
-    prev0: "8"
-    prev1: "7"
-    beta: "10"
+    current: "10"
+    prev0: "9"
+    prev1: "8"
+    beta: "ELN"
     versions:
       "7":
         short: "7"
@@ -245,6 +245,9 @@ distros:
       "10":
         short: "10"
         description: "EL 10"
+      "ELN":
+        short: "ELN"
+        description: "Enterprise Linux Next"
     packages:
       ruby:
         ruby: ruby

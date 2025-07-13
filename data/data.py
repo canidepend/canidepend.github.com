@@ -188,7 +188,7 @@ def add_suse_data(release: str, distro_packages: list):
 
 
 for release in data['distros']['debian']['versions'].keys():
-    if release in ['stretch']:
+    if release in ['stretch', 'buster']:
         suffixes = ['']
         mirror = 'http://archive.debian.org/debian-archive/debian'
         security_mirror = 'http://archive.debian.org/debian-archive/debian-security'

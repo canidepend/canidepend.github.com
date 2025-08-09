@@ -7,11 +7,6 @@
         "ruby": {
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "2.5.1"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "2.7"
@@ -26,6 +21,9 @@
                 "version": [
                   "3.3"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -108,11 +106,6 @@
           "description": "Python 2.x",
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "2.7.16"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "2.7.18"
@@ -122,6 +115,9 @@
                 "version": []
               },
               "trixie": {
+                "version": []
+              },
+              "forky": {
                 "version": []
               }
             },
@@ -178,11 +174,6 @@
           "description": "Python 3.x",
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "3.7.3"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "3.9.2"
@@ -197,6 +188,9 @@
                 "version": [
                   "3.13.5"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -282,11 +276,6 @@
           "description": "PHP",
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "7.3"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "7.4"
@@ -301,6 +290,9 @@
                 "version": [
                   "8.4"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -383,11 +375,6 @@
         "boost": {
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "1.67.0.1"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "1.74.0.3"
@@ -402,6 +389,9 @@
                 "version": [
                   "1.83.0.2"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -477,11 +467,6 @@
         "cmake": {
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "3.13.4"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "3.18.4"
@@ -496,6 +481,9 @@
                 "version": [
                   "3.31.6"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -573,11 +561,6 @@
         "meson": {
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "0.49.2"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "0.56.2"
@@ -592,6 +575,9 @@
                 "version": [
                   "1.7.0"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -664,12 +650,6 @@
         "qt": {
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "4.8.7",
-                  "5.11.3"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "5.15.2"
@@ -686,6 +666,9 @@
                   "5.15.15",
                   "6.8.2"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -753,7 +736,7 @@
               "16": {
                 "version": [
                   "5.15.17",
-                  "6.9.0"
+                  "6.9.1"
                 ]
               }
             }
@@ -769,11 +752,6 @@
           "description": "Perl 5",
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "5.28.1"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "5.32.1"
@@ -788,6 +766,9 @@
                 "version": [
                   "5.40.1"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -850,7 +831,7 @@
               },
               "16": {
                 "version": [
-                  "5.40.2"
+                  "5.42.0"
                 ]
               }
             }
@@ -865,11 +846,6 @@
         "glibc": {
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "2.28"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "2.31"
@@ -884,6 +860,9 @@
                 "version": [
                   "2.41"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -959,11 +938,6 @@
           "description": "Lua 5.1",
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "5.1.5"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "5.1.5"
@@ -978,6 +952,9 @@
                 "version": [
                   "5.1.5"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -1047,11 +1024,6 @@
           "description": "Lua 5.2",
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "5.2.4"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "5.2.4"
@@ -1066,6 +1038,9 @@
                 "version": [
                   "5.2.4"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -1131,11 +1106,6 @@
           "description": "Lua 5.3",
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "5.3.3"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "5.3.3"
@@ -1150,6 +1120,9 @@
                 "version": [
                   "5.3.6"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -1224,11 +1197,6 @@
         "twisted": {
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "18.9.0"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "20.3.0"
@@ -1243,6 +1211,9 @@
                 "version": [
                   "24.11.0"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -1307,11 +1278,6 @@
         "golang": {
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "1.11"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "1.15"
@@ -1326,6 +1292,9 @@
                 "version": [
                   "1.24"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -1411,6 +1380,7 @@
                   "1.17.13",
                   "1.18.10",
                   "1.20.14",
+                  "1.21.13",
                   "1.22.12"
                 ]
               }
@@ -1426,11 +1396,6 @@
         "automake": {
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "1.16.1"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "1.16.3"
@@ -1445,6 +1410,9 @@
                 "version": [
                   "1.17"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -1504,7 +1472,7 @@
               },
               "16": {
                 "version": [
-                  "1.17"
+                  "1.18.1"
                 ]
               }
             }
@@ -1520,11 +1488,6 @@
           "description": "OpenJDK",
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "11.0.23"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "11.0.28",
@@ -1540,6 +1503,9 @@
                 "version": [
                   "21.0.8"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -1630,9 +1596,8 @@
               },
               "16": {
                 "version": [
-                  "11.0.26.0",
-                  "17.0.14.0",
-                  "21.0.7.0"
+                  "17.0.16.0",
+                  "21.0.8.0"
                 ]
               }
             }
@@ -1647,11 +1612,6 @@
         "systemd": {
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "241"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "247.3"
@@ -1667,6 +1627,9 @@
                 "version": [
                   "257.7"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -1742,11 +1705,6 @@
           "description": "Ansible",
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "2.7.7"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "2.10.7"
@@ -1761,6 +1719,9 @@
                 "version": [
                   "12.0.0"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -1818,9 +1779,6 @@
           "description": "Ansible Core",
           "versions": {
             "debian": {
-              "buster": {
-                "version": []
-              },
               "bullseye": {
                 "version": []
               },
@@ -1833,6 +1791,9 @@
                 "version": [
                   "2.19.0"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -1902,11 +1863,6 @@
         "nodejs": {
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "10.24.0"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "12.22.12"
@@ -1921,6 +1877,9 @@
                 "version": [
                   "20.19.2"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -1992,7 +1951,7 @@
               },
               "ELN": {
                 "version": [
-                  "22.17.1"
+                  "22.18.0"
                 ]
               }
             },
@@ -2019,11 +1978,6 @@
         "zsh": {
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "5.7.1"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "5.8"
@@ -2038,6 +1992,9 @@
                 "version": [
                   "5.9"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -2112,11 +2069,6 @@
         "rust": {
           "versions": {
             "debian": {
-              "buster": {
-                "version": [
-                  "1.41.1"
-                ]
-              },
               "bullseye": {
                 "version": [
                   "1.48.0"
@@ -2131,6 +2083,9 @@
                 "version": [
                   "1.85.0"
                 ]
+              },
+              "forky": {
+                "version": []
               }
             },
             "ubuntu": {
@@ -2198,7 +2153,7 @@
               },
               "ELN": {
                 "version": [
-                  "1.88.0"
+                  "1.89.0"
                 ]
               }
             },
@@ -2222,15 +2177,11 @@
   "distros": {
     "debian": {
       "description": "Debian",
-      "current": "bookworm",
-      "beta": "trixie",
-      "prev0": "bullseye",
-      "prev1": "buster",
+      "current": "trixie",
+      "beta": "forky",
+      "prev0": "bookworm",
+      "prev1": "bullseye",
       "versions": {
-        "buster": {
-          "short": "10",
-          "description": "buster"
-        },
         "bullseye": {
           "short": "11",
           "description": "bullseye"
@@ -2242,6 +2193,10 @@
         "trixie": {
           "short": "13",
           "description": "trixie"
+        },
+        "forky": {
+          "short": "14",
+          "description": "forky"
         }
       },
       "packages": {

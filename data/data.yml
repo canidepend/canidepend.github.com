@@ -113,14 +113,11 @@ groups:
 distros:
   debian:
     description: Debian
-    current: bookworm
-    beta: trixie
-    prev0: bullseye
-    prev1: buster
+    current: trixie
+    beta: forky
+    prev0: bookworm
+    prev1: bullseye
     versions:
-      buster:
-        short: '10'
-        description: buster
       bullseye:
         short: '11'
         description: bullseye
@@ -130,6 +127,9 @@ distros:
       trixie:
         short: '13'
         description: trixie
+      forky:
+        short: '14'
+        description: forky
     packages: &debian_packages
       ruby:
         ruby: ruby

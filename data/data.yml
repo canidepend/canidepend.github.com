@@ -109,6 +109,11 @@ groups:
     description: Rust
     programs:
       rust: {}
+  openssh:
+    short: OpenSSH
+    description: OpenSSH
+    programs:
+      openssh: {}
 
 distros:
   debian:
@@ -203,6 +208,10 @@ distros:
         zsh: zsh
       rust:
         rust: rustc
+      openssh:
+        openssh:
+          - openssh
+          - openssh-server
 
   ubuntu:
     description: Ubuntu
@@ -321,6 +330,8 @@ distros:
         zsh: zsh
       rust:
         rust: rust
+      openssh:
+        openssh: openssh
 
   sles:
     styleClass: "suse"
@@ -443,3 +454,5 @@ distros:
         zsh: zsh
       rust:
         rust: rust
+      openssh:
+        openssh: openssh

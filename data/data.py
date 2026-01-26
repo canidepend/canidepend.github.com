@@ -163,7 +163,7 @@ def add_distro_data(release: str, distro_packages: list, distro: str = 'debian')
                         for index, existing_version in enumerate(version_data[grp]['programs'][name]['versions'][distro][release]['version']):
                             if existing_version.startswith(shortened_version):
                                 version_found = True
-                                if Version(existing_version.replace('u', '.').replace('-ga', '')) < Version(version.replace('u', '.').replace('-ga', '')):
+                                if Version(existing_version.replace('u', '.').replace('-ga', '').replace('p', '.')) < Version(version.replace('u', '.').replace('-ga', '').replace('p', '.')):
                                     version_data[grp]['programs'][name]['versions'][distro][release]['version'][index] = version
                         if not version_found:
                             version_data[grp]['programs'][name]['versions'][distro][release]['version'].append(version)

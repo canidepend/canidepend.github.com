@@ -163,12 +163,22 @@ def add_distro_data(release: str, distro_packages: list, distro: str = 'debian')
                         for index, existing_version in enumerate(version_data[grp]['programs'][name]['versions'][distro][release]['version']):
                             if existing_version.startswith(shortened_version):
                                 version_found = True
-                                if Version(existing_version.replace('u', '.').replace('-ga', '').replace('p', '.')) < Version(version.replace('u', '.').replace('-ga', '').replace('p', '.')):
+                                if Version(clean_version(existing_version)) < Version(clean_version(version)):
                                     version_data[grp]['programs'][name]['versions'][distro][release]['version'][index] = version
                         if not version_found:
                             version_data[grp]['programs'][name]['versions'][distro][release]['version'].append(version)
                 except KeyError:
                     pass
+
+
+def clean_version(version_string):
+    # XuY and XpY are just weird ways to say X.Y, thanks Java and OpenSSH
+    version_string = version_string.replace('u', '.').replace('p', '.')
+    # Why are you doing this to us Java? Nobody needs to encode GA in the version string.
+    version_string = version_string.replace('-ga', '')
+    # OpenSSL patch versions use letters, sure…
+    version_string = version_string.replace('w', '').replace('f', '').replace('k', '')
+    return version_string
 
 
 def add_debian_data(release: str, distro_packages: list):

@@ -114,6 +114,11 @@ groups:
     description: OpenSSH
     programs:
       openssh: {}
+  openssl:
+    short: OpenSSL
+    description: OpenSSL
+    programs:
+      openssh: {}
 
 distros:
   debian:
@@ -212,6 +217,8 @@ distros:
         openssh:
           - openssh
           - openssh-server
+      openssl:
+        openssl: openssl
 
   ubuntu:
     description: Ubuntu
@@ -332,6 +339,8 @@ distros:
         rust: rust
       openssh:
         openssh: openssh
+      openssl:
+        openssl: openssl
 
   sles:
     styleClass: "suse"
@@ -456,3 +465,5 @@ distros:
         rust: rust
       openssh:
         openssh: openssh
+      openssl:
+        openssl: openssl

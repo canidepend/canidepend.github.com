@@ -2318,6 +2318,100 @@
           }
         }
       }
+    },
+    "openssl": {
+      "short": "OpenSSL",
+      "description": "OpenSSL",
+      "programs": {
+        "openssh": {},
+        "openssl": {
+          "versions": {
+            "debian": {
+              "bullseye": {
+                "version": [
+                  "1.1.1w"
+                ]
+              },
+              "bookworm": {
+                "version": [
+                  "3.0.19"
+                ]
+              },
+              "trixie": {
+                "version": [
+                  "3.5.5"
+                ]
+              },
+              "forky": {
+                "version": [
+                  "3.6.2"
+                ]
+              }
+            },
+            "ubuntu": {
+              "focal": {
+                "version": [
+                  "1.1.1f"
+                ]
+              },
+              "jammy": {
+                "version": [
+                  "3.0.2"
+                ]
+              },
+              "noble": {
+                "version": [
+                  "3.0.13"
+                ]
+              },
+              "resolute": {
+                "version": [
+                  "3.5.5"
+                ]
+              }
+            },
+            "rhel": {
+              "7": {
+                "version": [
+                  "1.0.2k"
+                ]
+              },
+              "8": {
+                "version": [
+                  "1.1.1k"
+                ]
+              },
+              "9": {
+                "version": [
+                  "3.5.5"
+                ]
+              },
+              "10": {
+                "version": [
+                  "3.5.5"
+                ]
+              },
+              "ELN": {
+                "version": [
+                  "3.5.6"
+                ]
+              }
+            },
+            "sles": {
+              "15": {
+                "version": [
+                  "3.1.4"
+                ]
+              },
+              "16": {
+                "version": [
+                  "3.5.0"
+                ]
+              }
+            }
+          }
+        }
+      }
     }
   },
   "distros": {
@@ -2448,6 +2542,9 @@
             "openssh",
             "openssh-server"
           ]
+        },
+        "openssl": {
+          "openssl": "openssl"
         }
       }
     },
@@ -2578,6 +2675,9 @@
             "openssh",
             "openssh-server"
           ]
+        },
+        "openssl": {
+          "openssl": "openssl"
         }
       }
     },
@@ -2712,6 +2812,9 @@
         },
         "openssh": {
           "openssh": "openssh"
+        },
+        "openssl": {
+          "openssl": "openssl"
         }
       }
     },
@@ -2872,6 +2975,9 @@
         },
         "openssh": {
           "openssh": "openssh"
+        },
+        "openssl": {
+          "openssl": "openssl"
         }
       }
     }

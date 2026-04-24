@@ -118,7 +118,7 @@ groups:
     short: OpenSSL
     description: OpenSSL
     programs:
-      openssh: {}
+      openssl: {}
 
 distros:
   debian:

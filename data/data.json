@@ -2323,7 +2323,6 @@
       "short": "OpenSSL",
       "description": "OpenSSL",
       "programs": {
-        "openssh": {},
         "openssl": {
           "versions": {
             "debian": {

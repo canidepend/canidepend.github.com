@@ -1534,11 +1534,16 @@
               },
               "trixie": {
                 "version": [
-                  "21.0.11"
+                  "21.0.11",
+                  "25.0.3"
                 ]
               },
               "forky": {
-                "version": []
+                "version": [
+                  "25.0.4",
+                  "26",
+                  "27"
+                ]
               }
             },
             "ubuntu": {
@@ -1561,7 +1566,8 @@
                   "18",
                   "8u492-ga",
                   "18.0.2",
-                  "21.0.11"
+                  "21.0.11",
+                  "25.0.3"
                 ]
               },
               "noble": {
@@ -1570,7 +1576,8 @@
                   "11.0.31",
                   "17.0.19",
                   "21.0.11",
-                  "8u492-ga"
+                  "8u492-ga",
+                  "25.0.3"
                 ]
               },
               "resolute": {
@@ -1579,7 +1586,9 @@
                   "11.0.31",
                   "17.0.19",
                   "21.0.11",
-                  "8u492-ga"
+                  "25.0.3",
+                  "8u492-ga",
+                  "26.0.1"
                 ]
               }
             },
@@ -1605,16 +1614,20 @@
                   "1.8.0.482.b08",
                   "11.0.20.1.1",
                   "17.0.18.0.8",
-                  "21.0.11.0.10"
+                  "21.0.11.0.10",
+                  "25.0.3.0.9"
                 ]
               },
               "10": {
                 "version": [
-                  "21.0.11.0.10"
+                  "21.0.11.0.10",
+                  "25.0.3.0.9"
                 ]
               },
               "ELN": {
-                "version": []
+                "version": [
+                  "25.0.3.0.9"
+                ]
               }
             },
             "sles": {
@@ -1630,7 +1643,8 @@
                   "17.0.19.0",
                   "21.0.11.0",
                   "22.0.2.0",
-                  "23.0.2.0"
+                  "23.0.2.0",
+                  "25.0.3.0"
                 ]
               }
             }
@@ -2516,7 +2530,10 @@
             "openjdk-20-jdk",
             "openjdk-21-jdk",
             "openjdk-22-jdk",
-            "openjdk-23-jdk"
+            "openjdk-23-jdk",
+            "openjdk-25-jdk",
+            "openjdk-26-jdk",
+            "openjdk-27-jdk"
           ]
         },
         "systemd": {
@@ -2649,7 +2666,10 @@
             "openjdk-20-jdk",
             "openjdk-21-jdk",
             "openjdk-22-jdk",
-            "openjdk-23-jdk"
+            "openjdk-23-jdk",
+            "openjdk-25-jdk",
+            "openjdk-26-jdk",
+            "openjdk-27-jdk"
           ]
         },
         "systemd": {
@@ -2786,7 +2806,10 @@
             "java-20-openjdk",
             "java-21-openjdk",
             "java-22-openjdk",
-            "java-23-openjdk"
+            "java-23-openjdk",
+            "java-25-openjdk",
+            "java-26-openjdk",
+            "java-27-openjdk"
           ]
         },
         "systemd": {
@@ -2946,7 +2969,10 @@
             "java-20-openjdk",
             "java-21-openjdk",
             "java-22-openjdk",
-            "java-23-openjdk"
+            "java-23-openjdk",
+            "java-25-openjdk",
+            "java-26-openjdk",
+            "java-27-openjdk"
           ]
         },
         "systemd": {

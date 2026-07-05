@@ -200,6 +200,9 @@ distros:
           - openjdk-21-jdk
           - openjdk-22-jdk
           - openjdk-23-jdk
+          - openjdk-25-jdk
+          - openjdk-26-jdk
+          - openjdk-27-jdk
       systemd:
         systemd: systemd
       ansible:
@@ -322,6 +325,9 @@ distros:
           - java-21-openjdk
           - java-22-openjdk
           - java-23-openjdk
+          - java-25-openjdk
+          - java-26-openjdk
+          - java-27-openjdk
       systemd:
         systemd: systemd
       ansible:
@@ -445,6 +451,9 @@ distros:
           - java-21-openjdk
           - java-22-openjdk
           - java-23-openjdk
+          - java-25-openjdk 
+          - java-26-openjdk 
+          - java-27-openjdk 
       systemd:
         systemd: systemd
       ansible:

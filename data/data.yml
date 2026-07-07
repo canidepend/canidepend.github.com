@@ -233,14 +233,11 @@ distros:
 
   ubuntu:
     description: Ubuntu
-    current: noble
-    beta: resolute
-    prev0: jammy
-    prev1: focal
+    current: resolute
+    beta: stonking
+    prev0: noble
+    prev1: jammy
     versions:
-      focal:
-        short: '20.04LTS'
-        description: '20.04 LTS'
       jammy:
         short: '22.04LTS'
         description: '22.04 LTS'
@@ -250,6 +247,9 @@ distros:
       resolute:
         short: '26.04LTS'
         description: '26.04 LTS'
+      stonking:
+        short: '26.10'
+        description: '26.10'
     packages: *debian_packages
 
   rhel:

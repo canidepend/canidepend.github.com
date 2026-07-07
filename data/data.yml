@@ -351,6 +351,8 @@ distros:
         nodejs:
           - nodejs
           - nodejs22
+          - nodejs24
+          - nodejs26
       zsh:
         zsh: zsh
       rust:

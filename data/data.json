@@ -29,11 +29,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "2.7"
-                ]
-              },
               "jammy": {
                 "version": [
                   "3.0"
@@ -45,6 +40,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "3.3build1"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "3.3build1"
                 ]
@@ -125,11 +125,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "2.7.17"
-                ]
-              },
               "jammy": {
                 "version": [
                   "2.7.18"
@@ -139,6 +134,9 @@
                 "version": []
               },
               "resolute": {
+                "version": []
+              },
+              "stonking": {
                 "version": []
               }
             },
@@ -200,12 +198,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "3.8.10",
-                  "3.9.5"
-                ]
-              },
               "jammy": {
                 "version": [
                   "3.10.12",
@@ -220,6 +212,12 @@
               "resolute": {
                 "version": [
                   "3.14.4"
+                ]
+              },
+              "stonking": {
+                "version": [
+                  "3.14.6",
+                  "3.15.0"
                 ]
               }
             },
@@ -306,11 +304,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "7.4"
-                ]
-              },
               "jammy": {
                 "version": [
                   "8.1"
@@ -322,6 +315,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "8.5"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "8.5"
                 ]
@@ -407,11 +405,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "1.71.0.0ubuntu2"
-                ]
-              },
               "jammy": {
                 "version": [
                   "1.74.0.3ubuntu7"
@@ -425,6 +418,11 @@
               "resolute": {
                 "version": [
                   "1.90.0.1ubuntu3"
+                ]
+              },
+              "stonking": {
+                "version": [
+                  "1.90.0.2ubuntu1"
                 ]
               }
             },
@@ -501,11 +499,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "3.16.3"
-                ]
-              },
               "jammy": {
                 "version": [
                   "3.22.1"
@@ -519,6 +512,11 @@
               "resolute": {
                 "version": [
                   "4.2.3"
+                ]
+              },
+              "stonking": {
+                "version": [
+                  "4.3.2"
                 ]
               }
             },
@@ -599,11 +597,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "0.53.2"
-                ]
-              },
               "jammy": {
                 "version": [
                   "0.61.2"
@@ -615,6 +608,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "1.10.1"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "1.10.1"
                 ]
@@ -694,11 +692,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "5.12.8"
-                ]
-              },
               "jammy": {
                 "version": [
                   "5.15.3",
@@ -714,6 +707,12 @@
               "resolute": {
                 "version": [
                   "5.15.18",
+                  "6.10.2"
+                ]
+              },
+              "stonking": {
+                "version": [
+                  "5.15.19",
                   "6.10.2"
                 ]
               }
@@ -796,11 +795,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "5.30.0"
-                ]
-              },
               "jammy": {
                 "version": [
                   "5.34.0"
@@ -812,6 +806,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "5.40.1"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "5.40.1"
                 ]
@@ -892,11 +891,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "2.31"
-                ]
-              },
               "jammy": {
                 "version": [
                   "2.35"
@@ -908,6 +902,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "2.43"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "2.43"
                 ]
@@ -986,11 +985,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "5.1.5"
-                ]
-              },
               "jammy": {
                 "version": [
                   "5.1.5"
@@ -1002,6 +996,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "5.1.5"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "5.1.5"
                 ]
@@ -1074,11 +1073,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "5.2.4"
-                ]
-              },
               "jammy": {
                 "version": [
                   "5.2.4"
@@ -1090,6 +1084,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "5.2.4"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "5.2.4"
                 ]
@@ -1158,11 +1157,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "5.3.3"
-                ]
-              },
               "jammy": {
                 "version": [
                   "5.3.6"
@@ -1174,6 +1168,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "5.3.6"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "5.3.6"
                 ]
@@ -1246,9 +1245,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": []
-              },
               "jammy": {
                 "version": [
                   "5.4.4"
@@ -1260,6 +1256,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "5.4.8"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "5.4.8"
                 ]
@@ -1324,9 +1325,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": []
-              },
               "jammy": {
                 "version": []
               },
@@ -1334,6 +1332,11 @@
                 "version": []
               },
               "resolute": {
+                "version": [
+                  "5.5.0"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "5.5.0"
                 ]
@@ -1407,11 +1410,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "18.9.0"
-                ]
-              },
               "jammy": {
                 "version": [
                   "22.1.0"
@@ -1423,6 +1421,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "25.5.0"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "25.5.0"
                 ]
@@ -1490,11 +1493,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "1.13"
-                ]
-              },
               "jammy": {
                 "version": [
                   "1.18"
@@ -1506,6 +1504,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "1.26"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "1.26"
                 ]
@@ -1610,11 +1613,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "1.16.1"
-                ]
-              },
               "jammy": {
                 "version": [
                   "1.16.5"
@@ -1626,6 +1624,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "1.18.1"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "1.18.1"
                 ]
@@ -1708,17 +1711,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "8u252-b09",
-                  "11.0.27",
-                  "8u452-ga",
-                  "16.0.1",
-                  "17.0.15",
-                  "21.0.7",
-                  "13.0.7"
-                ]
-              },
               "jammy": {
                 "version": [
                   "8u312-b07",
@@ -1750,6 +1742,17 @@
                   "25.0.3",
                   "8u492-ga",
                   "26.0.1"
+                ]
+              },
+              "stonking": {
+                "version": [
+                  "8u492-ga",
+                  "11.0.31",
+                  "17.0.19",
+                  "21.0.11",
+                  "25.0.3",
+                  "26.0.1",
+                  "27"
                 ]
               }
             },
@@ -1844,11 +1847,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "245.4"
-                ]
-              },
               "jammy": {
                 "version": [
                   "249.11"
@@ -1860,6 +1858,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "259.5"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "259.5"
                 ]
@@ -1940,11 +1943,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "2.9.6"
-                ]
-              },
               "jammy": {
                 "version": [
                   "2.10.7"
@@ -1956,6 +1954,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "13.1.0"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "13.1.0"
                 ]
@@ -2014,9 +2017,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": []
-              },
               "jammy": {
                 "version": [
                   "2.12.0"
@@ -2030,6 +2030,11 @@
               "resolute": {
                 "version": [
                   "2.20.1"
+                ]
+              },
+              "stonking": {
+                "version": [
+                  "2.21.1"
                 ]
               }
             },
@@ -2102,11 +2107,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "10.19.0"
-                ]
-              },
               "jammy": {
                 "version": [
                   "12.22.9"
@@ -2120,6 +2120,11 @@
               "resolute": {
                 "version": [
                   "22.22.1"
+                ]
+              },
+              "stonking": {
+                "version": [
+                  "24.16.0"
                 ]
               }
             },
@@ -2227,11 +2232,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "5.8"
-                ]
-              },
               "jammy": {
                 "version": [
                   "5.8.1"
@@ -2243,6 +2243,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "5.9"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "5.9"
                 ]
@@ -2320,12 +2325,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "1.41.0",
-                  "1.75.0"
-                ]
-              },
               "jammy": {
                 "version": [
                   "1.58.1",
@@ -2338,6 +2337,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "1.93.1ubuntu1"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "1.93.1ubuntu1"
                 ]
@@ -2436,11 +2440,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "8.2p1"
-                ]
-              },
               "jammy": {
                 "version": [
                   "8.9p1"
@@ -2452,6 +2451,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "10.2p1"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "10.2p1"
                 ]
@@ -2529,11 +2533,6 @@
               }
             },
             "ubuntu": {
-              "focal": {
-                "version": [
-                  "1.1.1f"
-                ]
-              },
               "jammy": {
                 "version": [
                   "3.0.2"
@@ -2545,6 +2544,11 @@
                 ]
               },
               "resolute": {
+                "version": [
+                  "3.5.5"
+                ]
+              },
+              "stonking": {
                 "version": [
                   "3.5.5"
                 ]
@@ -2737,15 +2741,11 @@
     },
     "ubuntu": {
       "description": "Ubuntu",
-      "current": "noble",
-      "beta": "resolute",
-      "prev0": "jammy",
-      "prev1": "focal",
+      "current": "resolute",
+      "beta": "stonking",
+      "prev0": "noble",
+      "prev1": "jammy",
       "versions": {
-        "focal": {
-          "short": "20.04LTS",
-          "description": "20.04 LTS"
-        },
         "jammy": {
           "short": "22.04LTS",
           "description": "22.04 LTS"
@@ -2757,6 +2757,10 @@
         "resolute": {
           "short": "26.04LTS",
           "description": "26.04 LTS"
+        },
+        "stonking": {
+          "short": "26.10",
+          "description": "26.10"
         }
       },
       "packages": {

@@ -44,7 +44,7 @@
                   "3.3build1"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "3.3build1"
                 ]
@@ -136,7 +136,7 @@
               "resolute": {
                 "version": []
               },
-              "stonking": {
+              "tenacious": {
                 "version": []
               }
             },
@@ -215,7 +215,7 @@
                   "3.14.4"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "3.14.8",
                   "3.15.0"
@@ -241,14 +241,14 @@
                 "version": [
                   "3.9.25",
                   "3.11.13",
-                  "3.12.14",
-                  "3.14.7"
+                  "3.12.15",
+                  "3.14.8"
                 ]
               },
               "10": {
                 "version": [
-                  "3.12.14",
-                  "3.14.7"
+                  "3.12.15",
+                  "3.14.8"
                 ]
               },
               "ELN": {
@@ -320,7 +320,7 @@
                   "8.5"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "8.5"
                 ]
@@ -421,7 +421,7 @@
                   "1.90.0.1ubuntu3"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "1.90.0.2"
                 ]
@@ -515,7 +515,7 @@
                   "4.2.3"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "4.3.4"
                 ]
@@ -613,7 +613,7 @@
                   "1.10.1"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "1.10.1"
                 ]
@@ -711,7 +711,7 @@
                   "6.10.2"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "5.15.19",
                   "6.11.2"
@@ -811,7 +811,7 @@
                   "5.40.1"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "5.42.3"
                 ]
@@ -907,7 +907,7 @@
                   "2.43"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "2.44"
                 ]
@@ -1001,7 +1001,7 @@
                   "5.1.5"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "5.1.5"
                 ]
@@ -1089,7 +1089,7 @@
                   "5.2.4"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "5.2.4"
                 ]
@@ -1173,7 +1173,7 @@
                   "5.3.6"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "5.3.6"
                 ]
@@ -1261,7 +1261,7 @@
                   "5.4.8"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "5.4.9"
                 ]
@@ -1337,7 +1337,7 @@
                   "5.5.0"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "5.5.1"
                 ]
@@ -1426,7 +1426,7 @@
                   "25.5.0"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "26.4.0"
                 ]
@@ -1509,7 +1509,7 @@
                   "1.26"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "1.27"
                 ]
@@ -1608,7 +1608,7 @@
               },
               "forky": {
                 "version": [
-                  "1.18.1"
+                  "1.19"
                 ]
               }
             },
@@ -1628,7 +1628,7 @@
                   "1.18.1"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "1.18.1"
                 ]
@@ -1745,7 +1745,7 @@
                   "26.0.2"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "8u504-ga",
                   "11.0.32.1",
@@ -1777,7 +1777,7 @@
                 "version": [
                   "1.8.0.504.b01",
                   "11.0.20.1.1",
-                  "17.0.20.0.8",
+                  "17.0.20.1.1",
                   "21.0.12.1.1",
                   "25.0.4.1.1"
                 ]
@@ -1861,7 +1861,7 @@
                   "259.5"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "261.3"
                 ]
@@ -1957,7 +1957,7 @@
                   "13.1.0"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "13.4.0"
                 ]
@@ -2031,7 +2031,7 @@
                   "2.20.1"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "2.22.0"
                 ]
@@ -2121,7 +2121,7 @@
                   "22.22.1"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "24.19.0"
                 ]
@@ -2166,7 +2166,8 @@
                   "24.13.0",
                   "24.14.1",
                   "24.18.0",
-                  "24.19.0"
+                  "24.19.0",
+                  "26.8.2"
                 ]
               },
               "10": {
@@ -2183,7 +2184,7 @@
               },
               "ELN": {
                 "version": [
-                  "26.3.1"
+                  "26.11.1"
                 ]
               }
             },
@@ -2252,7 +2253,7 @@
                   "5.9"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "5.9"
                 ]
@@ -2346,7 +2347,7 @@
                   "1.93.1ubuntu1"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "1.97.1ubuntu1"
                 ]
@@ -2391,7 +2392,7 @@
               },
               "ELN": {
                 "version": [
-                  "1.99.0"
+                  "1.99.1"
                 ]
               }
             },
@@ -2440,7 +2441,7 @@
               },
               "forky": {
                 "version": [
-                  "10.5p1"
+                  "10.6p1"
                 ]
               }
             },
@@ -2460,7 +2461,7 @@
                   "10.2p1"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "10.5p1"
                 ]
@@ -2553,7 +2554,7 @@
                   "3.5.5"
                 ]
               },
-              "stonking": {
+              "tenacious": {
                 "version": [
                   "4.0.3"
                 ]
@@ -2747,7 +2748,7 @@
     "ubuntu": {
       "description": "Ubuntu",
       "current": "resolute",
-      "beta": "stonking",
+      "beta": "tenacious",
       "prev0": "noble",
       "prev1": "jammy",
       "versions": {
@@ -2763,9 +2764,9 @@
           "short": "26.04LTS",
           "description": "26.04 LTS"
         },
-        "stonking": {
-          "short": "26.10",
-          "description": "26.10"
+        "tenacious": {
+          "short": "27.04",
+          "description": "27.04"
         }
       },
       "packages": {

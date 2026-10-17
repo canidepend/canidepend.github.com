@@ -234,7 +234,7 @@ distros:
   ubuntu:
     description: Ubuntu
     current: resolute
-    beta: stonking
+    beta: tenacious
     prev0: noble
     prev1: jammy
     versions:
@@ -247,9 +247,9 @@ distros:
       resolute:
         short: '26.04LTS'
         description: '26.04 LTS'
-      stonking:
-        short: '26.10'
-        description: '26.10'
+      tenacious:
+        short: '27.04'
+        description: '27.04'
     packages: *debian_packages
 
   rhel:
